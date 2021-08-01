@@ -2,7 +2,7 @@
 """
 Author: Chng Eng Siong
 Date: 31 July 2021
-Last edited: 1st Aug 2021 (CES)
+Last edited: 1st Aug 2021 (CES), 11:07pm
 Objective: combing CTM files of Master and HotWordDecoder to form DualASR CTM File
 """
 #
@@ -172,19 +172,24 @@ def    fn_combineMasterCTM_HotWordCTM(MasterCTM, HotWordCTM, collar):
     retUttCTM = C_UttCTM('Dual Utterance')    
     numHotWord = len(HotWordCTM.arrayWord)
     lastStartIdx = 0
-    for i in range(numHotWord):
-        HotWordStartTime = HotWordCTM.arrayWord[i].StartTime
-        HotWordEndTime   = HotWordCTM.arrayWord[i].EndTime
-        (startIdx_MasterCTMForHotWord,endIdx_MasterCTMForHotWord) = fn_findStartEndMasterIdx(MasterCTM, 
-            HotWordStartTime,HotWordEndTime, collar)
 
-        for j in range(lastStartIdx,startIdx_MasterCTMForHotWord):
+    if numHotWord == 0:     # there are cases when NO hotword is found!
+        for j in range(0,len(MasterCTM.arrayWord)):
             retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
-        retUttCTM.addWordCTM(HotWordCTM.arrayWord[i])
-        lastStartIdx = endIdx_MasterCTMForHotWord+1;
-        if (i == numHotWord-1):
-            for j in range(endIdx_MasterCTMForHotWord+1,len(MasterCTM.arrayWord)):
+    else:
+        for i in range(numHotWord):
+            HotWordStartTime = HotWordCTM.arrayWord[i].StartTime
+            HotWordEndTime   = HotWordCTM.arrayWord[i].EndTime
+            (startIdx_MasterCTMForHotWord,endIdx_MasterCTMForHotWord) = fn_findStartEndMasterIdx(MasterCTM, 
+                HotWordStartTime,HotWordEndTime, collar)
+
+            for j in range(lastStartIdx,startIdx_MasterCTMForHotWord):
                 retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
+            retUttCTM.addWordCTM(HotWordCTM.arrayWord[i])
+            lastStartIdx = endIdx_MasterCTMForHotWord+1;
+            if (i == numHotWord-1):
+                for j in range(endIdx_MasterCTMForHotWord+1,len(MasterCTM.arrayWord)):
+                    retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
 
     return retUttCTM
 
@@ -229,7 +234,7 @@ def real_main():
     args = parse.parse_args()
     print(args.master_ctm,args.hotword_ctm,args.collar_rate, args.dual_ctm)
 
-    print('Release 1st Aug 2021, 930pm\n')    
+    print('Release 1st Aug 2021, 1107pm\n')    
     uttFileMasterCTM = C_ArrayUttCTM()
     uttFileMasterCTM.readCTMFile(args.master_ctm) 
 
