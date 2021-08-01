@@ -16,4 +16,8 @@ Objective:
     # I have not figured the correct parameter 'collar' to use yet, now set to 0.25 (of duration of word)
 
 
+To Run the code:
+python3 test_combineCTM.py --master_ctm ./TestData/master.ctm --hotword_ctm ./TestData/hotword.ctm --collar_rate 0.25 --dual_ctm ./TestData/dual.ctm
 
+See the output in ./TestData
+you can compare it to dualcheck.ctm

@@ -28,6 +28,12 @@ class C_WordCTM:
     EndTime: float
     DurTime: float    
     wordStr: str
+    def __init__(self, fileID, StartTime,DurTime,wordStr):
+            self.fileID    = fileID
+            self.StartTime = StartTime
+            self.DurTime   = DurTime
+            self.EndTime   = StartTime+DurTime
+            self.wordStr   = wordStr
 
 # This simple class contains an utterance's information from CTM
 @dataclass
@@ -87,7 +93,7 @@ class C_ArrayUttCTM:
                 line = line.strip()
                 line = line.lower()
                 (UttID, StartTime, EndTime, DurTime, wordStr) = self.fn_ctmParseLine(line)
-                OneWordCTM = C_WordCTM(UttID,StartTime, EndTime, DurTime, wordStr) 
+                OneWordCTM = C_WordCTM(UttID,StartTime, DurTime, wordStr) 
             
                 # This happens only the first time
                 if  currUttName == '':
@@ -122,29 +128,41 @@ def fn_retainOnlyHotWord(oneUttCTM):
     return(ret_utt)
 
 
+# find and return which index in MasterCTM is timeVal in
+def fn_find_CurrWord(MasterCTM, timeVal):
+    foundIdx   = -1;
+    startTime  = 0
+
+    # we have to be careful, words are not continuous in time
+    for i in range(0,len(MasterCTM.arrayWord)):
+        endTime = MasterCTM.arrayWord[i].EndTime
+        if timeVal <= endTime:
+            foundIdx = i
+            break;
+   
+    if foundIdx == -1:  # this ONLY happens when we reach the end of the list
+        foundIdx = len(MasterCTM.arrayWord)-1        
+
+    return foundIdx        
+
 # current collar is collar*durationword Word (should be a value between 0.1~0.4 I guess)       
 def fn_findStartEndMasterIdx(MasterCTM, HotWordStartTime,HotWordEndTime,collar=0.1):
-    StartIdx = 0;    EndIdx   = len(MasterCTM.arrayWord)-1;
-    # Lets find StartTime for HotWord in Master
-    for i in range(1,len(MasterCTM.arrayWord)):
-        durCurrWord = MasterCTM.arrayWord[i-1].EndTime-MasterCTM.arrayWord[i-1].StartTime
-        if (HotWordStartTime- 0.5*durCurrWord) >= MasterCTM.arrayWord[i-1].StartTime :
-            continue
-        else:
-            StartIdx = i-1;
-            break
 
-    # Lets find EndTime for HotWord in Master
-    EndIdx = len(MasterCTM.arrayWord)-1  # lets just set to the end first!
-    for i in range(0,len(MasterCTM.arrayWord)-1):
-        durCurrWord = MasterCTM.arrayWord[i+1].EndTime-MasterCTM.arrayWord[i+1].StartTime
-        if  (HotWordEndTime  >= (MasterCTM.arrayWord[i+1].StartTime + 0.5*durCurrWord)):
-            continue;
-        else:
-            EndIdx = i;
-            break  # get out of here
-            
+    StartIdx = fn_find_CurrWord(MasterCTM, HotWordStartTime)
+    # case A, currWord in StartIdx is retained, and HotWord StartTime is pointing to end of currWord
+    if HotWordStartTime >= MasterCTM.arrayWord[StartIdx].StartTime+((1-collar)*MasterCTM.arrayWord[StartIdx].DurTime):
+        if (StartIdx+1 < len(MasterCTM.arrayWord)):
+            StartIdx = StartIdx+1
+        
+
+    EndIdx = fn_find_CurrWord(MasterCTM, HotWordEndTime)
+    # case C, currWord in EndIdx is retained, and HotWord EndTime is pointing to previous word's endTime!
+    if HotWordEndTime <= MasterCTM.arrayWord[EndIdx].StartTime+(collar*MasterCTM.arrayWord[EndIdx].DurTime):
+        if (EndIdx-1 >= 0) and (EndIdx-1 >= StartIdx):
+            EndIdx = EndIdx-1
+
     return (StartIdx,EndIdx)
+
 
 
 
@@ -159,6 +177,7 @@ def    fn_combineMasterCTM_HotWordCTM(MasterCTM, HotWordCTM, collar):
         HotWordEndTime   = HotWordCTM.arrayWord[i].EndTime
         (startIdx_MasterCTMForHotWord,endIdx_MasterCTMForHotWord) = fn_findStartEndMasterIdx(MasterCTM, 
             HotWordStartTime,HotWordEndTime, collar)
+
         for j in range(lastStartIdx,startIdx_MasterCTMForHotWord):
             retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
         retUttCTM.addWordCTM(HotWordCTM.arrayWord[i])
@@ -174,22 +193,23 @@ def    fn_combineMasterCTM_HotWordCTM(MasterCTM, HotWordCTM, collar):
 def unit_test_combine():        
     MasterUttCTM = C_UttCTM('Master CTM')
     MaxN = 10
-    w = [C_WordCTM('testID',i*1.0,(i+1)*1.0,'w'+str(i)) for i in range(MaxN)]
+    w = [C_WordCTM('testID',i*1.0,1.0, 'w'+str(i)) for i in range(MaxN)]
     for i in range(0,MaxN):
         MasterUttCTM.addWordCTM(w[i])
 
     print(MasterUttCTM,'\n')    
 
     HotWordUttCTM = C_UttCTM('HotWord CTM')
-    hw1 = C_WordCTM('testID',1.45,3.54, '__hw1') 
-    hw2 = C_WordCTM('testID',5.90,7.70, '__hw2') 
-    hw3 = C_WordCTM('testID',7.85,10.54,'__hw3') 
+    hw1 = C_WordCTM('testID',1.1,0.2, '__hw1') ## What happen here!!!
+    hw2 = C_WordCTM('testID',5.9,1.9, '__hw2') 
+    hw3 = C_WordCTM('testID',9.0,0.2,'__hw3') 
     HotWordUttCTM.addWordCTM(hw1)
     HotWordUttCTM.addWordCTM(hw2)
     HotWordUttCTM.addWordCTM(hw3)
 
     print(HotWordUttCTM,'\n')
-    retCTM =   fn_combineMasterCTM_HotWordCTM(MasterUttCTM, HotWordUttCTM)
+    collar = 0.1;
+    retCTM =   fn_combineMasterCTM_HotWordCTM(MasterUttCTM, HotWordUttCTM, collar)
     print(retCTM)
     
 ################  Functions supporting CTM combination #############
@@ -198,7 +218,7 @@ def unit_test_combine():
 #Example to run the code
 #python3 test_combineCTM.py --master_ctm ./TestData/master.ctm --hotword_ctm ./TestData/hotword.ctm --collar_rate 0.25 --dual_ctm ./TestData/dual.ctm  
        
-def main():        
+def real_main():        
     log.info("{}".format("Combining Master and Hotword CTM filesgenerated by KALDI ..."))
     parse = argparse.ArgumentParser()
     parse.add_argument('--master_ctm', required=True,  help="ctm file generated by Master Kaldi ASR")
@@ -209,7 +229,7 @@ def main():
     args = parse.parse_args()
     print(args.master_ctm,args.hotword_ctm,args.collar_rate, args.dual_ctm)
 
-    print('Release 31st July 2021, 11pm\n')    
+    print('Release 1st Aug 2021, 930pm\n')    
     uttFileMasterCTM = C_ArrayUttCTM()
     uttFileMasterCTM.readCTMFile(args.master_ctm) 
 
@@ -231,7 +251,9 @@ def main():
     print('===============  completed ===================')
     
     
-    
+def main():
+    real_main()
+    #unit_test_combine()
     
 if __name__ == "__main__":
     main()
