@@ -121,7 +121,7 @@ class C_ArrayUttCTM:
 # This function removes all words in the CTM that are NOT hotwords, --> no __ in the 
 # begining of the string
 def fn_retainOnlyHotWord(oneUttCTM):
-    ret_utt = C_UttCTM(oneUttCTM.uttName+' HOT_WORD_ONLY')
+    ret_utt = C_UttCTM(oneUttCTM.uttName)
     for i in range(0,len(oneUttCTM.arrayWord)):
         if oneUttCTM.arrayWord[i].wordStr[0:2] =='__':
             ret_utt.addWordCTM(oneUttCTM.arrayWord[i])
@@ -131,7 +131,6 @@ def fn_retainOnlyHotWord(oneUttCTM):
 # find and return which index in MasterCTM is timeVal in
 def fn_find_CurrWord(MasterCTM, timeVal):
     foundIdx   = -1;
-    startTime  = 0
 
     # we have to be careful, words are not continuous in time
     for i in range(0,len(MasterCTM.arrayWord)):
@@ -169,7 +168,12 @@ def fn_findStartEndMasterIdx(MasterCTM, HotWordStartTime,HotWordEndTime,collar=0
 # This function combines the Master CTM and HotWord CTM
 # We assume that the Master and HotWord CTM are arrange according to time!!!
 def    fn_combineMasterCTM_HotWordCTM(MasterCTM, HotWordCTM, collar):        
-    retUttCTM = C_UttCTM('Dual Utterance')    
+
+    # By Kaldi, we can ONLY check that the two Utterances are same name
+    if MasterCTM.uttName != HotWordCTM.uttName:    
+        log.warning("cannot combine Master ({}) and HotWordCTM ({})".format(MasterCTM.uttName, HotWordCTM.uttName))
+
+    retUttCTM = C_UttCTM(MasterCTM.uttName)  # By Kaldi convention, we cannot change UttName    
     numHotWord = len(HotWordCTM.arrayWord)
     lastStartIdx = 0
 
@@ -257,8 +261,8 @@ def real_main():
     
     
 def main():
-    real_main()
-    #unit_test_combine()
+    #real_main()
+    unit_test_combine()
     
 if __name__ == "__main__":
     main()
