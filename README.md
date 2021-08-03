@@ -11,5 +11,5 @@ The hotword decoder specialises on the hotword.
 And the idea is to replace found hotwords from hotword decoder CTM
 into the Master CTM.
 
-
+run_combineCTM.py --master_ctm ./TestData/master.ctm --hotword_ctm ./TestData/hotword.ctm --collar_rate 0.25 --dual_ctm ./TestData/dual.ctm
 

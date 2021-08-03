@@ -114,6 +114,21 @@ class C_ArrayUttCTM:
             log.info("Completed Reading CTM File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
             infile.close()
             
+
+    # uttid  text-per-sentence
+    def writeTextFile(self, fileName):
+        log.info("Writing Text File : ({})".format(fileName))
+
+        opfile = open(fileName,"w",encoding='utf8')
+        for eachUtt in self.arrayUttCTM:
+            opfile.write("{0}",eachWord.fileID)
+            for eachWord in eachUtt.arrayWord: 
+                opfile.write("{0} ".format(eachWord.wordStr))
+            opfile.write('\n')    
+        opfile.close()
+        log.info("Completed Text File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+
+
                     
 ## End of definition for class C_ArrayUttCTM
             
@@ -263,6 +278,6 @@ def real_main():
 def main():
     #real_main()
     unit_test_combine()
-    
+    print('end')
 if __name__ == "__main__":
     main()

@@ -1,0 +1,312 @@
+#!/usr/bin/env python3
+"""
+Filename: libCTM.py (to be imported as a module)
+Author: Chng Eng Siong
+Date: 31 July 2021
+Last edited: 1st Aug 2021 (CES), 11:07pm
+Objective: combing CTM files of Master and HotWordDecoder to form DualASR CTM File
+"""
+#
+import logging
+import os, sys, io
+import argparse
+from   dataclasses import dataclass
+from   typing import List
+
+
+logging.basicConfig(
+    format='%(asctime)s,%(msecs)d %(name)s %(levelname)s [%(filename)s:%(lineno)d] %(message)s',
+    datefmt='%H:%M:%S',
+    level=logging.INFO)
+log = logging.getLogger("{}".format(os.path.basename(sys.argv[0])))
+
+
+# This simple class contains a single word's information from CTM
+@dataclass
+class C_WordCTM:
+    fileID: str
+    StartTime: float
+    EndTime: float
+    DurTime: float    
+    wordStr: str
+    def __init__(self, fileID, StartTime,DurTime,wordStr):
+            self.fileID    = fileID
+            self.StartTime = StartTime
+            self.DurTime   = DurTime
+            self.EndTime   = StartTime+DurTime
+            self.wordStr   = wordStr
+
+# This simple class contains an utterance's information from CTM
+@dataclass
+class C_UttCTM:
+    uttName: str
+    arrayWord: List[C_WordCTM]
+    uttStr: str
+
+ 
+    def __init__(self, uttName, uttStr):
+        self.uttName   = uttName
+        self.uttStr    = uttStr
+        self.arrayWord = []
+       
+        
+    def addWordCTM(self, oneWordCTM):
+        self.arrayWord +=[oneWordCTM]
+        if len(self.uttStr) != 0:
+            self.uttStr  += ' '+oneWordCTM.wordStr
+        else:
+            self.uttStr   = oneWordCTM.wordStr
+
+    
+# This class contains all utterance from a CTM file
+@dataclass
+class C_ArrayUttCTM:
+    fileName: str
+    arrayUttCTM: List[C_UttCTM]    
+
+    def __init__(self):
+        self.fileName = ''
+        self.arrayUttCTM = []
+        
+    def addUttCTM(self, oneUttCTM):
+        self.arrayUttCTM += [oneUttCTM]
+
+    def fn_ctmParseLine(self,line):
+        tokenArray=line.split()
+        if len(tokenArray)!=5:
+            log.warning("Fatal Error in CTM line '{}', expecting 5 tokens ONLY".format(line))
+        else:
+            (fileID, StartTime, EndTime, DurTime, wordStr) = (tokenArray[0], float(tokenArray[2]), 
+                                                     round(float(tokenArray[2])+float(tokenArray[3]),5),
+                                                     float(tokenArray[3]),tokenArray[4])
+        return (fileID, StartTime, EndTime, DurTime, wordStr)
+
+
+    def fn_textParseLine(self,line):
+        tokenArray=line.split()
+        fileID = tokenArray[0];
+        if (len(tokenArray)>=1):
+            uttStr = tokenArray[1]
+            for tt in tokenArray[2:len(tokenArray)]:
+                uttStr += ' '+tt
+        else:
+            uttStr = ''
+
+        return (fileID, uttStr)
+
+
+
+
+    def writeCTMFile(self, fileName):
+        log.info("Writing CTM File : ({})".format(fileName))
+
+        opfile = open(fileName,"w",encoding='utf8')
+        for eachUtt in self.arrayUttCTM:
+            for eachWord in eachUtt.arrayWord: 
+                opfile.write("{0} 1 {1:6.2f} {2:6.2f} {3}\n".format(
+                    eachWord.fileID, eachWord.StartTime, eachWord.DurTime, eachWord.wordStr))
+        opfile.close()
+        log.info("Completed Writing CTM File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+
+
+        
+    def readCTMFile(self, fileName):
+        self.arrayUttCTM = []
+        currUttName = ''
+        log.info("Reading CTM File : ({})".format(fileName))
+        with open(fileName, 'r', encoding='utf8') as infile:
+            for line in infile:
+                line = line.strip()
+                line = line.lower()
+                (uttID, startTime, endTime, durTime, wordStr) = self.fn_ctmParseLine(line)
+                oneWordCTM = C_WordCTM(uttID,startTime, durTime, wordStr) 
+            
+                # This happens only the first time
+                if  currUttName == '':
+                    currUttName = uttID
+                    oneUttCTM   = C_UttCTM(uttID,'')
+
+                # Lets keep adding word        
+                if currUttName == uttID:
+                    oneUttCTM.addWordCTM(oneWordCTM)
+                else:  # We have parse to a new utterance in the ctm file
+                    self.addUttCTM(oneUttCTM)
+                    oneUttCTM   = C_UttCTM(uttID,'')
+                    currUttName =  uttID
+                    oneUttCTM.addWordCTM(oneWordCTM)
+
+            # To take care of the last utterance to be saved!            
+            self.addUttCTM(oneUttCTM)
+            log.info("Completed Reading CTM File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+            infile.close()
+            
+
+    def readTextFile(self, fileName):
+        self.arrayUttCTM = []
+        currUttName = ''
+        log.info("Reading CTM Text File : ({})".format(fileName))
+        with open(fileName, 'r', encoding='utf8') as infile:
+            for line in infile:
+                line = line.strip()
+                line = line.lower()
+                (uttID, uttStr) = self.fn_textParseLine(line)
+                if (len(uttStr)> 0):
+                    oneUttCTM  = C_UttCTM(uttID, uttStr) 
+                    self.addUttCTM(oneUttCTM)    
+                        
+
+    # uttid  text-per-sentence
+    def writeTextFile(self, fileName):
+        log.info("Writing Text File : ({})".format(fileName))
+
+        opfile = open(fileName,"w",encoding='utf8')
+        for eachUtt in self.arrayUttCTM:
+            if (len(eachUtt.arrayWord) > 0):
+                opfile.write("{0} ".format(eachUtt.arrayWord[0].fileID))
+                for eachWord in eachUtt.arrayWord: 
+                    opfile.write("{0} ".format(eachWord.wordStr))
+            else:
+                    # The two SHOULD be the same! bottom -> we initialse from text file
+                    opfile.write("{0} ".format(eachUtt.uttName))
+                    opfile.write(eachUtt.uttStr)
+                    # the uttStr should have saved it as well !!! :)    
+            opfile.write('\n')    
+        opfile.close()
+        log.info("Completed Text File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+
+
+    # here we ONLY consider hotword of the forms __xxx_yy_xxx, __xx_yy_xx
+    # This is just a quick hack! 
+    # we should be checking the hotword list
+    def fn_splitHotWord(self,inStr):
+        split_hotWordStr = inStr.replace('__','').replace('_',' ')
+        return(split_hotWordStr)
+
+    # uttid  text-per-sentence
+    def writeTextFile_SplitHotWord(self, fileName):
+        log.info("Writing Text File : ({})".format(fileName))
+
+        opfile = open(fileName,"w",encoding='utf8')
+        for eachUtt in self.arrayUttCTM:
+            opfile.write("{0} ".format(eachUtt.uttName))
+            split_hotWordStr = self.fn_splitHotWord(eachUtt.uttStr)
+            opfile.write("{0} ".format(split_hotWordStr))
+            # the uttStr should have saved it as well !!! :)    
+            opfile.write('\n')    
+        opfile.close()
+        log.info("Completed Text File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+
+
+                    
+## End of definition for class C_ArrayUttCTM
+            
+
+# This function removes all words in the CTM that are NOT hotwords, --> no __ in the 
+# begining of the string
+def fn_retainOnlyHotWord(oneUttCTM):
+    ret_utt = C_UttCTM(oneUttCTM.uttName,'')
+    for i in range(0,len(oneUttCTM.arrayWord)):
+        if oneUttCTM.arrayWord[i].wordStr[0:2] =='__':
+            ret_utt.addWordCTM(oneUttCTM.arrayWord[i])
+    return(ret_utt)
+
+
+# find and return which index in MasterCTM is timeVal in
+def fn_find_CurrWord(MasterCTM, timeVal):
+    foundIdx   = -1;
+
+    # we have to be careful, words are not continuous in time
+    for i in range(0,len(MasterCTM.arrayWord)):
+        endTime = MasterCTM.arrayWord[i].EndTime
+        if timeVal <= endTime:
+            foundIdx = i
+            break;
+   
+    if foundIdx == -1:  # this ONLY happens when we reach the end of the list
+        foundIdx = len(MasterCTM.arrayWord)-1        
+
+    return foundIdx        
+
+# current collar is collar*durationword Word (should be a value between 0.1~0.4 I guess)       
+def fn_findStartEndMasterIdx(MasterCTM, HotWordStartTime,HotWordEndTime,collar=0.1):
+
+    StartIdx = fn_find_CurrWord(MasterCTM, HotWordStartTime)
+    # case A, currWord in StartIdx is retained, and HotWord StartTime is pointing to end of currWord
+    if HotWordStartTime >= MasterCTM.arrayWord[StartIdx].StartTime+((1-collar)*MasterCTM.arrayWord[StartIdx].DurTime):
+        if (StartIdx+1 < len(MasterCTM.arrayWord)):
+            StartIdx = StartIdx+1
+        
+
+    EndIdx = fn_find_CurrWord(MasterCTM, HotWordEndTime)
+    # case C, currWord in EndIdx is retained, and HotWord EndTime is pointing to previous word's endTime!
+    if HotWordEndTime <= MasterCTM.arrayWord[EndIdx].StartTime+(collar*MasterCTM.arrayWord[EndIdx].DurTime):
+        if (EndIdx-1 >= 0) and (EndIdx-1 >= StartIdx):
+            EndIdx = EndIdx-1
+
+    return (StartIdx,EndIdx)
+
+
+
+
+# This function combines the Master CTM and HotWord CTM
+# We assume that the Master and HotWord CTM are arrange according to time!!!
+def    fn_combineMasterCTM_HotWordCTM(MasterCTM, HotWordCTM, collar):        
+
+    # By Kaldi, we can ONLY check that the two Utterances are same name
+    if MasterCTM.uttName != HotWordCTM.uttName:    
+        log.warning("cannot combine Master ({}) and HotWordCTM ({})".format(MasterCTM.uttName, HotWordCTM.uttName))
+
+    retUttCTM = C_UttCTM(MasterCTM.uttName,'')  # By Kaldi convention, we cannot change UttName    
+    numHotWord = len(HotWordCTM.arrayWord)
+    lastStartIdx = 0
+
+    if numHotWord == 0:     # there are cases when NO hotword is found!
+        for j in range(0,len(MasterCTM.arrayWord)):
+            retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
+    else:
+        for i in range(numHotWord):
+            HotWordStartTime = HotWordCTM.arrayWord[i].StartTime
+            HotWordEndTime   = HotWordCTM.arrayWord[i].EndTime
+            (startIdx_MasterCTMForHotWord,endIdx_MasterCTMForHotWord) = fn_findStartEndMasterIdx(MasterCTM, 
+                HotWordStartTime,HotWordEndTime, collar)
+
+            for j in range(lastStartIdx,startIdx_MasterCTMForHotWord):
+                retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
+            retUttCTM.addWordCTM(HotWordCTM.arrayWord[i])
+            lastStartIdx = endIdx_MasterCTMForHotWord+1;
+            if (i == numHotWord-1):
+                for j in range(endIdx_MasterCTMForHotWord+1,len(MasterCTM.arrayWord)):
+                    retUttCTM.addWordCTM(MasterCTM.arrayWord[j])
+
+    return retUttCTM
+
+
+# A simple unit test for fn_combineMasterCTM_HotWordCTM function #
+def unit_test_combine():        
+    MasterUttCTM = C_UttCTM('Master CTM')
+    MaxN = 10
+    w = [C_WordCTM('testID',i*1.0,1.0, 'w'+str(i)) for i in range(MaxN)]
+    for i in range(0,MaxN):
+        MasterUttCTM.addWordCTM(w[i])
+
+    print(MasterUttCTM,'\n')    
+
+    HotWordUttCTM = C_UttCTM('HotWord CTM')
+    hw1 = C_WordCTM('testID',1.1,0.2, '__hw1') ## What happen here!!!
+    hw2 = C_WordCTM('testID',5.9,1.9, '__hw2') 
+    hw3 = C_WordCTM('testID',9.0,0.2,'__hw3') 
+    HotWordUttCTM.addWordCTM(hw1)
+    HotWordUttCTM.addWordCTM(hw2)
+    HotWordUttCTM.addWordCTM(hw3)
+
+    print(HotWordUttCTM,'\n')
+    collar = 0.1;
+    retCTM =   fn_combineMasterCTM_HotWordCTM(MasterUttCTM, HotWordUttCTM, collar)
+    print(retCTM)
+    
+################  Functions supporting CTM combination #############
+
+    
+# There is NO MAIN function, just testing codes    
+#unit_test_combine()
+    
