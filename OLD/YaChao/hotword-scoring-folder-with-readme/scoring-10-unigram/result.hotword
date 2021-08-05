@@ -1,0 +1,5 @@
+%WER 54.46 [ 4346 / 7980, 71 ins, 2701 del, 1574 sub ]
+%SER 96.43 [ 1134 / 1176 ]
+Scored 1176 sentences, 0 not present in hyp.
+The Number of Named-Entities: 2131
+NE-WER: 15.95

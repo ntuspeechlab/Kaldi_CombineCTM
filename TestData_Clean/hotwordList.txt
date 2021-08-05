@@ -1,0 +1,20 @@
+Hotword String = multple pronunciation
+Input has a list of hotword separated by =
+field1 == hotword, field 2 == alternate pronunication
+Jalan Bahar
+Vu Ly Thy 
+Vu Ly Thy = Voo Lee Thy
+Vu Ly Thy = Voo Li Thy
+
+
+lexicon:
+__vu_ly_thy@1   V_WB .... oo Lee Th  y_WB
+__vu_ly_thy@2   V_WB .......... 
+
+Using the above, we will construct the following to preapre lexicon and WER scoring
+==========================
+dictionary
+__jalan_bahar:Jalan Bahar
+vu_ly_thy:Vu Ly Thy
+
+

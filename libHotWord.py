@@ -20,31 +20,139 @@ logging.basicConfig(
     level=logging.INFO)
 log = logging.getLogger("{}".format(os.path.basename(sys.argv[0])))
 
-# This simple class contains the HotKeyWord
-# It reads a file and put the information into 2 dictionary
-# one is key->pronunciation, and the other pronunciation->key
+"""
+example, 3 iplines describing the hotword "Vy Ly Thy" and has 2 alternate pronunciation 
+Jalan Bahar     (note no : => default grapheme based dictionary)
+Vu Ly Thy:      (this colon is useless since right field is missing)
+Vu Ly Thy: voo lee tea
+Vu Ly Thy: voo lai tea
+"""
+
 @dataclass
-class C_HotWord:
-    hotword_KeyToPron: dict
-    hotword_PronToKey: dict
+class C_OneHotWord:
+    hotWordLabel: str
+    hotWordStr: str      
+    hotWordArrayPron: []
+    def __init__(self, hotWordStr):
+        hotWordStr = hotWordStr.rstrip().lower()
+        tmpStr = '__'+hotWordStr.replace(' ','_')
+        self.hotWordLabel = tmpStr
+        self.hotWordStr = hotWordStr
+        self.hotWordArrayPron = [hotWordStr.lower()]
+
+    def addPron(self,in_pronStr):
+        pronStr = in_pronStr.lower().strip(' \t\n')
+        tmp     = pronStr
+        tmp=tmp.replace(' ','')
+        if (len(tmp)>0):
+            tokenArray=tmp.split('_')
+            if ( len(tokenArray) > 0):
+                self.hotWordArrayPron.append(pronStr)
+        else:
+            pass
+
+
+    def getPronEntry(self,ipStr):
+        opStr = ""
+        if len(ipStr) <= 0:
+            return opStr
+
+        ipStr = ipStr.replace(' ','')    
+        opStr = ipStr[0]+'_WB'
+        for i in range(1,len(ipStr)):
+            opStr = opStr+' '+ipStr[i]
+
+        if (len(ipStr)>1):
+            opStr = opStr+'_WB'    
+
+        return(opStr)    
+
+    def writeOneWordLexicon(self,opfile):
+        print('p0, hotWordLabl=',self.hotWordLabel)
+        for pronStr in self.hotWordArrayPron:
+            lexEntry = self.getPronEntry(pronStr)
+            opfile.write("{0} {1}\n".format(self.hotWordLabel, lexEntry))
+
+    def writeOneWordLexicon_withHotWordStr(self,opfile):
+        opfile.write("{0}:{1}:{2}".format(self.hotWordLabel, self.hotWordStr, self.hotWordArrayPron[0]))
+        for i in range(1,len(self.hotWordArrayPron)):
+            opfile.write(",{0}".format(self.hotWordArrayPron[i]))
+        opfile.write("\n")    
+ 
+
+@dataclass
+class C_HotWordList:
     fileName: str
+    listReadStr: []
+    listHotWordStr: []
+    dictLabelToHWStr: dict
+    dictHWStrToLabel: dict
+    dictHWStrToHotWord: List[C_OneHotWord]  # of CHotWord
+
+
     def __init__(self):
-        hotword_KeyToPron = {}
-        hotword_PronToKey = {}
-        fileName = ''
+        self.fileName = ''
+        self.listReadStr    = []
+        self.listHotWordStr = []
+        self.dictLabelToHWStr = {}
+        self.dictHWStrToLabel = {}
+        self.dictHWStrToHotWord = {}
 
 
-    def read_HotWordDictionary(self,infilename):
-        self.hotword_KeyToPron = {}
-        self.hotword_PronToKey = {}
+    # reading a file containg 2 fields
+    # field 1== HWStr
+    # field 2== Label of the hotword
+    def fn_textParseLine(self,line):
+        tokenArray=line.split(':')
+        hotWordStr = tokenArray[0].replace('\t',' ').strip('\n');
+        if hotWordStr in self.dictHWStrToLabel.keys():            
+            currHotWord = self.dictHWStrToHotWord[hotWordStr]
+            if (len(tokenArray) >= 2):
+                currHotWord.addPron(tokenArray[1])
+        else:
+            oneHotWord = C_OneHotWord(hotWordStr)
+            self.dictHWStrToHotWord[hotWordStr] = oneHotWord
+            self.dictHWStrToLabel[hotWordStr] = oneHotWord.hotWordLabel  
+            self.dictLabelToHWStr[oneHotWord.hotWordLabel] = hotWordStr
+
+            self.listHotWordStr.append(hotWordStr)
+        return 0
+
+
+    def read_HotWordList(self,infilename):
         self.fileName = infilename
-        infile = open(infilename)
+        infile = open(infilename,'r')
         for line in infile:
-            (key, pron) = line.split(':')  # we assume that the dictionary is separated by :
-            self.hotword_KeyToPron[key] = pron.strip()
-            self.hotword_PronToKey[pron.strip()] = key
+            line = line.strip()            
+            self.listReadStr.append(line)
+            self.fn_textParseLine(line)
 
-        return(self.hotword_KeyToPron, self.hotword_PronToKey)
+        print('completed reading:',infilename,' has ',len(self.dictHWStrToLabel),' unique hotwords\n')    
+
+
+    # we will now create the hotword lexicon
+    def write_HotWordLexicon(self,opfilename):
+        opfile = open(opfilename,'w')
+        print('Saving lexicon of hotword')
+        for oneHotWordStr in self.listHotWordStr:
+            oneHotWord = self.dictHWStrToHotWord[oneHotWordStr]
+            oneHotWord.writeOneWordLexicon(opfile)
+        opfile.close()
+        print('completed saving:',opfilename,' has ',len(self.dictHWStrToLabel),' unique hotwords\n')    
+
+    # we will now create the hotword lexicon, where field 1 == label
+    # field 2 == original hotword string
+    #field 3 == all pronunciation, separated by =
+    def write_HotWordLexicon_withHotWordStr(self,opfilename):
+        opfile = open(opfilename,'w')
+        print('Saving lexicon of hotword')
+        for oneHotWordStr in self.listHotWordStr:
+            print('writing ',oneHotWordStr)
+            oneHotWord = self.dictHWStrToHotWord[oneHotWordStr]
+            oneHotWord.writeOneWordLexicon_withHotWordStr(opfile)
+        opfile.close()
+        print('completed saving:',opfilename,' has ',len(self.dictHWStrToLabel),' unique hotwords\n')    
+
 
 
 """
@@ -103,16 +211,68 @@ def multireplace(string, replacements, ignore_case=False):
 
 
 def unit_test_Keyword():
-    dictName = "./TestData/LookupKeywordList.txt"
-    myHotWord = C_HotWord()
-    (myDict_KeyToPron, myDict_PronToKey) = myHotWord.read_HotWordDictionary(dictName)
-    print(myDict_KeyToPron['__hubert_hill'])
-    print(myDict_PronToKey['Hubert Hill'])
+    listHotWord = C_HotWordList()
+    listHotWord.read_HotWordList(    './TestData/UserKeywordList.txt')
+    listHotWord.write_HotWordLexicon('./TestData/UserKeywordListLexicon.txt')
+    listHotWord.write_HotWordLexicon_withHotWordStr('./TestData/UserKeywordListLexicon_withHotWordStr.txt')
+    myDict_LabelToStr = listHotWord.dictLabelToHWStr
+    myDict_StrToLabel = listHotWord.dictHWStrToLabel
 
+    print('\n============P0==============')
+    print(myDict_LabelToStr['__hubert_hill'])
+    print(myDict_StrToLabel['Hubert Hill'])
+
+    print('\n============P1==============')
     rawStr = "Jalan Gemala is near Hubert Hill and Singapore Art Museum"
-    hotStr = multireplace(rawStr, myDict_PronToKey, False)
+    hotStr = multireplace(rawStr, myDict_StrToLabel, False)
     print(rawStr)
     print(hotStr)
-    rawStr2 = multireplace(hotStr, myDict_KeyToPron, False)
+    print('\n============P2==============')
+    rawStr2 = multireplace(hotStr, myDict_LabelToStr, False)
     print('RawStr2 = ',rawStr2)
     print('sanity check {}'.format(rawStr == rawStr2))
+
+
+
+
+
+
+def unit_test_HotWordList():
+    listHotWord = C_HotWordList()
+    listHotWord.read_HotWordList(    './TestData/UserKeywordList.txt')
+    myDict_LabelToStr = listHotWord.dictLabelToHWStr
+    myDict_StrToLabel = listHotWord.dictHWStrToLabel
+
+    print('\n============P0==============')
+    print(myDict_LabelToStr['__hubert_hill'])
+    print(myDict_StrToLabel['Hubert Hill'])
+
+    print('\n============P1==============')
+    rawStr = "Jalan Gemala is near Hubert Hill and Singapore Art Museum"
+    hotStr = multireplace(rawStr, myDict_StrToLabel, False)
+    print(rawStr)
+    print(hotStr)
+    print('\n============P2==============')
+    rawStr2 = multireplace(hotStr, myDict_LabelToStr, False)
+    print('RawStr2 = ',rawStr2)
+    print('sanity check {}'.format(rawStr == rawStr2))
+
+
+def main():
+
+    listHotWord = C_HotWordList()
+    listHotWord.read_HotWordList(    './TestData/UserKeywordList.txt')
+    listHotWord.write_HotWordLexicon('./TestData/UserKeywordListLexicon.txt')
+    listHotWord.write_HotWordLexicon_withHotWordStr('./TestData/UserKeywordListLexicon_withHotWordStr.txt')
+    unit_test_Keyword()
+    unit_test_HotWordList()
+
+
+#    oneHotWord = C_OneHotWord("Jalan Bahar")
+#    oneHotWord = C_OneHotWord("Vu Ly Thy:")
+#    oneHotWord = C_OneHotWord("Vu Ly Thy:voo lee tea")
+
+
+    
+if __name__ == "__main__":
+    main()

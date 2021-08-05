@@ -12,12 +12,14 @@ basically create a dictionary lookalike between the key (with __xxx_yy) to xxx y
 
 import os
 opFile = open('tempOp.txt','w')
+opFileRaw = open('tempOpRaw.txt','w')
 with open('keywordList.txt','r') as f:
     for index, line in enumerate(f):
         print("Line {}: {}".format(index, line.strip()))
         hotword = line.replace('__','').replace('_',' ');
         opStr = line.strip()+':'+hotword.title()
-
+        opFileRaw.write(hotword,':')
         opFile.write(opStr)
 f.close()
 opFile.close()
+opFileRaw.close()
