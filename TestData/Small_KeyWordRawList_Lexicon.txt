@@ -1,0 +1,1115 @@
+__Abraham_Solomon a_WB_eng b_eng r_eng a_eng h_eng a_eng m_eng s_eng o_eng l_eng o_eng m_eng o_eng n_WB_eng
+__Admiralty_Greens a_WB_eng d_eng m_eng i_eng r_eng a_eng l_eng t_eng y_eng g_eng r_eng e_eng e_eng n_eng s_WB_eng
+__Admiralty_Road a_WB_eng d_eng m_eng i_eng r_eng a_eng l_eng t_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Admiralty_West a_WB_eng d_eng m_eng i_eng r_eng a_eng l_eng t_eng y_eng w_eng e_eng s_eng t_WB_eng
+__Ah_Hood_Road a_WB_eng h_eng h_eng o_eng o_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Aida_Street a_WB_eng i_eng d_eng a_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Airline_Road a_WB_eng i_eng r_eng l_eng i_eng n_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Airport_Cargo_Road a_WB_eng i_eng r_eng p_eng o_eng r_eng t_eng c_eng a_eng r_eng g_eng o_eng r_eng o_eng a_eng d_WB_eng
+__Al_Islamiah a_WB_eng l_eng i_eng s_eng l_eng a_eng m_eng i_eng a_eng h_WB_eng
+__Al_Islamic a_WB_eng l_eng i_eng s_eng l_eng a_eng m_eng i_eng c_WB_eng
+__Alex_Josey a_WB_eng l_eng e_eng x_eng j_eng o_eng s_eng e_eng y_WB_eng
+__Alexander_Laurie_Johnston a_WB_eng l_eng e_eng x_eng a_eng n_eng d_eng e_eng r_eng l_eng a_eng u_eng r_eng i_eng e_eng j_eng o_eng h_eng n_eng s_eng t_eng o_eng n_WB_eng
+__Alexandra_Lane a_WB_eng l_eng e_eng x_eng a_eng n_eng d_eng r_eng a_eng l_eng a_eng n_eng e_WB_eng
+__Alexandra_Road a_WB_eng l_eng e_eng x_eng a_eng n_eng d_eng r_eng a_eng r_eng o_eng a_eng d_WB_eng
+__Aliman_Hassan a_WB_eng l_eng i_eng m_eng a_eng n_eng h_eng a_eng s_eng s_eng a_eng n_WB_eng
+__Aljunied_Avenue a_WB_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Aljunied_Crescent a_WB_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Aljunied_Hussein a_WB_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng h_eng u_eng s_eng s_eng e_eng i_eng n_WB_eng
+__Aljunied_Neighbourhood a_WB_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng n_eng e_eng i_eng g_eng h_eng b_eng o_eng u_eng r_eng h_eng o_eng o_eng d_WB_eng
+__Aljunied_Road a_WB_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Alnwick_Road a_WB_eng l_eng n_eng w_eng i_eng c_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Amasalam_Chetty_Road a_WB_eng m_eng a_eng s_eng a_eng l_eng a_eng m_eng c_eng h_eng e_eng t_eng t_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Anak_Bukit a_WB_eng n_eng a_eng k_eng b_eng u_eng k_eng i_eng t_WB_eng
+__Anchorvale_Drive a_WB_eng n_eng c_eng h_eng o_eng r_eng v_eng a_eng l_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Anchorvale_Street a_WB_eng n_eng c_eng h_eng o_eng r_eng v_eng a_eng l_eng e_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Ang_Mo_Kio a_WB_eng n_eng g_eng m_eng o_eng k_eng i_eng o_WB_eng
+__Ang_Mo_Kio_Street a_WB_eng n_eng g_eng m_eng o_eng k_eng i_eng o_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Ang_Peng_Tiam a_WB_eng n_eng g_eng p_eng e_eng n_eng g_eng t_eng i_eng a_eng m_WB_eng
+__Angsana_Avenue a_WB_eng n_eng g_eng s_eng a_eng n_eng a_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Angsana_Drive a_WB_eng n_eng g_eng s_eng a_eng n_eng a_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Ann_Siang_Hill a_WB_eng n_eng n_eng s_eng i_eng a_eng n_eng g_eng h_eng i_eng l_eng l_WB_eng
+__Anthony_Road a_WB_eng n_eng t_eng h_eng o_eng n_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Arab_Street a_WB_eng r_eng a_eng b_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Arrival_Crescent a_WB_eng r_eng r_eng i_eng v_eng a_eng l_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Arts_Link a_WB_eng r_eng t_eng s_eng l_eng i_eng n_eng k_WB_eng
+__Arumugam_Road a_WB_eng r_eng u_eng m_eng u_eng g_eng a_eng m_eng r_eng o_eng a_eng d_WB_eng
+__Asia_Pacific a_WB_eng s_eng i_eng a_eng p_eng a_eng c_eng i_eng f_eng i_eng c_WB_eng
+__Asia_Square a_WB_eng s_eng i_eng a_eng s_eng q_eng u_eng a_eng r_eng e_WB_eng
+__Asimont_Lane a_WB_eng s_eng i_eng m_eng o_eng n_eng t_eng l_eng a_eng n_eng e_WB_eng
+__Attap_Valley_Lane a_WB_eng t_eng t_eng a_eng p_eng v_eng a_eng l_eng l_eng e_eng y_eng l_eng a_eng n_eng e_WB_eng
+__Au_Yun_Pak a_WB_eng u_eng y_eng u_eng n_eng p_eng a_eng k_WB_eng
+__Auckland_Road_West a_WB_eng u_eng c_eng k_eng l_eng a_eng n_eng d_eng r_eng o_eng a_eng d_eng w_eng e_eng s_eng t_WB_eng
+__Australian_International a_WB_eng u_eng s_eng t_eng r_eng a_eng l_eng i_eng a_eng n_eng i_eng n_eng t_eng e_eng r_eng n_eng a_eng t_eng i_eng o_eng n_eng a_eng l_WB_eng
+__Ava_Road a_WB_eng v_eng a_eng r_eng o_eng a_eng d_WB_eng
+__Avon_Road a_WB_eng v_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Baker_Street b_WB_eng a_eng k_eng e_eng r_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Bali_Lane b_WB_eng a_eng l_eng i_eng l_eng a_eng n_eng e_WB_eng
+__Balmoral_Crescent b_WB_eng a_eng l_eng m_eng o_eng r_eng a_eng l_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Bao_Gong b_WB_eng a_eng o_eng g_eng o_eng n_eng g_WB_eng
+__Bartley_Road b_WB_eng a_eng r_eng t_eng l_eng e_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Beach_Road b_WB_eng e_eng a_eng c_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Beatty_Road b_WB_eng e_eng a_eng t_eng t_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Bedok_Anchorvale_Crescent b_WB_eng e_eng d_eng o_eng k_eng a_eng n_eng c_eng h_eng o_eng r_eng v_eng a_eng l_eng e_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Bedok_Green b_WB_eng e_eng d_eng o_eng k_eng g_eng r_eng e_eng e_eng n_WB_eng
+__Bedok_Lighthouse b_WB_eng e_eng d_eng o_eng k_eng l_eng i_eng g_eng h_eng t_eng h_eng o_eng u_eng s_eng e_WB_eng
+__Bedok_North b_WB_eng e_eng d_eng o_eng k_eng n_eng o_eng r_eng t_eng h_WB_eng
+__Bedok_Point b_WB_eng e_eng d_eng o_eng k_eng p_eng o_eng i_eng n_eng t_WB_eng
+__Bedok_Points b_WB_eng e_eng d_eng o_eng k_eng p_eng o_eng i_eng n_eng t_eng s_WB_eng
+__Bedok_Reservoir b_WB_eng e_eng d_eng o_eng k_eng r_eng e_eng s_eng e_eng r_eng v_eng o_eng i_eng r_WB_eng
+__Bedok_Ria_Crescent b_WB_eng e_eng d_eng o_eng k_eng r_eng i_eng a_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Bedok_South b_WB_eng e_eng d_eng o_eng k_eng s_eng o_eng u_eng t_eng h_WB_eng
+__Bedok_View b_WB_eng e_eng d_eng o_eng k_eng v_eng i_eng e_eng w_WB_eng
+__Beeh_Low_See b_WB_eng e_eng e_eng h_eng l_eng o_eng w_eng s_eng e_eng e_WB_eng
+__Begonia_Walk b_WB_eng e_eng g_eng o_eng n_eng i_eng a_eng w_eng a_eng l_eng k_WB_eng
+__Belilios_Lane b_WB_eng e_eng l_eng i_eng l_eng i_eng o_eng s_eng l_eng a_eng n_eng e_WB_eng
+__Belmont_Road b_WB_eng e_eng l_eng m_eng o_eng n_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Bernice_Ong b_WB_eng e_eng r_eng n_eng i_eng c_eng e_eng o_eng n_eng g_WB_eng
+__Bethlehem_Bible_Presbyterian b_WB_eng e_eng t_eng h_eng l_eng e_eng h_eng e_eng m_eng b_eng i_eng b_eng l_eng e_eng p_eng r_eng e_eng s_eng b_eng y_eng t_eng e_eng r_eng i_eng a_eng n_WB_eng
+__Binchang_Rise b_WB_eng i_eng n_eng c_eng h_eng a_eng n_eng g_eng r_eng i_eng s_eng e_WB_eng
+__Bishan_Point b_WB_eng i_eng s_eng h_eng a_eng n_eng p_eng o_eng i_eng n_eng t_WB_eng
+__Bishan_Street b_WB_eng i_eng s_eng h_eng a_eng n_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Blackmore_Drive b_WB_eng l_eng a_eng c_eng k_eng m_eng o_eng r_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Bliss_Hotel b_WB_eng l_eng i_eng s_eng s_eng h_eng o_eng t_eng e_eng l_WB_eng
+__Blue_Cross b_WB_eng l_eng u_eng e_eng c_eng r_eng o_eng s_eng s_WB_eng
+__Blue_Stars b_WB_eng l_eng u_eng e_eng s_eng t_eng a_eng r_eng s_WB_eng
+__Bo_Seng_Avenue b_WB_eng o_eng s_eng e_eng n_eng g_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Boarding_House b_WB_eng o_eng a_eng r_eng d_eng i_eng n_eng g_eng h_eng o_eng u_eng s_eng e_WB_eng
+__Boat_Quay b_WB_eng o_eng a_eng t_eng q_eng u_eng a_eng y_WB_eng
+__Bodmin_Drive b_WB_eng o_eng d_eng m_eng i_eng n_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Bonham_Street b_WB_eng o_eng n_eng h_eng a_eng m_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Boon_Keng b_WB_eng o_eng o_eng n_eng k_eng e_eng n_eng g_WB_eng
+__Boon_Lay b_WB_eng o_eng o_eng n_eng l_eng a_eng y_WB_eng
+__Boon_Lay_Place b_WB_eng o_eng o_eng n_eng l_eng a_eng y_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Boon_Tat_Street b_WB_eng o_eng o_eng n_eng t_eng a_eng t_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Boon_Teck_Road b_WB_eng o_eng o_eng n_eng t_eng e_eng c_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Borthwick_Drive b_WB_eng o_eng r_eng t_eng h_eng w_eng i_eng c_eng k_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Boundary_Road b_WB_eng o_eng u_eng n_eng d_eng a_eng r_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Braddell_Road b_WB_eng r_eng a_eng d_eng d_eng e_eng l_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Brani_Drive b_WB_eng r_eng a_eng n_eng i_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Brani_Marine b_WB_eng r_eng a_eng n_eng i_eng m_eng a_eng r_eng i_eng n_eng e_WB_eng
+__Brani_Way b_WB_eng r_eng a_eng n_eng i_eng w_eng a_eng y_WB_eng
+__Bridport_Avenue b_WB_eng r_eng i_eng d_eng p_eng o_eng r_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Bright_Hill b_WB_eng r_eng i_eng g_eng h_eng t_eng h_eng i_eng l_eng l_WB_eng
+__Bristol_Road b_WB_eng r_eng i_eng s_eng t_eng o_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Buangkok_View b_WB_eng u_eng a_eng n_eng g_eng k_eng o_eng k_eng v_eng i_eng e_eng w_WB_eng
+__Bukit_Batok b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_WB_eng
+__Bukit_Batok_Avenue b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Bukit_Batok_Avenue_West b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng a_eng v_eng e_eng n_eng u_eng e_eng w_eng e_eng s_eng t_WB_eng
+__Bukit_Batok_Central b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng c_eng e_eng n_eng t_eng r_eng a_eng l_WB_eng
+__Bukit_Batok_Central_Link b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng c_eng e_eng n_eng t_eng r_eng a_eng l_eng l_eng i_eng n_eng k_WB_eng
+__Bukit_Batok_Crescent b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Bukit_Batok_East b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng e_eng a_eng s_eng t_WB_eng
+__Bukit_Batok_East_Avenue b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng e_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Bukit_Batok_Road b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Bukit_Batok_Street b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Bukit_Batok_West b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng w_eng e_eng s_eng t_WB_eng
+__Bukit_Batok_West_Avenue b_WB_eng u_eng k_eng i_eng t_eng b_eng a_eng t_eng o_eng k_eng w_eng e_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Bukit_Chandu b_WB_eng u_eng k_eng i_eng t_eng c_eng h_eng a_eng n_eng d_eng u_WB_eng
+__Bukit_Ho_Swee_Link b_WB_eng u_eng k_eng i_eng t_eng h_eng o_eng s_eng w_eng e_eng e_eng l_eng i_eng n_eng k_WB_eng
+__Bukit_Manis_Road b_WB_eng u_eng k_eng i_eng t_eng m_eng a_eng n_eng i_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Bukit_Merah b_WB_eng u_eng k_eng i_eng t_eng m_eng e_eng r_eng a_eng h_WB_eng
+__Bukit_Merah_View b_WB_eng u_eng k_eng i_eng t_eng m_eng e_eng r_eng a_eng h_eng v_eng i_eng e_eng w_WB_eng
+__Bukit_Mugliston b_WB_eng u_eng k_eng i_eng t_eng m_eng u_eng g_eng l_eng i_eng s_eng t_eng o_eng n_WB_eng
+__Bukit_Sedap_Road b_WB_eng u_eng k_eng i_eng t_eng s_eng e_eng d_eng a_eng p_eng r_eng o_eng a_eng d_WB_eng
+__Bukit_Teresa_Close b_WB_eng u_eng k_eng i_eng t_eng t_eng e_eng r_eng e_eng s_eng a_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Bukit_Timah b_WB_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_WB_eng
+__Bukit_Timah_Avenue b_WB_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Bukit_Timah_Link b_WB_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_eng l_eng i_eng n_eng k_WB_eng
+__Bukit_Timah_Plaza b_WB_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_eng p_eng l_eng a_eng z_eng a_WB_eng
+__Bukit_Timah_Road b_WB_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Bukit_Tinggi_Road b_WB_eng u_eng k_eng i_eng t_eng t_eng i_eng n_eng g_eng g_eng i_eng r_eng o_eng a_eng d_WB_eng
+__Burmah_Road b_WB_eng u_eng r_eng m_eng a_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Burmese_Buddhist b_WB_eng u_eng r_eng m_eng e_eng s_eng e_eng b_eng u_eng d_eng d_eng h_eng i_eng s_eng t_WB_eng
+__Bury_Road b_WB_eng u_eng r_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Buyong_Road b_WB_eng u_eng y_eng o_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Canberra_View c_WB_eng a_eng n_eng b_eng e_eng r_eng r_eng a_eng v_eng i_eng e_eng w_WB_eng
+__Canning_Lane c_WB_eng a_eng n_eng n_eng i_eng n_eng g_eng l_eng a_eng n_eng e_WB_eng
+__Canning_Rise c_WB_eng a_eng n_eng n_eng i_eng n_eng g_eng r_eng i_eng s_eng e_WB_eng
+__Cantonment_Complex c_WB_eng a_eng n_eng t_eng o_eng n_eng m_eng e_eng n_eng t_eng c_eng o_eng m_eng p_eng l_eng e_eng x_WB_eng
+__Carisbrooke_Grove c_WB_eng a_eng r_eng i_eng s_eng b_eng r_eng o_eng o_eng k_eng e_eng g_eng r_eng o_eng v_eng e_WB_eng
+__Carl_Alexander c_WB_eng a_eng r_eng l_eng a_eng l_eng e_eng x_eng a_eng n_eng d_eng e_eng r_WB_eng
+__Carlton_Avenue c_WB_eng a_eng r_eng l_eng t_eng o_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Carnation_Drive c_WB_eng a_eng r_eng n_eng a_eng t_eng i_eng o_eng n_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Cashew_Crescent c_WB_eng a_eng s_eng h_eng e_eng w_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Cashew_Road c_WB_eng a_eng s_eng h_eng e_eng w_eng r_eng o_eng a_eng d_WB_eng
+__Cassia_Crescent c_WB_eng a_eng s_eng s_eng i_eng a_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Ceylon_Road c_WB_eng e_eng y_eng l_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Chai_Chee c_WB_eng h_eng a_eng i_eng c_eng h_eng e_eng e_WB_eng
+__Chai_Chee_Drive c_WB_eng h_eng a_eng i_eng c_eng h_eng e_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Chai_Chee_Street c_WB_eng h_eng a_eng i_eng c_eng h_eng e_eng e_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Chan_Chun_Sing c_WB_eng h_eng a_eng n_eng c_eng h_eng u_eng n_eng s_eng i_eng n_eng g_WB_eng
+__Chan_Sek_Keong c_WB_eng h_eng a_eng n_eng s_eng e_eng k_eng k_eng e_eng o_eng n_eng g_WB_eng
+__Chancery_Lane c_WB_eng h_eng a_eng n_eng c_eng e_eng r_eng y_eng l_eng a_eng n_eng e_WB_eng
+__Chang_Ziang c_WB_eng h_eng a_eng n_eng g_eng z_eng i_eng a_eng n_eng g_WB_eng
+__Changi_Business_Park_Vista c_WB_eng h_eng a_eng n_eng g_eng i_eng b_eng u_eng s_eng i_eng n_eng e_eng s_eng s_eng p_eng a_eng r_eng k_eng v_eng i_eng s_eng t_eng a_WB_eng
+__Changi_Coast c_WB_eng h_eng a_eng n_eng g_eng i_eng c_eng o_eng a_eng s_eng t_WB_eng
+__Changi_East_Drive c_WB_eng h_eng a_eng n_eng g_eng i_eng e_eng a_eng s_eng t_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Changi_East_Road c_WB_eng h_eng a_eng n_eng g_eng i_eng e_eng a_eng s_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Changi_South_Lane c_WB_eng h_eng a_eng n_eng g_eng i_eng s_eng o_eng u_eng t_eng h_eng l_eng a_eng n_eng e_WB_eng
+__Changi_Village_Road c_WB_eng h_eng a_eng n_eng g_eng i_eng v_eng i_eng l_eng l_eng a_eng g_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Changkat_Changi c_WB_eng h_eng a_eng n_eng g_eng k_eng a_eng t_eng c_eng h_eng a_eng n_eng g_eng i_WB_eng
+__Chatsworth_Road c_WB_eng h_eng a_eng t_eng s_eng w_eng o_eng r_eng t_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Cheang_Hong_Lim_Place c_WB_eng h_eng e_eng a_eng n_eng g_eng h_eng o_eng n_eng g_eng l_eng i_eng m_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Cheang_Hong_Lim_Street c_WB_eng h_eng e_eng a_eng n_eng g_eng h_eng o_eng n_eng g_eng l_eng i_eng m_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Chencharu_Lane c_WB_eng h_eng e_eng n_eng c_eng h_eng a_eng r_eng u_eng l_eng a_eng n_eng e_WB_eng
+__Chencharu_Link c_WB_eng h_eng e_eng n_eng c_eng h_eng a_eng r_eng u_eng l_eng i_eng n_eng k_WB_eng
+__Cheo_Kim_Ban c_WB_eng h_eng e_eng o_eng k_eng i_eng m_eng b_eng a_eng n_WB_eng
+__Chestnut_Crescent c_WB_eng h_eng e_eng s_eng t_eng n_eng u_eng t_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Chew_Kheng_Chuan c_WB_eng h_eng e_eng w_eng k_eng h_eng e_eng n_eng g_eng c_eng h_eng u_eng a_eng n_WB_eng
+__Chin_Bee_Road c_WB_eng h_eng i_eng n_eng b_eng e_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Chin_Cheng_Avenue c_WB_eng h_eng i_eng n_eng c_eng h_eng e_eng n_eng g_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Chin_Chew_Street c_WB_eng h_eng i_eng n_eng c_eng h_eng e_eng w_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Chin_Swee c_WB_eng h_eng i_eng n_eng s_eng w_eng e_eng e_WB_eng
+__China_Street c_WB_eng h_eng i_eng n_eng a_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Chinatown_Complex c_WB_eng h_eng i_eng n_eng a_eng t_eng o_eng w_eng n_eng c_eng o_eng m_eng p_eng l_eng e_eng x_WB_eng
+__Chinatown_Hotel c_WB_eng h_eng i_eng n_eng a_eng t_eng o_eng w_eng n_eng h_eng o_eng t_eng e_eng l_WB_eng
+__Chinatown_Point c_WB_eng h_eng i_eng n_eng a_eng t_eng o_eng w_eng n_eng p_eng o_eng i_eng n_eng t_WB_eng
+__Chinese_Garden c_WB_eng h_eng i_eng n_eng e_eng s_eng e_eng g_eng a_eng r_eng d_eng e_eng n_WB_eng
+__Chinese_Garden_Road c_WB_eng h_eng i_eng n_eng e_eng s_eng e_eng g_eng a_eng r_eng d_eng e_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Choa_Chu_Kang c_WB_eng h_eng o_eng a_eng c_eng h_eng u_eng k_eng a_eng n_eng g_WB_eng
+__Choa_Chu_Kang_Loop c_WB_eng h_eng o_eng a_eng c_eng h_eng u_eng k_eng a_eng n_eng g_eng l_eng o_eng o_eng p_WB_eng
+__Choa_Chu_Kang_West c_WB_eng h_eng o_eng a_eng c_eng h_eng u_eng k_eng a_eng n_eng g_eng w_eng e_eng s_eng t_WB_eng
+__Chong_Pang c_WB_eng h_eng o_eng n_eng g_eng p_eng a_eng n_eng g_WB_eng
+__Chong_Pang_Combined c_WB_eng h_eng o_eng n_eng g_eng p_eng a_eng n_eng g_eng c_eng o_eng m_eng b_eng i_eng n_eng e_eng d_WB_eng
+__Chong_You_Fook_Charles c_WB_eng h_eng o_eng n_eng g_eng y_eng o_eng u_eng f_eng o_eng o_eng k_eng c_eng h_eng a_eng r_eng l_eng e_eng s_WB_eng
+__Chong_Zheng c_WB_eng h_eng o_eng n_eng g_eng z_eng h_eng e_eng n_eng g_WB_eng
+__Choon_Guan_Street c_WB_eng h_eng o_eng o_eng n_eng g_eng u_eng a_eng n_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Choor_Singh_Sidhu c_WB_eng h_eng o_eng o_eng r_eng s_eng i_eng n_eng g_eng h_eng s_eng i_eng d_eng h_eng u_WB_eng
+__Christalite_Methodist c_WB_eng h_eng r_eng i_eng s_eng t_eng a_eng l_eng i_eng t_eng e_eng m_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_WB_eng
+__Christopher_Henry_Rothwell c_WB_eng h_eng r_eng i_eng s_eng t_eng o_eng p_eng h_eng e_eng r_eng h_eng e_eng n_eng r_eng y_eng r_eng o_eng t_eng h_eng w_eng e_eng l_eng l_WB_eng
+__Chu_Siang_Tong c_WB_eng h_eng u_eng s_eng i_eng a_eng n_eng g_eng t_eng o_eng n_eng g_WB_eng
+__Chuan_Hoe_Avenue c_WB_eng h_eng u_eng a_eng n_eng h_eng o_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Chuan_Walk c_WB_eng h_eng u_eng a_eng n_eng w_eng a_eng l_eng k_WB_eng
+__Chulia_Street c_WB_eng h_eng u_eng l_eng i_eng a_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Chwee_Chian_View c_WB_eng h_eng w_eng e_eng e_eng c_eng h_eng i_eng a_eng n_eng v_eng i_eng e_eng w_WB_eng
+__Circular_Road c_WB_eng i_eng r_eng c_eng u_eng l_eng a_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Claymore_Road c_WB_eng l_eng a_eng y_eng m_eng o_eng r_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Cleantech_View c_WB_eng l_eng e_eng a_eng n_eng t_eng e_eng c_eng h_eng v_eng i_eng e_eng w_WB_eng
+__Clementi_Street c_WB_eng l_eng e_eng m_eng e_eng n_eng t_eng i_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Clive_Street c_WB_eng l_eng i_eng v_eng e_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Clunny_Hill c_WB_eng l_eng u_eng n_eng n_eng y_eng h_eng i_eng l_eng l_WB_eng
+__Colchester_Grove c_WB_eng o_eng l_eng c_eng h_eng e_eng s_eng t_eng e_eng r_eng g_eng r_eng o_eng v_eng e_WB_eng
+__College_Of_Medicine c_WB_eng o_eng l_eng l_eng e_eng g_eng e_eng o_eng f_eng m_eng e_eng d_eng i_eng c_eng i_eng n_eng e_WB_eng
+__Collyer_Quay c_WB_eng o_eng l_eng l_eng y_eng e_eng r_eng q_eng u_eng a_eng y_WB_eng
+__Compassvale_Drive c_WB_eng o_eng m_eng p_eng a_eng s_eng s_eng v_eng a_eng l_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Compassvale_Road c_WB_eng o_eng m_eng p_eng a_eng s_eng s_eng v_eng a_eng l_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Coney_Island c_WB_eng o_eng n_eng e_eng y_eng i_eng s_eng l_eng a_eng n_eng d_WB_eng
+__Connexis_South c_WB_eng o_eng n_eng n_eng e_eng x_eng i_eng s_eng s_eng o_eng u_eng t_eng h_WB_eng
+__Constance_Singam c_WB_eng o_eng n_eng s_eng t_eng a_eng n_eng c_eng e_eng s_eng i_eng n_eng g_eng a_eng m_WB_eng
+__Cook_Street c_WB_eng o_eng o_eng k_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Copeland_Avenue c_WB_eng o_eng p_eng e_eng l_eng a_eng n_eng d_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Copthorne_King'S c_WB_eng o_eng p_eng t_eng h_eng o_eng r_eng n_eng e_eng k_eng i_eng n_eng g_eng '_eng s_WB_eng
+__Corfe_Place c_WB_eng o_eng r_eng f_eng e_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Corporation_Road c_WB_eng o_eng r_eng p_eng o_eng r_eng a_eng t_eng i_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Countryside_Grove c_WB_eng o_eng u_eng n_eng t_eng r_eng y_eng s_eng i_eng d_eng e_eng g_eng r_eng o_eng v_eng e_WB_eng
+__Countryside_View c_WB_eng o_eng u_eng n_eng t_eng r_eng y_eng s_eng i_eng d_eng e_eng v_eng i_eng e_eng w_WB_eng
+__Court_Road c_WB_eng o_eng u_eng r_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Covenant_Community_Methodist c_WB_eng o_eng v_eng e_eng n_eng a_eng n_eng t_eng c_eng o_eng m_eng m_eng u_eng n_eng i_eng t_eng y_eng m_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_WB_eng
+__Craig_Road c_WB_eng r_eng a_eng i_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Cranborne_Road c_WB_eng r_eng a_eng n_eng b_eng o_eng r_eng n_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Creek_Mangrove c_WB_eng r_eng e_eng e_eng k_eng m_eng a_eng n_eng g_eng r_eng o_eng v_eng e_WB_eng
+__Croucher_Road c_WB_eng r_eng o_eng u_eng c_eng h_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Crowhurst_Drive c_WB_eng r_eng o_eng w_eng h_eng u_eng r_eng s_eng t_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Cuff_Road c_WB_eng u_eng f_eng f_eng r_eng o_eng a_eng d_WB_eng
+__Cuscaden_Walk c_WB_eng u_eng s_eng c_eng a_eng d_eng e_eng n_eng w_eng a_eng l_eng k_WB_eng
+__Da_Bo_Gong d_WB_eng a_eng b_eng o_eng g_eng o_eng n_eng g_WB_eng
+__Daffodil_Drive d_WB_eng a_eng f_eng f_eng o_eng d_eng i_eng l_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Dahan_Road d_WB_eng a_eng h_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Dairy_Farm d_WB_eng a_eng i_eng r_eng y_eng f_eng a_eng r_eng m_WB_eng
+__Dairy_Farm_Crescent d_WB_eng a_eng i_eng r_eng y_eng f_eng a_eng r_eng m_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Dalkeith_Road d_WB_eng a_eng l_eng k_eng e_eng i_eng t_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Darrell_Ang d_WB_eng a_eng r_eng r_eng e_eng l_eng l_eng a_eng n_eng g_WB_eng
+__Dawson_North_Spring d_WB_eng a_eng w_eng s_eng o_eng n_eng n_eng o_eng r_eng t_eng h_eng s_eng p_eng r_eng i_eng n_eng g_WB_eng
+__Dedap_Road d_WB_eng e_eng d_eng a_eng p_eng r_eng o_eng a_eng d_WB_eng
+__Delta_Avenue d_WB_eng e_eng l_eng t_eng a_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Depot_Close d_WB_eng e_eng p_eng o_eng t_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Depot_Walk d_WB_eng e_eng p_eng o_eng t_eng w_eng a_eng l_eng k_WB_eng
+__Devan_Nair d_WB_eng e_eng v_eng a_eng n_eng n_eng a_eng i_eng r_WB_eng
+__Dimensions_International d_WB_eng i_eng m_eng e_eng n_eng s_eng i_eng o_eng n_eng s_eng i_eng n_eng t_eng e_eng r_eng n_eng a_eng t_eng i_eng o_eng n_eng a_eng l_WB_eng
+__Dinding_Place d_WB_eng i_eng n_eng d_eng i_eng n_eng g_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Dock_Road_East d_WB_eng o_eng c_eng k_eng r_eng o_eng a_eng d_eng e_eng a_eng s_eng t_WB_eng
+__Dock_Road_West d_WB_eng o_eng c_eng k_eng r_eng o_eng a_eng d_eng w_eng e_eng s_eng t_WB_eng
+__Douglas_Hamilton d_WB_eng o_eng u_eng g_eng l_eng a_eng s_eng h_eng a_eng m_eng i_eng l_eng t_eng o_eng n_WB_eng
+__Dover_Drive d_WB_eng o_eng v_eng e_eng r_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Drake_Avenue d_WB_eng r_eng a_eng k_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Drake_Lane d_WB_eng r_eng a_eng k_eng e_eng l_eng a_eng n_eng e_WB_eng
+__Dunlop_Street d_WB_eng u_eng n_eng l_eng o_eng p_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Duxton_Road d_WB_eng u_eng x_eng t_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__East_Avenue e_WB_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__East_Coast_Avenue e_WB_eng a_eng s_eng t_eng c_eng o_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__East_Spring e_WB_eng a_eng s_eng t_eng s_eng p_eng r_eng i_eng n_eng g_WB_eng
+__Eastern_Health_Alliance e_WB_eng a_eng s_eng t_eng e_eng r_eng n_eng h_eng e_eng a_eng l_eng t_eng h_eng a_eng l_eng l_eng i_eng a_eng n_eng c_eng e_WB_eng
+__Eau_Thermale_Avene e_WB_eng a_eng u_eng t_eng h_eng e_eng r_eng m_eng a_eng l_eng e_eng a_eng v_eng e_eng n_eng e_WB_eng
+__Edgware_Road e_WB_eng d_eng g_eng w_eng a_eng r_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Edmund_Blundell e_WB_eng d_eng m_eng u_eng n_eng d_eng b_eng l_eng u_eng n_eng d_eng e_eng l_eng l_WB_eng
+__Edmund_Chen e_WB_eng d_eng m_eng u_eng n_eng d_eng c_eng h_eng e_eng n_WB_eng
+__Edwin_Browns e_WB_eng d_eng w_eng i_eng n_eng b_eng r_eng o_eng w_eng n_eng s_WB_eng
+__Ee_Teow_Leng_Road e_WB_eng e_eng t_eng e_eng o_eng w_eng l_eng e_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Elias_Green e_WB_eng l_eng i_eng a_eng s_eng g_eng r_eng e_eng e_eng n_WB_eng
+__Elias_Park_Avenue e_WB_eng l_eng i_eng a_eng s_eng p_eng a_eng r_eng k_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Ellice_Handy e_WB_eng l_eng l_eng i_eng c_eng e_eng h_eng a_eng n_eng d_eng y_WB_eng
+__Empress_Road e_WB_eng m_eng p_eng r_eng e_eng s_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Eng_Hoon_Street e_WB_eng n_eng g_eng h_eng o_eng o_eng n_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Eng_Kong_Road e_WB_eng n_eng g_eng k_eng o_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Eng_Neo_Avenue e_WB_eng n_eng g_eng n_eng e_eng o_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Ernani_Street e_WB_eng r_eng n_eng a_eng n_eng i_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Esther_Tan e_WB_eng s_eng t_eng h_eng e_eng r_eng t_eng a_eng n_WB_eng
+__Eu_Yee_Ming_Richard e_WB_eng u_eng y_eng e_eng e_eng m_eng i_eng n_eng g_eng r_eng i_eng c_eng h_eng a_eng r_eng d_WB_eng
+__Eunos_Avenue e_WB_eng u_eng n_eng o_eng s_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Evolution_Garden_Walk e_WB_eng v_eng o_eng l_eng u_eng t_eng i_eng o_eng n_eng g_eng a_eng r_eng d_eng e_eng n_eng w_eng a_eng l_eng k_WB_eng
+__Faber_Walk f_WB_eng a_eng b_eng e_eng r_eng w_eng a_eng l_eng k_WB_eng
+__Fairway_Club f_WB_eng a_eng i_eng r_eng w_eng a_eng y_eng c_eng l_eng u_eng b_WB_eng
+__Fairy_Point_Hill f_WB_eng a_eng i_eng r_eng y_eng p_eng o_eng i_eng n_eng t_eng h_eng i_eng l_eng l_WB_eng
+__Faith_Methodist f_WB_eng a_eng i_eng t_eng h_eng m_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_WB_eng
+__Faith_Sanctuary_Garden_Avenue f_WB_eng a_eng i_eng t_eng h_eng s_eng a_eng n_eng c_eng t_eng u_eng a_eng r_eng y_eng g_eng a_eng r_eng d_eng e_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Famous_Amos f_WB_eng a_eng m_eng o_eng u_eng s_eng a_eng m_eng o_eng s_WB_eng
+__Fan_Yoong_Road f_WB_eng a_eng n_eng y_eng o_eng o_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Farrer_Garden f_WB_eng a_eng r_eng r_eng e_eng r_eng g_eng a_eng r_eng d_eng e_eng n_WB_eng
+__Farrer_Park f_WB_eng a_eng r_eng r_eng e_eng r_eng p_eng a_eng r_eng k_WB_eng
+__Fernvale_Lane f_WB_eng e_eng r_eng n_eng v_eng a_eng l_eng e_eng l_eng a_eng n_eng e_WB_eng
+__Fire_Station f_WB_eng i_eng r_eng e_eng s_eng t_eng a_eng t_eng i_eng o_eng n_WB_eng
+__Flint_Street f_WB_eng l_eng i_eng n_eng t_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Florence_Road f_WB_eng l_eng o_eng r_eng e_eng n_eng c_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Flower_Road f_WB_eng l_eng o_eng w_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Fo_Shan_Ting f_WB_eng o_eng s_eng h_eng a_eng n_eng t_eng i_eng n_eng g_WB_eng
+__Foch_Road f_WB_eng o_eng c_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Folkestone_Road f_WB_eng o_eng l_eng k_eng e_eng s_eng t_eng o_eng n_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Fortune_Students f_WB_eng o_eng r_eng t_eng u_eng n_eng e_eng s_eng t_eng u_eng d_eng e_eng n_eng t_eng s_WB_eng
+__Fourth_Street f_WB_eng o_eng u_eng r_eng t_eng h_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Francis_Thomas_Drive f_WB_eng r_eng a_eng n_eng c_eng i_eng s_eng t_eng h_eng o_eng m_eng a_eng s_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Fuk_Tak_Chi f_WB_eng u_eng k_eng t_eng a_eng k_eng c_eng h_eng i_WB_eng
+__Fullerton_Bay f_WB_eng u_eng l_eng l_eng e_eng r_eng t_eng o_eng n_eng b_eng a_eng y_WB_eng
+__Fulton_Avenue f_WB_eng u_eng l_eng t_eng o_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Fusionopolis_Walk f_WB_eng u_eng s_eng i_eng o_eng n_eng o_eng p_eng o_eng l_eng i_eng s_eng w_eng a_eng l_eng k_WB_eng
+__Gallop_Park g_WB_eng a_eng l_eng l_eng o_eng p_eng p_eng a_eng r_eng k_WB_eng
+__Gallop_Road g_WB_eng a_eng l_eng l_eng o_eng p_eng r_eng o_eng a_eng d_WB_eng
+__Gambir_Walk g_WB_eng a_eng m_eng b_eng i_eng r_eng w_eng a_eng l_eng k_WB_eng
+__Gan_Eng_Seng g_WB_eng a_eng n_eng e_eng n_eng g_eng s_eng e_eng n_eng g_WB_eng
+__Gateway_Avenue g_WB_eng a_eng t_eng e_eng w_eng a_eng y_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Gateway_Inn g_WB_eng a_eng t_eng e_eng w_eng a_eng y_eng i_eng n_eng n_WB_eng
+__George_Nigel g_WB_eng e_eng o_eng r_eng g_eng e_eng n_eng i_eng g_eng e_eng l_WB_eng
+__Gerald_Crescent g_WB_eng e_eng r_eng a_eng l_eng d_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Geylang_Bahru g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng b_eng a_eng h_eng r_eng u_WB_eng
+__Geylang_Bahru_Lane g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng b_eng a_eng h_eng r_eng u_eng l_eng a_eng n_eng e_WB_eng
+__Geylang_Bahru_Terrace g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng b_eng a_eng h_eng r_eng u_eng t_eng e_eng r_eng r_eng a_eng c_eng e_WB_eng
+__Geylang_East_Avenue g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng e_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Geylang_East_Central g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng e_eng a_eng s_eng t_eng c_eng e_eng n_eng t_eng r_eng a_eng l_WB_eng
+__Geylang_Lorong g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng l_eng o_eng r_eng o_eng n_eng g_WB_eng
+__Geylang_Lorong_Labang g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng l_eng o_eng r_eng o_eng n_eng g_eng l_eng a_eng b_eng a_eng n_eng g_WB_eng
+__Geylang_Methodist g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng m_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_WB_eng
+__Geylang_Methodist_School g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng m_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_eng s_eng c_eng h_eng o_eng o_eng l_WB_eng
+__Geylang_Road g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Geylang_Serai g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng s_eng e_eng r_eng a_eng i_WB_eng
+__Geylang_Square g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng s_eng q_eng u_eng a_eng r_eng e_WB_eng
+__Geylang_United g_WB_eng e_eng y_eng l_eng a_eng n_eng g_eng u_eng n_eng i_eng t_eng e_eng d_WB_eng
+__Giant_Spring g_WB_eng i_eng a_eng n_eng t_eng s_eng p_eng r_eng i_eng n_eng g_WB_eng
+__Gibraltar_Crescent g_WB_eng i_eng b_eng r_eng a_eng l_eng t_eng a_eng r_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Gibson_Hill g_WB_eng i_eng b_eng s_eng o_eng n_eng h_eng i_eng l_eng l_WB_eng
+__Gilstead_Road g_WB_eng i_eng l_eng s_eng t_eng e_eng a_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Giok_Hong_Tian g_WB_eng i_eng o_eng k_eng h_eng o_eng n_eng g_eng t_eng i_eng a_eng n_WB_eng
+__Goldhill_Place g_WB_eng o_eng l_eng d_eng h_eng i_eng l_eng l_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Gopeng_Street g_WB_eng o_eng p_eng e_eng n_eng g_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Gordon_Arthur_Ransome g_WB_eng o_eng r_eng d_eng o_eng n_eng a_eng r_eng t_eng h_eng u_eng r_eng r_eng a_eng n_eng s_eng o_eng m_eng e_WB_eng
+__Grace_Walk g_WB_eng r_eng a_eng c_eng e_eng w_eng a_eng l_eng k_WB_eng
+__Great_World g_WB_eng r_eng e_eng a_eng t_eng w_eng o_eng r_eng l_eng d_WB_eng
+__Green_Kiwi_Backpacker g_WB_eng r_eng e_eng e_eng n_eng k_eng i_eng w_eng i_eng b_eng a_eng c_eng k_eng p_eng a_eng c_eng k_eng e_eng r_WB_eng
+__Green_Taipei g_WB_eng r_eng e_eng e_eng n_eng t_eng a_eng i_eng p_eng e_eng i_WB_eng
+__Green_Zeng g_WB_eng r_eng e_eng e_eng n_eng z_eng e_eng n_eng g_WB_eng
+__Greendale_Rise g_WB_eng r_eng e_eng e_eng n_eng d_eng a_eng l_eng e_eng r_eng i_eng s_eng e_WB_eng
+__Greenfield_Drive g_WB_eng r_eng e_eng e_eng n_eng f_eng i_eng e_eng l_eng d_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Greenridge_Crescent g_WB_eng r_eng e_eng e_eng n_eng r_eng i_eng d_eng g_eng e_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Greenwich_Drive g_WB_eng r_eng e_eng e_eng n_eng w_eng i_eng c_eng h_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Grove_Crescent g_WB_eng r_eng o_eng v_eng e_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Guillemard_Lane g_WB_eng u_eng i_eng l_eng l_eng e_eng m_eng a_eng r_eng d_eng l_eng a_eng n_eng e_WB_eng
+__Guillemard_Road g_WB_eng u_eng i_eng l_eng l_eng e_eng m_eng a_eng r_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Gul_Lane g_WB_eng u_eng l_eng l_eng a_eng n_eng e_WB_eng
+__Gul_Street g_WB_eng u_eng l_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Guok_Avenue g_WB_eng u_eng o_eng k_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Gurkha_Contingent g_WB_eng u_eng r_eng k_eng h_eng a_eng c_eng o_eng n_eng t_eng i_eng n_eng g_eng e_eng n_eng t_WB_eng
+__Hai_Sing_Crescent h_WB_eng a_eng i_eng s_eng i_eng n_eng g_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Haigsville_Drive h_WB_eng a_eng i_eng g_eng s_eng v_eng i_eng l_eng l_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Haji_Lane h_WB_eng a_eng j_eng i_eng l_eng a_eng n_eng e_WB_eng
+__Halifax_Road h_WB_eng a_eng l_eng i_eng f_eng a_eng x_eng r_eng o_eng a_eng d_WB_eng
+__Hamilton_Place h_WB_eng a_eng m_eng i_eng l_eng t_eng o_eng n_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Hampstead_Garden h_WB_eng a_eng m_eng p_eng s_eng t_eng e_eng a_eng d_eng g_eng a_eng r_eng d_eng e_eng n_WB_eng
+__Hang_Chang_Chieh h_WB_eng a_eng n_eng g_eng c_eng h_eng a_eng n_eng g_eng c_eng h_eng i_eng e_eng h_WB_eng
+__Happy_Hotel h_WB_eng a_eng p_eng p_eng y_eng h_eng o_eng t_eng e_eng l_WB_eng
+__Harlyn_Road h_WB_eng a_eng r_eng l_eng y_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Harrison_Road h_WB_eng a_eng r_eng r_eng i_eng s_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Havelock_Road h_WB_eng a_eng v_eng e_eng l_eng o_eng c_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Hiang_Foo_Siang_Temple h_WB_eng i_eng a_eng n_eng g_eng f_eng o_eng o_eng s_eng i_eng a_eng n_eng g_eng t_eng e_eng m_eng p_eng l_eng e_WB_eng
+__Hillview_Avenue h_WB_eng i_eng l_eng l_eng v_eng i_eng e_eng w_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Hilton_International h_WB_eng i_eng l_eng t_eng o_eng n_eng i_eng n_eng t_eng e_eng r_eng n_eng a_eng t_eng i_eng o_eng n_eng a_eng l_WB_eng
+__Hindhede_Road h_WB_eng i_eng n_eng d_eng h_eng e_eng d_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Hindoo_Road h_WB_eng i_eng n_eng d_eng o_eng o_eng r_eng o_eng a_eng d_WB_eng
+__Ho_Ching_Road h_WB_eng o_eng c_eng h_eng i_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Ho_Lee_Ling h_WB_eng o_eng l_eng e_eng e_eng l_eng i_eng n_eng g_WB_eng
+__Ho_Ling h_WB_eng o_eng l_eng i_eng n_eng g_WB_eng
+__Hock_Chuan h_WB_eng o_eng c_eng k_eng c_eng h_eng u_eng a_eng n_WB_eng
+__Holland_Grove_Lane h_WB_eng o_eng l_eng l_eng a_eng n_eng d_eng g_eng r_eng o_eng v_eng e_eng l_eng a_eng n_eng e_WB_eng
+__Holland_Hill h_WB_eng o_eng l_eng l_eng a_eng n_eng d_eng h_eng i_eng l_eng l_WB_eng
+__Holland_Village h_WB_eng o_eng l_eng l_eng a_eng n_eng d_eng v_eng i_eng l_eng l_eng a_eng g_eng e_WB_eng
+__Home_Team_Academy h_WB_eng o_eng m_eng e_eng t_eng e_eng a_eng m_eng a_eng c_eng a_eng d_eng e_eng m_eng y_WB_eng
+__Hong_Kah h_WB_eng o_eng n_eng g_eng k_eng a_eng h_WB_eng
+__Hong_San h_WB_eng o_eng n_eng g_eng s_eng a_eng n_WB_eng
+__Hospital_Avenue h_WB_eng o_eng s_eng p_eng i_eng t_eng a_eng l_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Hougang_Avenue h_WB_eng o_eng u_eng g_eng a_eng n_eng g_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Hougang_One h_WB_eng o_eng u_eng g_eng a_eng n_eng g_eng o_eng n_eng e_WB_eng
+__How_Sun_Drive h_WB_eng o_eng w_eng s_eng u_eng n_eng d_eng r_eng i_eng v_eng e_WB_eng
+__How_Sun_Road h_WB_eng o_eng w_eng s_eng u_eng n_eng r_eng o_eng a_eng d_WB_eng
+__How_Sun_Walk h_WB_eng o_eng w_eng s_eng u_eng n_eng w_eng a_eng l_eng k_WB_eng
+__Hsu_Tse_Kwang h_WB_eng s_eng u_eng t_eng s_eng e_eng k_eng w_eng a_eng n_eng g_WB_eng
+__Hubert_Hill h_WB_eng u_eng b_eng e_eng r_eng t_eng h_eng i_eng l_eng l_WB_eng
+__Hume_Avenue h_WB_eng u_eng m_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Hussein_Aljunied h_WB_eng u_eng s_eng s_eng e_eng i_eng n_eng a_eng l_eng j_eng u_eng n_eng i_eng e_eng d_WB_eng
+__Hwee_Kuan h_WB_eng w_eng e_eng e_eng k_eng u_eng a_eng n_WB_eng
+__Hythe_Road h_WB_eng y_eng t_eng h_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Imbiah_Walk i_WB_eng m_eng b_eng i_eng a_eng h_eng w_eng a_eng l_eng k_WB_eng
+__Inderjit_Singh i_WB_eng n_eng d_eng e_eng r_eng j_eng i_eng t_eng s_eng i_eng n_eng g_eng h_WB_eng
+__Inggu_Road i_WB_eng n_eng g_eng g_eng u_eng r_eng o_eng a_eng d_WB_eng
+__Institute_Of_Engineer_Singapore i_WB_eng n_eng s_eng t_eng i_eng t_eng u_eng t_eng e_eng o_eng f_eng e_eng n_eng g_eng i_eng n_eng e_eng e_eng r_eng s_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_WB_eng
+__International_Student_Support i_WB_eng n_eng t_eng e_eng r_eng n_eng a_eng t_eng i_eng o_eng n_eng a_eng l_eng s_eng t_eng u_eng d_eng e_eng n_eng t_eng s_eng u_eng p_eng p_eng o_eng r_eng t_WB_eng
+__Ipoh_Lane i_WB_eng p_eng o_eng h_eng l_eng a_eng n_eng e_WB_eng
+__Iqbal_Avenue i_WB_eng q_eng b_eng a_eng l_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Irving_Place i_WB_eng r_eng v_eng i_eng n_eng g_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Jalan_Anak_Bukit j_WB_eng a_eng l_eng a_eng n_eng a_eng n_eng a_eng k_eng b_eng u_eng k_eng i_eng t_WB_eng
+__Jalan_Azam'S j_WB_eng a_eng l_eng a_eng n_eng a_eng z_eng a_eng m_eng '_eng s_WB_eng
+__Jalan_Baiduri j_WB_eng a_eng l_eng a_eng n_eng b_eng a_eng i_eng d_eng u_eng r_eng i_WB_eng
+__Jalan_Bangsawan j_WB_eng a_eng l_eng a_eng n_eng b_eng a_eng n_eng g_eng s_eng a_eng w_eng a_eng n_WB_eng
+__Jalan_Basong j_WB_eng a_eng l_eng a_eng n_eng b_eng a_eng s_eng o_eng n_eng g_WB_eng
+__Jalan_Batu_Ubin j_WB_eng a_eng l_eng a_eng n_eng b_eng a_eng t_eng u_eng u_eng b_eng i_eng n_WB_eng
+__Jalan_Bena j_WB_eng a_eng l_eng a_eng n_eng b_eng e_eng n_eng a_WB_eng
+__Jalan_Berjaya j_WB_eng a_eng l_eng a_eng n_eng b_eng e_eng r_eng j_eng a_eng y_eng a_WB_eng
+__Jalan_Berseri j_WB_eng a_eng l_eng a_eng n_eng b_eng e_eng r_eng s_eng e_eng r_eng i_WB_eng
+__Jalan_Binja j_WB_eng a_eng l_eng a_eng n_eng b_eng i_eng n_eng j_eng a_WB_eng
+__Jalan_Binjai j_WB_eng a_eng l_eng a_eng n_eng b_eng i_eng n_eng j_eng a_eng i_WB_eng
+__Jalan_Boon_Lay j_WB_eng a_eng l_eng a_eng n_eng b_eng o_eng o_eng n_eng l_eng a_eng y_WB_eng
+__Jalan_Bumbong j_WB_eng a_eng l_eng a_eng n_eng b_eng u_eng m_eng b_eng o_eng n_eng g_WB_eng
+__Jalan_Bunga_Rampai j_WB_eng a_eng l_eng a_eng n_eng b_eng u_eng n_eng g_eng a_eng r_eng a_eng m_eng p_eng a_eng i_WB_eng
+__Jalan_Bungar j_WB_eng a_eng l_eng a_eng n_eng b_eng u_eng n_eng g_eng a_eng r_WB_eng
+__Jalan_Chengkek j_WB_eng a_eng l_eng a_eng n_eng c_eng h_eng e_eng n_eng g_eng k_eng e_eng k_WB_eng
+__Jalan_Dondang_Sayang j_WB_eng a_eng l_eng a_eng n_eng d_eng o_eng n_eng d_eng a_eng n_eng g_eng s_eng a_eng y_eng a_eng n_eng g_WB_eng
+__Jalan_Dua j_WB_eng a_eng l_eng a_eng n_eng d_eng u_eng a_WB_eng
+__Jalan_Dusun j_WB_eng a_eng l_eng a_eng n_eng d_eng u_eng s_eng u_eng n_WB_eng
+__Jalan_Enam j_WB_eng a_eng l_eng a_eng n_eng e_eng n_eng a_eng m_WB_eng
+__Jalan_Gemala j_WB_eng a_eng l_eng a_eng n_eng g_eng e_eng m_eng a_eng l_eng a_WB_eng
+__Jalan_Girang j_WB_eng a_eng l_eng a_eng n_eng g_eng i_eng r_eng a_eng n_eng g_WB_eng
+__Jalan_Greja j_WB_eng a_eng l_eng a_eng n_eng g_eng r_eng e_eng j_eng a_WB_eng
+__Jalan_Hajijah j_WB_eng a_eng l_eng a_eng n_eng h_eng a_eng j_eng i_eng j_eng a_eng h_WB_eng
+__Jalan_Hari_Raya j_WB_eng a_eng l_eng a_eng n_eng h_eng a_eng r_eng i_eng r_eng a_eng y_eng a_WB_eng
+__Jalan_Jeruju j_WB_eng a_eng l_eng a_eng n_eng j_eng e_eng r_eng u_eng j_eng u_WB_eng
+__Jalan_Jong j_WB_eng a_eng l_eng a_eng n_eng j_eng o_eng n_eng g_WB_eng
+__Jalan_Kampong_Chantek j_WB_eng a_eng l_eng a_eng n_eng k_eng a_eng m_eng p_eng o_eng n_eng g_eng c_eng h_eng a_eng n_eng t_eng e_eng k_WB_eng
+__Jalan_Kampong_Siglap j_WB_eng a_eng l_eng a_eng n_eng k_eng a_eng m_eng p_eng o_eng n_eng g_eng s_eng i_eng g_eng l_eng a_eng p_WB_eng
+__Jalan_Kayu_Manis j_WB_eng a_eng l_eng a_eng n_eng k_eng a_eng y_eng u_eng m_eng a_eng n_eng i_eng s_WB_eng
+__Jalan_Kechil j_WB_eng a_eng l_eng a_eng n_eng k_eng e_eng c_eng h_eng i_eng l_WB_eng
+__Jalan_Keli j_WB_eng a_eng l_eng a_eng n_eng k_eng e_eng l_eng i_WB_eng
+__Jalan_Kemaman j_WB_eng a_eng l_eng a_eng n_eng k_eng e_eng m_eng a_eng m_eng a_eng n_WB_eng
+__Jalan_Keruing j_WB_eng a_eng l_eng a_eng n_eng k_eng e_eng r_eng u_eng i_eng n_eng g_WB_eng
+__Jalan_Kesoma j_WB_eng a_eng l_eng a_eng n_eng k_eng e_eng s_eng o_eng m_eng a_WB_eng
+__Jalan_Khairuddin j_WB_eng a_eng l_eng a_eng n_eng k_eng h_eng a_eng i_eng r_eng u_eng d_eng d_eng i_eng n_WB_eng
+__Jalan_Klapa j_WB_eng a_eng l_eng a_eng n_eng k_eng l_eng a_eng p_eng a_WB_eng
+__Jalan_Kledek j_WB_eng a_eng l_eng a_eng n_eng k_eng l_eng e_eng d_eng e_eng k_WB_eng
+__Jalan_Klinik j_WB_eng a_eng l_eng a_eng n_eng k_eng l_eng i_eng n_eng i_eng k_WB_eng
+__Jalan_Kwok_Min j_WB_eng a_eng l_eng a_eng n_eng k_eng w_eng o_eng k_eng m_eng i_eng n_WB_eng
+__Jalan_Lana j_WB_eng a_eng l_eng a_eng n_eng l_eng a_eng n_eng a_WB_eng
+__Jalan_Langgar_Bedok j_WB_eng a_eng l_eng a_eng n_eng l_eng a_eng n_eng g_eng g_eng a_eng r_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Jalan_Lapang j_WB_eng a_eng l_eng a_eng n_eng l_eng a_eng p_eng a_eng n_eng g_WB_eng
+__Jalan_Layang_Layang j_WB_eng a_eng l_eng a_eng n_eng l_eng a_eng y_eng a_eng n_eng g_eng l_eng a_eng y_eng a_eng n_eng g_WB_eng
+__Jalan_Lembah_Bedok j_WB_eng a_eng l_eng a_eng n_eng l_eng e_eng m_eng b_eng a_eng h_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Jalan_Lempeng j_WB_eng a_eng l_eng a_eng n_eng l_eng e_eng m_eng p_eng e_eng n_eng g_WB_eng
+__Jalan_Lengkok j_WB_eng a_eng l_eng a_eng n_eng l_eng e_eng n_eng g_eng k_eng o_eng k_WB_eng
+__Jalan_Lengkok_Sembawang j_WB_eng a_eng l_eng a_eng n_eng l_eng e_eng n_eng g_eng k_eng o_eng k_eng s_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_WB_eng
+__Jalan_Limau_Bali j_WB_eng a_eng l_eng a_eng n_eng l_eng i_eng m_eng a_eng u_eng b_eng a_eng l_eng i_WB_eng
+__Jalan_Limau_Nipis j_WB_eng a_eng l_eng a_eng n_eng l_eng i_eng m_eng a_eng u_eng n_eng i_eng p_eng i_eng s_WB_eng
+__Jalan_Limau_Purut j_WB_eng a_eng l_eng a_eng n_eng l_eng i_eng m_eng a_eng u_eng p_eng u_eng r_eng u_eng t_WB_eng
+__Jalan_Limbok j_WB_eng a_eng l_eng a_eng n_eng l_eng i_eng m_eng b_eng o_eng k_WB_eng
+__Jalan_Mamam j_WB_eng a_eng l_eng a_eng n_eng m_eng a_eng m_eng a_eng m_WB_eng
+__Jalan_Mangkok j_WB_eng a_eng l_eng a_eng n_eng m_eng a_eng n_eng g_eng k_eng o_eng k_WB_eng
+__Jalan_Manis j_WB_eng a_eng l_eng a_eng n_eng m_eng a_eng n_eng i_eng s_WB_eng
+__Jalan_Mastuli j_WB_eng a_eng l_eng a_eng n_eng m_eng a_eng s_eng t_eng u_eng l_eng i_WB_eng
+__Jalan_Membina j_WB_eng a_eng l_eng a_eng n_eng m_eng e_eng m_eng b_eng i_eng n_eng a_WB_eng
+__Jalan_Mempurong j_WB_eng a_eng l_eng a_eng n_eng m_eng e_eng m_eng p_eng u_eng r_eng o_eng n_eng g_WB_eng
+__Jalan_Mengkudu j_WB_eng a_eng l_eng a_eng n_eng m_eng e_eng n_eng g_eng k_eng u_eng d_eng u_WB_eng
+__Jalan_Mesra j_WB_eng a_eng l_eng a_eng n_eng m_eng e_eng s_eng r_eng a_WB_eng
+__Jalan_Minggu j_WB_eng a_eng l_eng a_eng n_eng m_eng i_eng n_eng g_eng g_eng u_WB_eng
+__Jalan_Minyak j_WB_eng a_eng l_eng a_eng n_eng m_eng i_eng n_eng y_eng a_eng k_WB_eng
+__Jalan_Noordin j_WB_eng a_eng l_eng a_eng n_eng n_eng o_eng o_eng r_eng d_eng i_eng n_WB_eng
+__Jalan_Novena j_WB_eng a_eng l_eng a_eng n_eng n_eng o_eng v_eng e_eng n_eng a_WB_eng
+__Jalan_Nuri j_WB_eng a_eng l_eng a_eng n_eng n_eng u_eng r_eng i_WB_eng
+__Jalan_Paras j_WB_eng a_eng l_eng a_eng n_eng p_eng a_eng r_eng a_eng s_WB_eng
+__Jalan_Pari_Kikis j_WB_eng a_eng l_eng a_eng n_eng p_eng a_eng r_eng i_eng k_eng i_eng k_eng i_eng s_WB_eng
+__Jalan_Pelangi j_WB_eng a_eng l_eng a_eng n_eng p_eng e_eng l_eng a_eng n_eng g_eng i_WB_eng
+__Jalan_Pelatina j_WB_eng a_eng l_eng a_eng n_eng p_eng e_eng l_eng a_eng t_eng i_eng n_eng a_WB_eng
+__Jalan_Pelatok j_WB_eng a_eng l_eng a_eng n_eng p_eng e_eng l_eng a_eng t_eng o_eng k_WB_eng
+__Jalan_Pelepah j_WB_eng a_eng l_eng a_eng n_eng p_eng e_eng l_eng e_eng p_eng a_eng h_WB_eng
+__Jalan_Pelikat j_WB_eng a_eng l_eng a_eng n_eng p_eng e_eng l_eng i_eng k_eng a_eng t_WB_eng
+__Jalan_Peradun j_WB_eng a_eng l_eng a_eng n_eng p_eng e_eng r_eng a_eng d_eng u_eng n_WB_eng
+__Jalan_Pinang j_WB_eng a_eng l_eng a_eng n_eng p_eng i_eng n_eng a_eng n_eng g_WB_eng
+__Jalan_Puteri j_WB_eng a_eng l_eng a_eng n_eng p_eng u_eng t_eng e_eng r_eng i_WB_eng
+__Jalan_Rajah j_WB_eng a_eng l_eng a_eng n_eng r_eng a_eng j_eng a_eng h_WB_eng
+__Jalan_Rebana j_WB_eng a_eng l_eng a_eng n_eng r_eng e_eng b_eng a_eng n_eng a_WB_eng
+__Jalan_Remis j_WB_eng a_eng l_eng a_eng n_eng r_eng e_eng m_eng i_eng s_WB_eng
+__Jalan_Rendang j_WB_eng a_eng l_eng a_eng n_eng r_eng e_eng n_eng d_eng a_eng n_eng g_WB_eng
+__Jalan_Rukam j_WB_eng a_eng l_eng a_eng n_eng r_eng u_eng k_eng a_eng m_WB_eng
+__Jalan_Sabit j_WB_eng a_eng l_eng a_eng n_eng s_eng a_eng b_eng i_eng t_WB_eng
+__Jalan_Seh_Chuan j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng h_eng c_eng h_eng u_eng a_eng n_WB_eng
+__Jalan_Selamat j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng l_eng a_eng m_eng a_eng t_WB_eng
+__Jalan_Selimang j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng l_eng i_eng m_eng a_eng n_eng g_WB_eng
+__Jalan_Senang j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng n_eng a_eng n_eng g_WB_eng
+__Jalan_Sendudok j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng n_eng d_eng u_eng d_eng o_eng k_WB_eng
+__Jalan_Senyum j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng n_eng y_eng u_eng m_WB_eng
+__Jalan_Setia j_WB_eng a_eng l_eng a_eng n_eng s_eng e_eng t_eng i_eng a_WB_eng
+__Jalan_Shaer j_WB_eng a_eng l_eng a_eng n_eng s_eng h_eng a_eng e_eng r_WB_eng
+__Jalan_Siap j_WB_eng a_eng l_eng a_eng n_eng s_eng i_eng a_eng p_WB_eng
+__Jalan_Simpang_Bedok j_WB_eng a_eng l_eng a_eng n_eng s_eng i_eng m_eng p_eng a_eng n_eng g_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Jalan_Sukachita j_WB_eng a_eng l_eng a_eng n_eng s_eng u_eng k_eng a_eng c_eng h_eng i_eng t_eng a_WB_eng
+__Jalan_Sungei_Poyan j_WB_eng a_eng l_eng a_eng n_eng s_eng u_eng n_eng g_eng e_eng i_eng p_eng o_eng y_eng a_eng n_WB_eng
+__Jalan_Tan_Tock_Seng j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng n_eng t_eng o_eng c_eng k_eng s_eng e_eng n_eng g_WB_eng
+__Jalan_Tanah j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng n_eng a_eng h_WB_eng
+__Jalan_Tanah_Rata j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng n_eng a_eng h_eng r_eng a_eng t_eng a_WB_eng
+__Jalan_Tanjong j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng n_eng j_eng o_eng n_eng g_WB_eng
+__Jalan_Tari_Lilin j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng r_eng i_eng l_eng i_eng l_eng i_eng n_WB_eng
+__Jalan_Tari_Zapin j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng r_eng i_eng z_eng a_eng p_eng i_eng n_WB_eng
+__Jalan_Tarum j_WB_eng a_eng l_eng a_eng n_eng t_eng a_eng r_eng u_eng m_WB_eng
+__Jalan_Tenang j_WB_eng a_eng l_eng a_eng n_eng t_eng e_eng n_eng a_eng n_eng g_WB_eng
+__Jalan_Tenteram j_WB_eng a_eng l_eng a_eng n_eng t_eng e_eng n_eng t_eng e_eng r_eng a_eng m_WB_eng
+__Jalan_Tepong j_WB_eng a_eng l_eng a_eng n_eng t_eng e_eng p_eng o_eng n_eng g_WB_eng
+__Jalan_Tiga_Ratus j_WB_eng a_eng l_eng a_eng n_eng t_eng i_eng g_eng a_eng r_eng a_eng t_eng u_eng s_WB_eng
+__Jalan_Ulu_Seletar j_WB_eng a_eng l_eng a_eng n_eng u_eng l_eng u_eng s_eng e_eng l_eng e_eng t_eng a_eng r_WB_eng
+__Jalan_Ulu_Sembawang j_WB_eng a_eng l_eng a_eng n_eng u_eng l_eng u_eng s_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_WB_eng
+__Jalan_Wajek j_WB_eng a_eng l_eng a_eng n_eng w_eng a_eng j_eng e_eng k_WB_eng
+__Jalan_Yasin j_WB_eng a_eng l_eng a_eng n_eng y_eng a_eng s_eng i_eng n_WB_eng
+__Jalan_Zamrud j_WB_eng a_eng l_eng a_eng n_eng z_eng a_eng m_eng r_eng u_eng d_WB_eng
+__Jamaica_Road j_WB_eng a_eng m_eng a_eng i_eng c_eng a_eng r_eng o_eng a_eng d_WB_eng
+__Janet_Lim j_WB_eng a_eng n_eng e_eng t_eng l_eng i_eng m_WB_eng
+__Janil_Puthucheary j_WB_eng a_eng n_eng i_eng l_eng p_eng u_eng t_eng h_eng u_eng c_eng h_eng e_eng a_eng r_eng y_WB_eng
+__Jervois_Hill j_WB_eng e_eng r_eng v_eng o_eng i_eng s_eng h_eng i_eng l_eng l_WB_eng
+__Ji_Huang_Kok j_WB_eng i_eng h_eng u_eng a_eng n_eng g_eng k_eng o_eng k_WB_eng
+__Jiak_Chuan_Road j_WB_eng i_eng a_eng k_eng c_eng h_eng u_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Joan_Road j_WB_eng o_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Joanne_Soo j_WB_eng o_eng a_eng n_eng n_eng e_eng s_eng o_eng o_WB_eng
+__John_Fearns_Nicolls j_WB_eng o_eng h_eng n_eng f_eng e_eng a_eng r_eng n_eng s_eng n_eng i_eng c_eng o_eng l_eng l_eng s_WB_eng
+__John_Le_Cain j_WB_eng o_eng h_eng n_eng l_eng e_eng c_eng a_eng i_eng n_WB_eng
+__John_Morrice j_WB_eng o_eng h_eng n_eng m_eng o_eng r_eng r_eng i_eng c_eng e_WB_eng
+__Joo_Avenue j_WB_eng o_eng o_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Joo_Koon_Crescent j_WB_eng o_eng o_eng k_eng o_eng o_eng n_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Jula_Juli j_WB_eng u_eng l_eng a_eng j_eng u_eng l_eng i_WB_eng
+__Junction_Nine j_WB_eng u_eng n_eng c_eng t_eng i_eng o_eng n_eng n_eng i_eng n_eng e_WB_eng
+__Jupiter_Road j_WB_eng u_eng p_eng i_eng t_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Jurong_Bird j_WB_eng u_eng r_eng o_eng n_eng g_eng b_eng i_eng r_eng d_WB_eng
+__Jurong_East_Avenue j_WB_eng u_eng r_eng o_eng n_eng g_eng e_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Jurong_Island j_WB_eng u_eng r_eng o_eng n_eng g_eng i_eng s_eng l_eng a_eng n_eng d_WB_eng
+__Jurong_Port j_WB_eng u_eng r_eng o_eng n_eng g_eng p_eng o_eng r_eng t_WB_eng
+__Jurong_West j_WB_eng u_eng r_eng o_eng n_eng g_eng w_eng e_eng s_eng t_WB_eng
+__Jurong_West_Avenue j_WB_eng u_eng r_eng o_eng n_eng g_eng w_eng e_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Jurong_West_Central j_WB_eng u_eng r_eng o_eng n_eng g_eng w_eng e_eng s_eng t_eng c_eng e_eng n_eng t_eng r_eng a_eng l_WB_eng
+__Kaki_Bukit k_WB_eng a_eng k_eng i_eng b_eng u_eng k_eng i_eng t_WB_eng
+__Kallang_Airport_Drive k_WB_eng a_eng l_eng l_eng a_eng n_eng g_eng a_eng i_eng r_eng p_eng o_eng r_eng t_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Kampong_Ampat k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng a_eng m_eng p_eng a_eng t_WB_eng
+__Kampong_Arang_Road k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng a_eng r_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Kampong_Bahru k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng b_eng a_eng h_eng r_eng u_WB_eng
+__Kampong_Bahru_Road k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng b_eng a_eng h_eng r_eng u_eng r_eng o_eng a_eng d_WB_eng
+__Kampong_Bugis k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng b_eng u_eng g_eng i_eng s_WB_eng
+__Kampong_Bugis_Crescent k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng b_eng u_eng g_eng i_eng s_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Kampong_Bukit_Coffee k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng b_eng u_eng k_eng i_eng t_eng c_eng o_eng f_eng f_eng e_eng e_WB_eng
+__Kampong_Chai_Chee k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng c_eng h_eng a_eng i_eng c_eng h_eng e_eng e_WB_eng
+__Kampong_Eunos k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng e_eng u_eng n_eng o_eng s_WB_eng
+__Kampong_Glam k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng g_eng l_eng a_eng m_WB_eng
+__Kampong_Java k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng j_eng a_eng v_eng a_WB_eng
+__Kampong_Kapor_Road k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng k_eng a_eng p_eng o_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Kampong_Kayu_Road k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng k_eng a_eng y_eng u_eng r_eng o_eng a_eng d_WB_eng
+__Kampong_Kembangan k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng k_eng e_eng m_eng b_eng a_eng n_eng g_eng a_eng n_WB_eng
+__Kampong_Sireh k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng s_eng i_eng r_eng e_eng h_WB_eng
+__Kampong_Sungai_Tiga k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng s_eng u_eng n_eng g_eng a_eng i_eng t_eng i_eng g_eng a_WB_eng
+__Kampong_Ubi k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng u_eng b_eng i_WB_eng
+__Kampong_Wak_Hassan k_WB_eng a_eng m_eng p_eng o_eng n_eng g_eng w_eng a_eng k_eng h_eng a_eng s_eng s_eng a_eng n_WB_eng
+__Kampung_Glam k_WB_eng a_eng m_eng p_eng u_eng n_eng g_eng g_eng l_eng a_eng m_WB_eng
+__Kampung_Melayu k_WB_eng a_eng m_eng p_eng u_eng n_eng g_eng m_eng e_eng l_eng a_eng y_eng u_WB_eng
+__Katmandu_Road k_WB_eng a_eng t_eng m_eng a_eng n_eng d_eng u_eng r_eng o_eng a_eng d_WB_eng
+__Kay_Siang_Road k_WB_eng a_eng y_eng s_eng i_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Keat_Hong_Link k_WB_eng e_eng a_eng t_eng h_eng o_eng n_eng g_eng l_eng i_eng n_eng k_WB_eng
+__Kebun_Baru k_WB_eng e_eng b_eng u_eng n_eng b_eng a_eng r_eng u_WB_eng
+__Keck_Seng k_WB_eng e_eng c_eng k_eng s_eng e_eng n_eng g_WB_eng
+__Kee_Seng_Street k_WB_eng e_eng e_eng s_eng e_eng n_eng g_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Kee_Sun_Avenue k_WB_eng e_eng e_eng s_eng u_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Keene_Road k_WB_eng e_eng e_eng n_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Keng_Lee_Road k_WB_eng e_eng n_eng g_eng l_eng e_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Kent_Ridge_Crescent k_WB_eng e_eng n_eng t_eng r_eng i_eng d_eng g_eng e_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Kent_Ridge_Drive k_WB_eng e_eng n_eng t_eng r_eng i_eng d_eng g_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Kent_Road k_WB_eng e_eng n_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Kenya_Crescent k_WB_eng e_eng n_eng y_eng a_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Keppel_Bay k_WB_eng e_eng p_eng p_eng e_eng l_eng b_eng a_eng y_WB_eng
+__Keramat_Road k_WB_eng e_eng r_eng a_eng m_eng a_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Kerong_Walk k_WB_eng e_eng r_eng o_eng n_eng g_eng w_eng a_eng l_eng k_WB_eng
+__Kew_Avenue k_WB_eng e_eng w_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Kew_Walk k_WB_eng e_eng w_eng w_eng a_eng l_eng k_WB_eng
+__Khaw_Boon_Wan k_WB_eng h_eng a_eng w_eng b_eng o_eng o_eng n_eng w_eng a_eng n_WB_eng
+__Kian_Teck_Road k_WB_eng i_eng a_eng n_eng t_eng e_eng c_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Kiew_Sian_King k_WB_eng i_eng e_eng w_eng s_eng i_eng a_eng n_eng k_eng i_eng n_eng g_WB_eng
+__Kim_Chuan_Road k_WB_eng i_eng m_eng c_eng h_eng u_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Kim_Hong k_WB_eng i_eng m_eng h_eng o_eng n_eng g_WB_eng
+__Kim_Keat k_WB_eng i_eng m_eng k_eng e_eng a_eng t_WB_eng
+__Kim_Seng k_WB_eng i_eng m_eng s_eng e_eng n_eng g_WB_eng
+__Kim_Seng_Road k_WB_eng i_eng m_eng s_eng e_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Kim_Tian_Place k_WB_eng i_eng m_eng t_eng i_eng a_eng n_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Kinara_Lane k_WB_eng i_eng n_eng a_eng r_eng a_eng l_eng a_eng n_eng e_WB_eng
+__Kismis_Road k_WB_eng i_eng s_eng m_eng i_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Kitchener_Road k_WB_eng i_eng t_eng c_eng h_eng e_eng n_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Klang_Road k_WB_eng l_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Koh_Mui_Hiang k_WB_eng o_eng h_eng m_eng u_eng i_eng h_eng i_eng a_eng n_eng g_WB_eng
+__Koh_Seow_Chuan k_WB_eng o_eng h_eng s_eng e_eng o_eng w_eng c_eng h_eng u_eng a_eng n_WB_eng
+__Kouo_Shang_Wei k_WB_eng o_eng u_eng o_eng s_eng h_eng a_eng n_eng g_eng w_eng e_eng i_WB_eng
+__Kranji_Commonwealth k_WB_eng r_eng a_eng n_eng j_eng i_eng c_eng o_eng m_eng m_eng o_eng n_eng w_eng e_eng a_eng l_eng t_eng h_WB_eng
+__Kranji_Crescent k_WB_eng r_eng a_eng n_eng j_eng i_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Kreta_Ayer k_WB_eng r_eng e_eng t_eng a_eng a_eng y_eng e_eng r_WB_eng
+__Kuang_Chee_Tng k_WB_eng u_eng a_eng n_eng g_eng c_eng h_eng e_eng e_eng t_eng n_eng g_WB_eng
+__Kwan_Im_Tng k_WB_eng w_eng a_eng n_eng i_eng m_eng t_eng n_eng g_WB_eng
+__Kwan_Imm_See k_WB_eng w_eng a_eng n_eng i_eng m_eng m_eng s_eng e_eng e_WB_eng
+__Kwong_Min_Road k_WB_eng w_eng o_eng n_eng g_eng m_eng i_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Kwong_Wai_Siew k_WB_eng w_eng o_eng n_eng g_eng w_eng a_eng i_eng s_eng i_eng e_eng w_WB_eng
+__La_Mode l_WB_eng a_eng m_eng o_eng d_eng e_WB_eng
+__Lam_Pin_Min l_WB_eng a_eng m_eng p_eng i_eng n_eng m_eng i_eng n_WB_eng
+__Lambeth_Walk l_WB_eng a_eng m_eng b_eng e_eng t_eng h_eng w_eng a_eng l_eng k_WB_eng
+__Larkhill_Road l_WB_eng a_eng r_eng k_eng h_eng i_eng l_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Lau_Kuo_Kwong_Robert l_WB_eng a_eng u_eng k_eng u_eng o_eng k_eng w_eng o_eng n_eng g_eng r_eng o_eng b_eng e_eng r_eng t_WB_eng
+__Lavender_Street l_WB_eng a_eng v_eng e_eng n_eng d_eng e_eng r_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Le_Peranakan l_WB_eng e_eng p_eng e_eng r_eng a_eng n_eng a_eng k_eng a_eng n_WB_eng
+__Lee_Boon_Ngan l_WB_eng e_eng e_eng b_eng o_eng o_eng n_eng n_eng g_eng a_eng n_WB_eng
+__Lee_Kong_Chian l_WB_eng e_eng e_eng k_eng o_eng n_eng g_eng c_eng h_eng i_eng a_eng n_WB_eng
+__Lee_Kong_Yan l_WB_eng e_eng e_eng k_eng o_eng n_eng g_eng y_eng a_eng n_WB_eng
+__Lee_Shih_Shiong_Peter l_WB_eng e_eng e_eng s_eng h_eng i_eng h_eng s_eng h_eng i_eng o_eng n_eng g_eng p_eng e_eng t_eng e_eng r_WB_eng
+__Lempeng_Drive l_WB_eng e_eng m_eng p_eng e_eng n_eng g_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Leng_Chai_Chee l_WB_eng e_eng n_eng g_eng c_eng h_eng a_eng i_eng c_eng h_eng e_eng e_WB_eng
+__Lengkok_Angsa l_WB_eng e_eng n_eng g_eng k_eng o_eng k_eng a_eng n_eng g_eng s_eng a_WB_eng
+__Lengkok_Lima l_WB_eng e_eng n_eng g_eng k_eng o_eng k_eng l_eng i_eng m_eng a_WB_eng
+__Lengkok_Satu l_WB_eng e_eng n_eng g_eng k_eng o_eng k_eng s_eng a_eng t_eng u_WB_eng
+__Lengkok_Satu_Sago_Street l_WB_eng e_eng n_eng g_eng k_eng o_eng k_eng s_eng a_eng t_eng u_eng s_eng a_eng g_eng o_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Lengkong_Dua l_WB_eng e_eng n_eng g_eng k_eng o_eng n_eng g_eng d_eng u_eng a_WB_eng
+__Lentor_Way l_WB_eng e_eng n_eng t_eng o_eng r_eng w_eng a_eng y_WB_eng
+__Leo_Drive l_WB_eng e_eng o_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Lew_Lian_Vale l_WB_eng e_eng w_eng l_eng i_eng a_eng n_eng v_eng a_eng l_eng e_WB_eng
+__Lewis_Road l_WB_eng e_eng w_eng i_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Li_Hui_Cheng l_WB_eng i_eng h_eng u_eng i_eng c_eng h_eng e_eng n_eng g_WB_eng
+__Liane_Road l_WB_eng i_eng a_eng n_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Liang_Court l_WB_eng i_eng a_eng n_eng g_eng c_eng o_eng u_eng r_eng t_WB_eng
+__Liao_Yingru l_WB_eng i_eng a_eng o_eng y_eng i_eng n_eng g_eng r_eng u_WB_eng
+__Lichi_Avenue l_WB_eng i_eng c_eng h_eng i_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Lien_Ying_Chow_Drive l_WB_eng i_eng e_eng n_eng y_eng i_eng n_eng g_eng c_eng h_eng o_eng w_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Lilac_Road l_WB_eng i_eng l_eng a_eng c_eng r_eng o_eng a_eng d_WB_eng
+__Lilliputt_Indoor_Mini_Golf l_WB_eng i_eng l_eng l_eng i_eng p_eng u_eng t_eng t_eng i_eng n_eng d_eng o_eng o_eng r_eng m_eng i_eng n_eng i_eng g_eng o_eng l_eng f_WB_eng
+__Lily_Avenue l_WB_eng i_eng l_eng y_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Lim_Ah_Pin_Road l_WB_eng i_eng m_eng a_eng h_eng p_eng i_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Lim_Ah_Woo_Road l_WB_eng i_eng m_eng a_eng h_eng w_eng o_eng o_eng r_eng o_eng a_eng d_WB_eng
+__Lim_Chong_Pang l_WB_eng i_eng m_eng c_eng h_eng o_eng n_eng g_eng p_eng a_eng n_eng g_WB_eng
+__Lim_Chu_Kang l_WB_eng i_eng m_eng c_eng h_eng u_eng k_eng a_eng n_eng g_WB_eng
+__Lim_Chu_Kang_Lane l_WB_eng i_eng m_eng c_eng h_eng u_eng k_eng a_eng n_eng g_eng l_eng a_eng n_eng e_WB_eng
+__Lim_Lee l_WB_eng i_eng m_eng l_eng e_eng e_WB_eng
+__Lim_Teck_Boo_Road l_WB_eng i_eng m_eng t_eng e_eng c_eng k_eng b_eng o_eng o_eng r_eng o_eng a_eng d_WB_eng
+__Lim_Teck_Kim_Road l_WB_eng i_eng m_eng t_eng e_eng c_eng k_eng k_eng i_eng m_eng r_eng o_eng a_eng d_WB_eng
+__Lim_Tua_Tow_Road l_WB_eng i_eng m_eng t_eng u_eng a_eng t_eng o_eng w_eng r_eng o_eng a_eng d_WB_eng
+__Limau_Garden l_WB_eng i_eng m_eng a_eng u_eng g_eng a_eng r_eng d_eng e_eng n_WB_eng
+__Lin_Tan l_WB_eng i_eng n_eng t_eng a_eng n_WB_eng
+__Little_Road l_WB_eng i_eng t_eng t_eng l_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Lloyd_Road l_WB_eng l_eng o_eng y_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Loh_Lik_Peng l_WB_eng o_eng h_eng l_eng i_eng k_eng p_eng e_eng n_eng g_WB_eng
+__Lornie_Walk l_WB_eng o_eng r_eng n_eng i_eng e_eng w_eng a_eng l_eng k_WB_eng
+__Lorong_Abu_Talib l_WB_eng o_eng r_eng o_eng n_eng g_eng a_eng b_eng u_eng t_eng a_eng l_eng i_eng b_WB_eng
+__Lorong_Bachok l_WB_eng o_eng r_eng o_eng n_eng g_eng b_eng a_eng c_eng h_eng o_eng k_WB_eng
+__Lorong_Batawi l_WB_eng o_eng r_eng o_eng n_eng g_eng b_eng a_eng t_eng a_eng w_eng i_WB_eng
+__Lorong_Buangkok l_WB_eng o_eng r_eng o_eng n_eng g_eng b_eng u_eng a_eng n_eng g_eng k_eng o_eng k_WB_eng
+__Lorong_Gambas l_WB_eng o_eng r_eng o_eng n_eng g_eng g_eng a_eng m_eng b_eng a_eng s_WB_eng
+__Lorong_Kembang l_WB_eng o_eng r_eng o_eng n_eng g_eng k_eng e_eng m_eng b_eng a_eng n_eng g_WB_eng
+__Lorong_Kilat_Pek_Kio l_WB_eng o_eng r_eng o_eng n_eng g_eng k_eng i_eng l_eng a_eng t_eng p_eng e_eng k_eng k_eng i_eng o_WB_eng
+__Lorong_Lew_Lian l_WB_eng o_eng r_eng o_eng n_eng g_eng l_eng e_eng w_eng l_eng i_eng a_eng n_WB_eng
+__Lorong_Mesu l_WB_eng o_eng r_eng o_eng n_eng g_eng m_eng e_eng s_eng u_WB_eng
+__Lorong_Pasu l_WB_eng o_eng r_eng o_eng n_eng g_eng p_eng a_eng s_eng u_WB_eng
+__Lorong_Paya_Lebar l_WB_eng o_eng r_eng o_eng n_eng g_eng p_eng a_eng y_eng a_eng l_eng e_eng b_eng a_eng r_WB_eng
+__Lorong_Pendek l_WB_eng o_eng r_eng o_eng n_eng g_eng p_eng e_eng n_eng d_eng e_eng k_WB_eng
+__Lorong_Pisang_Asam l_WB_eng o_eng r_eng o_eng n_eng g_eng p_eng i_eng s_eng a_eng n_eng g_eng a_eng s_eng a_eng m_WB_eng
+__Lorong_Pisang_Batu l_WB_eng o_eng r_eng o_eng n_eng g_eng p_eng i_eng s_eng a_eng n_eng g_eng b_eng a_eng t_eng u_WB_eng
+__Lorong_Sarina_D'Leedon l_WB_eng o_eng r_eng o_eng n_eng g_eng s_eng a_eng r_eng i_eng n_eng a_eng d_eng '_eng l_eng e_eng e_eng d_eng o_eng n_WB_eng
+__Lorong_Siglap l_WB_eng o_eng r_eng o_eng n_eng g_eng s_eng i_eng g_eng l_eng a_eng p_WB_eng
+__Lorong_Sinaran l_WB_eng o_eng r_eng o_eng n_eng g_eng s_eng i_eng n_eng a_eng r_eng a_eng n_WB_eng
+__Louis_Chen l_WB_eng o_eng u_eng i_eng s_eng c_eng h_eng e_eng n_WB_eng
+__Lower_Seletar_Close l_WB_eng o_eng w_eng e_eng r_eng s_eng e_eng l_eng e_eng t_eng a_eng r_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Lower_Seletar_Reservoir l_WB_eng o_eng w_eng e_eng r_eng s_eng e_eng l_eng e_eng t_eng a_eng r_eng r_eng e_eng s_eng e_eng r_eng v_eng o_eng i_eng r_WB_eng
+__Loyang_Street l_WB_eng o_eng y_eng a_eng n_eng g_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Lucy_Tan l_WB_eng u_eng c_eng y_eng t_eng a_eng n_WB_eng
+__Lutheran_Road l_WB_eng u_eng t_eng h_eng e_eng r_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Macalister_Road m_WB_eng a_eng c_eng a_eng l_eng i_eng s_eng t_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Macpherson_Road m_WB_eng a_eng c_eng p_eng h_eng e_eng r_eng s_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Macritchie_Reservoir m_WB_eng a_eng c_eng r_eng i_eng t_eng c_eng h_eng i_eng e_eng r_eng e_eng s_eng e_eng r_eng v_eng o_eng i_eng r_WB_eng
+__Maggie_Teng m_WB_eng a_eng g_eng g_eng i_eng e_eng t_eng e_eng n_eng g_WB_eng
+__Mah_Bow_Tan m_WB_eng a_eng h_eng b_eng o_eng w_eng t_eng a_eng n_WB_eng
+__Management_Development_Institute_Of_Singapore m_WB_eng a_eng n_eng a_eng g_eng e_eng m_eng e_eng n_eng t_eng d_eng e_eng v_eng e_eng l_eng o_eng p_eng m_eng e_eng n_eng t_eng i_eng n_eng s_eng t_eng i_eng t_eng u_eng t_eng e_eng o_eng f_eng s_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_WB_eng
+__Mandai_Tekong m_WB_eng a_eng n_eng d_eng a_eng i_eng t_eng e_eng k_eng o_eng n_eng g_WB_eng
+__Mandarin_Gardens m_WB_eng a_eng n_eng d_eng a_eng r_eng i_eng n_eng g_eng a_eng r_eng d_eng e_eng n_eng s_WB_eng
+__Manila_Street m_WB_eng a_eng n_eng i_eng l_eng a_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Maple_Avenue m_WB_eng a_eng p_eng l_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Margate_Road m_WB_eng a_eng r_eng g_eng a_eng t_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Marina_Bay m_WB_eng a_eng r_eng i_eng n_eng a_eng b_eng a_eng y_WB_eng
+__Marina_Bay_Sands m_WB_eng a_eng r_eng i_eng n_eng a_eng b_eng a_eng y_eng s_eng a_eng n_eng d_eng s_WB_eng
+__Marina_One m_WB_eng a_eng r_eng i_eng n_eng a_eng o_eng n_eng e_WB_eng
+__Marina_Promenade m_WB_eng a_eng r_eng i_eng n_eng a_eng p_eng r_eng o_eng m_eng e_eng n_eng a_eng d_eng e_WB_eng
+__Marina_Way m_WB_eng a_eng r_eng i_eng n_eng a_eng w_eng a_eng y_WB_eng
+__Marine_Parade m_WB_eng a_eng r_eng i_eng n_eng e_eng p_eng a_eng r_eng a_eng d_eng e_WB_eng
+__Marine_Parade_Road m_WB_eng a_eng r_eng i_eng n_eng e_eng p_eng a_eng r_eng a_eng d_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Maris_Stella m_WB_eng a_eng r_eng i_eng s_eng s_eng t_eng e_eng l_eng l_eng a_WB_eng
+__Maritime_Square m_WB_eng a_eng r_eng i_eng t_eng i_eng m_eng e_eng s_eng q_eng u_eng a_eng r_eng e_WB_eng
+__Marshall_Lane m_WB_eng a_eng r_eng s_eng h_eng a_eng l_eng l_eng l_eng a_eng n_eng e_WB_eng
+__Marsiling_Crescent m_WB_eng a_eng r_eng s_eng i_eng l_eng i_eng n_eng g_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Marsiling_Drive m_WB_eng a_eng r_eng s_eng i_eng l_eng i_eng n_eng g_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Marsiling_Neighbourhood m_WB_eng a_eng r_eng s_eng i_eng l_eng i_eng n_eng g_eng n_eng e_eng i_eng g_eng h_eng b_eng o_eng u_eng r_eng h_eng o_eng o_eng d_WB_eng
+__Marsiling_Rise m_WB_eng a_eng r_eng s_eng i_eng l_eng i_eng n_eng g_eng r_eng i_eng s_eng e_WB_eng
+__Marsiling_Road m_WB_eng a_eng r_eng s_eng i_eng l_eng i_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Martin_Road m_WB_eng a_eng r_eng t_eng i_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Masjid_Alkaff m_WB_eng a_eng s_eng j_eng i_eng d_eng a_eng l_eng k_eng a_eng f_eng f_WB_eng
+__Mayflower_Way m_WB_eng a_eng y_eng f_eng l_eng o_eng w_eng e_eng r_eng w_eng a_eng y_WB_eng
+__Medical_Drive m_WB_eng e_eng d_eng i_eng c_eng a_eng l_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Mei_Chin_Road m_WB_eng e_eng i_eng c_eng h_eng i_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Mei_Hwan_Drive m_WB_eng e_eng i_eng h_eng w_eng a_eng n_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Meng_Suan_Road m_WB_eng e_eng n_eng g_eng s_eng u_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Meranti_Avenue m_WB_eng e_eng r_eng a_eng n_eng t_eng i_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Merlimau_Place m_WB_eng e_eng r_eng l_eng i_eng m_eng a_eng u_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Meteorological_Services_Singapore m_WB_eng e_eng t_eng e_eng o_eng r_eng o_eng l_eng o_eng g_eng i_eng c_eng a_eng l_eng s_eng e_eng r_eng v_eng i_eng c_eng e_eng s_eng s_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_WB_eng
+__Methodist_Girls' m_WB_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_eng g_eng i_eng r_eng l_eng s_eng '_WB_eng
+__Michelle_Lim m_WB_eng i_eng c_eng h_eng e_eng l_eng l_eng e_eng l_eng i_eng m_WB_eng
+__Middlesex_Road m_WB_eng i_eng d_eng d_eng l_eng e_eng s_eng e_eng x_eng r_eng o_eng a_eng d_WB_eng
+__Miller_Street m_WB_eng i_eng l_eng l_eng e_eng r_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Miltonia_Link m_WB_eng i_eng l_eng t_eng o_eng n_eng i_eng a_eng l_eng i_eng n_eng k_WB_eng
+__Mimosa_Vale m_WB_eng i_eng m_eng o_eng s_eng a_eng v_eng a_eng l_eng e_WB_eng
+__Monk'S_Hill_Road m_WB_eng o_eng n_eng k_eng '_eng s_eng h_eng i_eng l_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Montreal_Link m_WB_eng o_eng n_eng t_eng r_eng e_eng a_eng l_eng l_eng i_eng n_eng k_WB_eng
+__Moonbeam_Drive m_WB_eng o_eng o_eng n_eng b_eng e_eng a_eng m_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Moonbeam_Walk m_WB_eng o_eng o_eng n_eng b_eng e_eng a_eng m_eng w_eng a_eng l_eng k_WB_eng
+__Moral_Welfare m_WB_eng o_eng r_eng a_eng l_eng w_eng e_eng l_eng f_eng a_eng r_eng e_WB_eng
+__Moreton_Close m_WB_eng o_eng r_eng e_eng t_eng o_eng n_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Morgan_Chua m_WB_eng o_eng r_eng g_eng a_eng n_eng c_eng h_eng u_eng a_WB_eng
+__Moriah_Bible_Presby m_WB_eng o_eng r_eng i_eng a_eng h_eng b_eng i_eng b_eng l_eng e_eng p_eng r_eng e_eng s_eng b_eng y_WB_eng
+__Mornington_Crescent m_WB_eng o_eng r_eng n_eng i_eng n_eng g_eng t_eng o_eng n_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Mount_Faber_Loop m_WB_eng o_eng u_eng n_eng t_eng f_eng a_eng b_eng e_eng r_eng l_eng o_eng o_eng p_WB_eng
+__Mount_Faber_Road m_WB_eng o_eng u_eng n_eng t_eng f_eng a_eng b_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Movenpick_Heritage m_WB_eng o_eng v_eng e_eng n_eng p_eng i_eng c_eng k_eng h_eng e_eng r_eng i_eng t_eng a_eng g_eng e_WB_eng
+__Muhammadiyah_Welfare m_WB_eng u_eng h_eng a_eng m_eng m_eng a_eng d_eng i_eng y_eng a_eng h_eng w_eng e_eng l_eng f_eng a_eng r_eng e_WB_eng
+__Mulberry_Avenue m_WB_eng u_eng l_eng b_eng e_eng r_eng r_eng y_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Muswell_Hill m_WB_eng u_eng s_eng w_eng e_eng l_eng l_eng h_eng i_eng l_eng l_WB_eng
+__My_Saviour'S m_WB_eng y_eng s_eng a_eng v_eng i_eng o_eng u_eng r_eng '_eng s_WB_eng
+__N_Palanivelu n_WB_eng p_eng a_eng l_eng a_eng n_eng i_eng v_eng e_eng l_eng u_WB_eng
+__Nagore_Dargah n_WB_eng a_eng g_eng o_eng r_eng e_eng d_eng a_eng r_eng g_eng a_eng h_WB_eng
+__Namly_Rise n_WB_eng a_eng m_eng l_eng y_eng r_eng i_eng s_eng e_WB_eng
+__Nan_Chiau n_WB_eng a_eng n_eng c_eng h_eng i_eng a_eng u_WB_eng
+__Nanyang_Avenue n_WB_eng a_eng n_eng y_eng a_eng n_eng g_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Nanyang_Girls' n_WB_eng a_eng n_eng y_eng a_eng n_eng g_eng g_eng i_eng r_eng l_eng s_eng '_WB_eng
+__Nanyang_Poly_Drive n_WB_eng a_eng n_eng y_eng a_eng n_eng g_eng p_eng o_eng l_eng y_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Nanyang_Valley n_WB_eng a_eng n_eng y_eng a_eng n_eng g_eng v_eng a_eng l_eng l_eng e_eng y_WB_eng
+__Napier_Road n_WB_eng a_eng p_eng i_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Nasi_Goreng n_WB_eng a_eng s_eng i_eng g_eng o_eng r_eng e_eng n_eng g_WB_eng
+__Natalie_Hennedige n_WB_eng a_eng t_eng a_eng l_eng i_eng e_eng h_eng e_eng n_eng n_eng e_eng d_eng i_eng g_eng e_WB_eng
+__National_Arts_Council n_WB_eng a_eng t_eng i_eng o_eng n_eng a_eng l_eng a_eng r_eng t_eng s_eng c_eng o_eng u_eng n_eng c_eng i_eng l_WB_eng
+__National_Equestrian_Centre n_WB_eng a_eng t_eng i_eng o_eng n_eng a_eng l_eng e_eng q_eng u_eng e_eng s_eng t_eng r_eng i_eng a_eng n_eng c_eng e_eng n_eng t_eng r_eng e_WB_eng
+__National_Neuroscience_Institute n_WB_eng a_eng t_eng i_eng o_eng n_eng a_eng l_eng n_eng e_eng u_eng r_eng o_eng s_eng c_eng i_eng e_eng n_eng c_eng e_eng i_eng n_eng s_eng t_eng i_eng t_eng u_eng t_eng e_WB_eng
+__National_Neuroscience_Institute_Of_Singapore n_WB_eng a_eng t_eng i_eng o_eng n_eng a_eng l_eng n_eng e_eng u_eng r_eng o_eng s_eng c_eng i_eng e_eng n_eng c_eng e_eng i_eng n_eng s_eng t_eng i_eng t_eng u_eng t_eng e_eng o_eng f_eng s_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_WB_eng
+__Nativity_Of_The_Blessed_Virgin_Mary_Concord n_WB_eng a_eng t_eng i_eng v_eng i_eng t_eng y_eng o_eng f_eng t_eng h_eng e_eng b_eng l_eng e_eng s_eng s_eng e_eng d_eng v_eng i_eng r_eng g_eng i_eng n_eng m_eng a_eng r_eng y_eng c_eng o_eng n_eng c_eng o_eng r_eng d_WB_eng
+__Nee_Soon n_WB_eng e_eng e_eng s_eng o_eng o_eng n_WB_eng
+__Nee_Soon_East n_WB_eng e_eng e_eng s_eng o_eng o_eng n_eng e_eng a_eng s_eng t_WB_eng
+__Neo_Tiew_Lane n_WB_eng e_eng o_eng t_eng i_eng e_eng w_eng l_eng a_eng n_eng e_WB_eng
+__Neo_Tiew_Road n_WB_eng e_eng o_eng t_eng i_eng e_eng w_eng r_eng o_eng a_eng d_WB_eng
+__Nepal_Link n_WB_eng e_eng p_eng a_eng l_eng l_eng i_eng n_eng k_WB_eng
+__Newton_Cirus n_WB_eng e_eng w_eng t_eng o_eng n_eng c_eng i_eng r_eng u_eng s_WB_eng
+__Newton_Life n_WB_eng e_eng w_eng t_eng o_eng n_eng l_eng i_eng f_eng e_WB_eng
+__Nexus_International_School n_WB_eng e_eng x_eng u_eng s_eng i_eng n_eng t_eng e_eng r_eng n_eng a_eng t_eng i_eng o_eng n_eng a_eng l_eng s_eng c_eng h_eng o_eng o_eng l_WB_eng
+__Ng_Chee_Meng n_WB_eng g_eng c_eng h_eng e_eng e_eng m_eng e_eng n_eng g_WB_eng
+__North_Buona_Vista_Drive n_WB_eng o_eng r_eng t_eng h_eng b_eng u_eng o_eng n_eng a_eng v_eng i_eng s_eng t_eng a_eng d_eng r_eng i_eng v_eng e_WB_eng
+__North_Spring n_WB_eng o_eng r_eng t_eng h_eng s_eng p_eng r_eng i_eng n_eng g_WB_eng
+__North_Vista n_WB_eng o_eng r_eng t_eng h_eng v_eng i_eng s_eng t_eng a_WB_eng
+__North_West n_WB_eng o_eng r_eng t_eng h_eng w_eng e_eng s_eng t_WB_eng
+__Northshore_Drive n_WB_eng o_eng r_eng t_eng h_eng s_eng h_eng o_eng r_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Northshore_Link n_WB_eng o_eng r_eng t_eng h_eng s_eng h_eng o_eng r_eng e_eng l_eng i_eng n_eng k_WB_eng
+__Oak_Avenue o_WB_eng a_eng k_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Ocean_Way o_WB_eng c_eng e_eng a_eng n_eng w_eng a_eng y_WB_eng
+__Office_Road o_WB_eng f_eng f_eng i_eng c_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Ogilvy_Centre o_WB_eng g_eng i_eng l_eng v_eng y_eng c_eng e_eng n_eng t_eng r_eng e_WB_eng
+__Old_Birdcage_Walk o_WB_eng l_eng d_eng b_eng i_eng r_eng d_eng c_eng a_eng g_eng e_eng w_eng a_eng l_eng k_WB_eng
+__Old_Cathay o_WB_eng l_eng d_eng c_eng a_eng t_eng h_eng a_eng y_WB_eng
+__Old_Choa_Chu_Kang_Road o_WB_eng l_eng d_eng c_eng h_eng o_eng a_eng c_eng h_eng u_eng k_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Old_Hill_Street o_WB_eng l_eng d_eng h_eng i_eng l_eng l_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Old_Terminal_Lane o_WB_eng l_eng d_eng t_eng e_eng r_eng m_eng i_eng n_eng a_eng l_eng l_eng a_eng n_eng e_WB_eng
+__Old_Upper_Thomson o_WB_eng l_eng d_eng u_eng p_eng p_eng e_eng r_eng t_eng h_eng o_eng m_eng s_eng o_eng n_WB_eng
+__Omar_Ali o_WB_eng m_eng a_eng r_eng a_eng l_eng i_WB_eng
+__Omar_Khayyam_Avenue o_WB_eng m_eng a_eng r_eng k_eng h_eng a_eng y_eng y_eng a_eng m_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__One_Farrer o_WB_eng n_eng e_eng f_eng a_eng r_eng r_eng e_eng r_WB_eng
+__One_George_Street o_WB_eng n_eng e_eng g_eng e_eng o_eng r_eng g_eng e_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__One_North_Avenue o_WB_eng n_eng e_eng n_eng o_eng r_eng t_eng h_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__One_North_Link o_WB_eng n_eng e_eng n_eng o_eng r_eng t_eng h_eng l_eng i_eng n_eng k_WB_eng
+__One_Tree_Hill o_WB_eng n_eng e_eng t_eng r_eng e_eng e_eng h_eng i_eng l_eng l_WB_eng
+__Onitsuka_Tiger o_WB_eng n_eng i_eng t_eng s_eng u_eng k_eng a_eng t_eng i_eng g_eng e_eng r_WB_eng
+__Onraet_Road o_WB_eng n_eng r_eng a_eng e_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Orchard_Bel_Air o_WB_eng r_eng c_eng h_eng a_eng r_eng d_eng b_eng e_eng l_eng a_eng i_eng r_WB_eng
+__Orchard_Point o_WB_eng r_eng c_eng h_eng a_eng r_eng d_eng p_eng o_eng i_eng n_eng t_WB_eng
+__Orchard_Spring o_WB_eng r_eng c_eng h_eng a_eng r_eng d_eng s_eng p_eng r_eng i_eng n_eng g_WB_eng
+__Orchard_Spring_Lane o_WB_eng r_eng c_eng h_eng a_eng r_eng d_eng s_eng p_eng r_eng i_eng n_eng g_eng l_eng a_eng n_eng e_WB_eng
+__Orchard_Turn o_WB_eng r_eng c_eng h_eng a_eng r_eng d_eng t_eng u_eng r_eng n_WB_eng
+__Orchid_Park o_WB_eng r_eng c_eng h_eng i_eng d_eng p_eng a_eng r_eng k_WB_eng
+__Oriole_Crescent o_WB_eng r_eng i_eng o_eng l_eng e_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Outram_Park o_WB_eng u_eng t_eng r_eng a_eng m_eng p_eng a_eng r_eng k_WB_eng
+__Oxford_Road o_WB_eng x_eng f_eng o_eng r_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Palm_Avenue p_WB_eng a_eng l_eng m_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Palm_Road p_WB_eng a_eng l_eng m_eng r_eng o_eng a_eng d_WB_eng
+__Pan_Pacific p_WB_eng a_eng n_eng p_eng a_eng c_eng i_eng f_eng i_eng c_WB_eng
+__Pan_Shou p_WB_eng a_eng n_eng s_eng h_eng o_eng u_WB_eng
+__Pandan_Avenue p_WB_eng a_eng n_eng d_eng a_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Pang_Seng_Road p_WB_eng a_eng n_eng g_eng s_eng e_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Park_Avenue p_WB_eng a_eng r_eng k_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Parry_Avenue p_WB_eng a_eng r_eng r_eng y_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Pasir_Panjang_Road p_WB_eng a_eng s_eng i_eng r_eng p_eng a_eng n_eng j_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Pasir_Panjang_View p_WB_eng a_eng s_eng i_eng r_eng p_eng a_eng n_eng j_eng a_eng n_eng g_eng v_eng i_eng e_eng w_WB_eng
+__Pasir_Ris p_WB_eng a_eng s_eng i_eng r_eng r_eng i_eng s_WB_eng
+__Pasir_Ris_Road p_WB_eng a_eng s_eng i_eng r_eng r_eng i_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Pasir_Ris_View p_WB_eng a_eng s_eng i_eng r_eng r_eng i_eng s_eng v_eng i_eng e_eng w_WB_eng
+__Pasir_Ris_Way p_WB_eng a_eng s_eng i_eng r_eng r_eng i_eng s_eng w_eng a_eng y_WB_eng
+__Paterson_Road p_WB_eng a_eng t_eng e_eng r_eng s_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Paya_Lebar p_WB_eng a_eng y_eng a_eng l_eng e_eng b_eng a_eng r_WB_eng
+__Paya_Lebar_Place p_WB_eng a_eng y_eng a_eng l_eng e_eng b_eng a_eng r_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Paya_Ubi p_WB_eng a_eng y_eng a_eng u_eng b_eng i_WB_eng
+__Peace_Centre p_WB_eng e_eng a_eng c_eng e_eng c_eng e_eng n_eng t_eng r_eng e_WB_eng
+__Peakville_Avenue p_WB_eng e_eng a_eng k_eng v_eng i_eng l_eng l_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Peakville_Grove p_WB_eng e_eng a_eng k_eng v_eng i_eng l_eng l_eng e_eng g_eng r_eng o_eng v_eng e_WB_eng
+__Pebble_Lane p_WB_eng e_eng b_eng b_eng l_eng e_eng l_eng a_eng n_eng e_WB_eng
+__Peck_San_Theng p_WB_eng e_eng c_eng k_eng s_eng a_eng n_eng t_eng h_eng e_eng n_eng g_WB_eng
+__Peck_Seah_Street p_WB_eng e_eng c_eng k_eng s_eng e_eng a_eng h_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Peirce_Hill p_WB_eng e_eng i_eng r_eng c_eng e_eng h_eng i_eng l_eng l_WB_eng
+__Pemimpin_Drive p_WB_eng e_eng m_eng i_eng m_eng p_eng i_eng n_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Penang_Road p_WB_eng e_eng n_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Peng_Kang_Avenue p_WB_eng e_eng n_eng g_eng k_eng a_eng n_eng g_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Peng_Nguan p_WB_eng e_eng n_eng g_eng n_eng g_eng u_eng a_eng n_WB_eng
+__Peninsula_Plaza p_WB_eng e_eng n_eng i_eng n_eng s_eng u_eng l_eng a_eng p_eng l_eng a_eng z_eng a_WB_eng
+__Penjuru_Road p_WB_eng e_eng n_eng j_eng u_eng r_eng u_eng r_eng o_eng a_eng d_WB_eng
+__Perahu_Road p_WB_eng e_eng r_eng a_eng h_eng u_eng r_eng o_eng a_eng d_WB_eng
+__Percival_Road p_WB_eng e_eng r_eng c_eng i_eng v_eng a_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Pereira_Road p_WB_eng e_eng r_eng e_eng i_eng r_eng a_eng r_eng o_eng a_eng d_WB_eng
+__Perumal_Govindaswamy p_WB_eng e_eng r_eng u_eng m_eng a_eng l_eng g_eng o_eng v_eng i_eng n_eng d_eng a_eng s_eng w_eng a_eng m_eng y_WB_eng
+__Perumal_Road p_WB_eng e_eng r_eng u_eng m_eng a_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Ping_Yi p_WB_eng i_eng n_eng g_eng y_eng i_WB_eng
+__Platina_Road p_WB_eng l_eng a_eng t_eng i_eng n_eng a_eng r_eng o_eng a_eng d_WB_eng
+__Plaza_Singapura p_WB_eng l_eng a_eng z_eng a_eng s_eng i_eng n_eng g_eng a_eng p_eng u_eng r_eng a_WB_eng
+__Poh_Ern_Shih p_WB_eng o_eng h_eng e_eng r_eng n_eng s_eng h_eng i_eng h_WB_eng
+__Poh_Huat_Road p_WB_eng o_eng h_eng h_eng u_eng a_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Poh_Jay p_WB_eng o_eng h_eng j_eng a_eng y_WB_eng
+__Post_Florence_Road p_WB_eng o_eng s_eng t_eng f_eng l_eng o_eng r_eng e_eng n_eng c_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Prince_Of_Wales_Road p_WB_eng r_eng i_eng n_eng c_eng e_eng o_eng f_eng w_eng a_eng l_eng e_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Prinsep_Street p_WB_eng r_eng i_eng n_eng s_eng e_eng p_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Prome_Road p_WB_eng r_eng o_eng m_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Puat_Jit_Buddhist p_WB_eng u_eng a_eng t_eng j_eng i_eng t_eng b_eng u_eng d_eng d_eng h_eng i_eng s_eng t_WB_eng
+__Pulau_Ubin p_WB_eng u_eng l_eng a_eng u_eng u_eng b_eng i_eng n_WB_eng
+__Punggol_Avenue p_WB_eng u_eng n_eng g_eng g_eng o_eng l_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Qing_De_Gong q_WB_eng i_eng n_eng g_eng d_eng e_eng g_eng o_eng n_eng g_WB_eng
+__Queen_Elizabeth_Walk q_WB_eng u_eng e_eng e_eng n_eng e_eng l_eng i_eng z_eng a_eng b_eng e_eng t_eng h_eng w_eng a_eng l_eng k_WB_eng
+__Radin_Mas r_WB_eng a_eng d_eng i_eng n_eng m_eng a_eng s_WB_eng
+__Raffles_Place r_WB_eng a_eng f_eng f_eng l_eng e_eng s_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Rahayu_Mahzam r_WB_eng a_eng h_eng a_eng y_eng u_eng m_eng a_eng h_eng z_eng a_eng m_WB_eng
+__Rahim_Omar r_WB_eng a_eng h_eng i_eng m_eng o_eng m_eng a_eng r_WB_eng
+__Rail_Mall r_WB_eng a_eng i_eng l_eng m_eng a_eng l_eng l_WB_eng
+__Rajabali_Jumabhoy r_WB_eng a_eng j_eng a_eng b_eng a_eng l_eng i_eng j_eng u_eng m_eng a_eng b_eng h_eng o_eng y_WB_eng
+__Rambutan_Road r_WB_eng a_eng m_eng b_eng u_eng t_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Rasok_Drive r_WB_eng a_eng s_eng o_eng k_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Rebecca_Chua r_WB_eng e_eng b_eng e_eng c_eng c_eng a_eng c_eng h_eng u_eng a_WB_eng
+__Red_Cross r_WB_eng e_eng d_eng c_eng r_eng o_eng s_eng s_WB_eng
+__Red_Swastika r_WB_eng e_eng d_eng s_eng w_eng a_eng s_eng t_eng i_eng k_eng a_WB_eng
+__Redhill_Road r_WB_eng e_eng d_eng h_eng i_eng l_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Redwood_Grove r_WB_eng e_eng d_eng w_eng o_eng o_eng d_eng g_eng r_eng o_eng v_eng e_WB_eng
+__Revival_Centre r_WB_eng e_eng v_eng i_eng v_eng a_eng l_eng c_eng e_eng n_eng t_eng r_eng e_WB_eng
+__Richard_Eric_Holttum r_WB_eng i_eng c_eng h_eng a_eng r_eng d_eng e_eng r_eng i_eng c_eng h_eng o_eng l_eng t_eng t_eng u_eng m_WB_eng
+__Ring_Road r_WB_eng i_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Rita_Zahara r_WB_eng i_eng t_eng a_eng z_eng a_eng h_eng a_eng r_eng a_WB_eng
+__River_City r_WB_eng i_eng v_eng e_eng r_eng c_eng i_eng t_eng y_WB_eng
+__River_Safari r_WB_eng i_eng v_eng e_eng r_eng s_eng a_eng f_eng a_eng r_eng i_WB_eng
+__River_Valley r_WB_eng i_eng v_eng e_eng r_eng v_eng a_eng l_eng l_eng e_eng y_WB_eng
+__Riverina_Walk r_WB_eng i_eng v_eng e_eng r_eng i_eng n_eng a_eng w_eng a_eng l_eng k_WB_eng
+__Rivervale_Plaza r_WB_eng i_eng v_eng e_eng r_eng v_eng a_eng l_eng e_eng p_eng l_eng a_eng z_eng a_WB_eng
+__Robert_Soon r_WB_eng o_eng b_eng e_eng r_eng t_eng s_eng o_eng o_eng n_WB_eng
+__Robert_V_Chandran_Way r_WB_eng o_eng b_eng e_eng r_eng t_eng v_eng c_eng h_eng a_eng n_eng d_eng r_eng a_eng n_eng w_eng a_eng y_WB_eng
+__Robin_Tessensohn r_WB_eng o_eng b_eng i_eng n_eng t_eng e_eng s_eng s_eng e_eng n_eng s_eng o_eng h_eng n_WB_eng
+__Robinson_Road r_WB_eng o_eng b_eng i_eng n_eng s_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Rochor_Kongsi r_WB_eng o_eng c_eng h_eng o_eng r_eng k_eng o_eng n_eng g_eng s_eng i_WB_eng
+__Rochor_Road r_WB_eng o_eng c_eng h_eng o_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Rosaline_Chan_Pang r_WB_eng o_eng s_eng a_eng l_eng i_eng n_eng e_eng c_eng h_eng a_eng n_eng p_eng a_eng n_eng g_WB_eng
+__Ruby_Lane r_WB_eng u_eng b_eng y_eng l_eng a_eng n_eng e_WB_eng
+__Russels_Road r_WB_eng u_eng s_eng s_eng e_eng l_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Safra_Jurong s_WB_eng a_eng f_eng r_eng a_eng j_eng u_eng r_eng o_eng n_eng g_WB_eng
+__Safra_Punggol s_WB_eng a_eng f_eng r_eng a_eng p_eng u_eng n_eng g_eng g_eng o_eng l_WB_eng
+__Saint_Helier'S_Avenue s_WB_eng a_eng i_eng n_eng t_eng h_eng e_eng l_eng i_eng e_eng r_eng '_eng s_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Saint_Hilda'S s_WB_eng a_eng i_eng n_eng t_eng h_eng i_eng l_eng d_eng a_eng '_eng s_WB_eng
+__Saint_James s_WB_eng a_eng i_eng n_eng t_eng j_eng a_eng m_eng e_eng s_WB_eng
+__Saint_Nicholas_View s_WB_eng a_eng i_eng n_eng t_eng n_eng i_eng c_eng h_eng o_eng l_eng a_eng s_eng v_eng i_eng e_eng w_WB_eng
+__Saint_Paul'S s_WB_eng a_eng i_eng n_eng t_eng p_eng a_eng u_eng l_eng '_eng s_WB_eng
+__Saint_Stephen'S s_WB_eng a_eng i_eng n_eng t_eng s_eng t_eng e_eng p_eng h_eng e_eng n_eng '_eng s_WB_eng
+__Saint_Wilfred_Road s_WB_eng a_eng i_eng n_eng t_eng w_eng i_eng l_eng f_eng r_eng e_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Saint_Xavier'S s_WB_eng a_eng i_eng n_eng t_eng x_eng a_eng v_eng i_eng e_eng r_eng '_eng s_WB_eng
+__Saint_Xavier'S_Lane s_WB_eng a_eng i_eng n_eng t_eng x_eng a_eng v_eng i_eng e_eng r_eng '_eng s_eng l_eng a_eng n_eng e_WB_eng
+__Sakra_Road s_WB_eng a_eng k_eng r_eng a_eng r_eng o_eng a_eng d_WB_eng
+__Sakya_Tenphel_Ling s_WB_eng a_eng k_eng y_eng a_eng t_eng e_eng n_eng p_eng h_eng e_eng l_eng l_eng i_eng n_eng g_WB_eng
+__Sam_Kee s_WB_eng a_eng m_eng k_eng e_eng e_WB_eng
+__Sandilands_Road s_WB_eng a_eng n_eng d_eng i_eng l_eng a_eng n_eng d_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Science_Park s_WB_eng c_eng i_eng e_eng n_eng c_eng e_eng p_eng a_eng r_eng k_WB_eng
+__Sea_Breeze_Grove s_WB_eng e_eng a_eng b_eng r_eng e_eng e_eng z_eng e_eng g_eng r_eng o_eng v_eng e_WB_eng
+__Seah_Mei_Lin s_WB_eng e_eng a_eng h_eng m_eng e_eng i_eng l_eng i_eng n_WB_eng
+__Secondary_School s_WB_eng e_eng c_eng o_eng n_eng d_eng a_eng r_eng y_eng s_eng c_eng h_eng o_eng o_eng l_WB_eng
+__Segar_Close s_WB_eng e_eng g_eng a_eng r_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Segar_Kampong_Arang_Road s_WB_eng e_eng g_eng a_eng r_eng k_eng a_eng m_eng p_eng o_eng n_eng g_eng a_eng r_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Selarang_Road s_WB_eng e_eng l_eng a_eng r_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Seletar_Close s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Seletar_Club s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng c_eng l_eng u_eng b_WB_eng
+__Seletar_Club_Road s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng c_eng l_eng u_eng b_eng r_eng o_eng a_eng d_WB_eng
+__Seletar_Court s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng c_eng o_eng u_eng r_eng t_WB_eng
+__Seletar_East s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng e_eng a_eng s_eng t_WB_eng
+__Seletar_Green_Avenue s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng g_eng r_eng e_eng e_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Seletar_Hill s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng h_eng i_eng l_eng l_WB_eng
+__Seletar_Hill_Drive s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng h_eng i_eng l_eng l_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Seletar_Hills_Drive s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng h_eng i_eng l_eng l_eng s_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Seletar_Link s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng l_eng i_eng n_eng k_WB_eng
+__Seletar_Lodge_One s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng l_eng o_eng d_eng g_eng e_eng o_eng n_eng e_WB_eng
+__Seletar_North s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng n_eng o_eng r_eng t_eng h_WB_eng
+__Seletar_North_Lane s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng n_eng o_eng r_eng t_eng h_eng l_eng a_eng n_eng e_WB_eng
+__Seletar_Satellite s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng s_eng a_eng t_eng e_eng l_eng l_eng i_eng t_eng e_WB_eng
+__Seletar_Satellite_Station_Road s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng s_eng a_eng t_eng e_eng l_eng l_eng i_eng t_eng e_eng s_eng t_eng a_eng t_eng i_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Seletar_South_Road s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng s_eng o_eng u_eng t_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Seletar_West s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng w_eng e_eng s_eng t_WB_eng
+__Seletar_Wests s_WB_eng e_eng l_eng e_eng t_eng a_eng r_eng w_eng e_eng s_eng t_eng s_WB_eng
+__Sembawang_Alley s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng a_eng l_eng l_eng e_eng y_WB_eng
+__Sembawang_Avenue s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Sembawang_Berlayer s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng b_eng e_eng r_eng l_eng a_eng y_eng e_eng r_WB_eng
+__Sembawang_Country_Club s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng c_eng o_eng u_eng n_eng t_eng r_eng y_eng c_eng l_eng u_eng b_WB_eng
+__Sembawang_God_Of_Wealth s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng g_eng o_eng d_eng o_eng f_eng w_eng e_eng a_eng l_eng t_eng h_WB_eng
+__Sembawang_Hills_Drive s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng h_eng i_eng l_eng l_eng s_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Sembawang_Shopping_Centre s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng s_eng h_eng o_eng p_eng p_eng i_eng n_eng g_eng c_eng e_eng n_eng t_eng r_eng e_WB_eng
+__Sembawang_Tamil_Methodist s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng t_eng a_eng m_eng i_eng l_eng m_eng e_eng t_eng h_eng o_eng d_eng i_eng s_eng t_WB_eng
+__Sembawang_Terminal_Avenue s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng t_eng e_eng r_eng m_eng i_eng n_eng a_eng l_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Sembawang_Terminal_Road s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng t_eng e_eng r_eng m_eng i_eng n_eng a_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Sembawang_Vista s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng v_eng i_eng s_eng t_eng a_WB_eng
+__Sembawang_Wharves s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng w_eng h_eng a_eng r_eng v_eng e_eng s_WB_eng
+__Sembawang_Woodgrove_Avenue s_WB_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_eng w_eng o_eng o_eng d_eng g_eng r_eng o_eng v_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Sengkang_East_Avenue s_WB_eng e_eng n_eng g_eng k_eng a_eng n_eng g_eng e_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Sengkang_East_Road s_WB_eng e_eng n_eng g_eng k_eng a_eng n_eng g_eng e_eng a_eng s_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Sengkang_East_Way s_WB_eng e_eng n_eng g_eng k_eng a_eng n_eng g_eng e_eng a_eng s_eng t_eng w_eng a_eng y_WB_eng
+__Sennett_Road s_WB_eng e_eng n_eng n_eng e_eng t_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Sentul_Crescent s_WB_eng e_eng n_eng t_eng u_eng l_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Serangoon_Gardens s_WB_eng e_eng r_eng a_eng n_eng g_eng o_eng o_eng n_eng g_eng a_eng r_eng d_eng e_eng n_eng s_WB_eng
+__Serangoon_North_Avenue s_WB_eng e_eng r_eng a_eng n_eng g_eng o_eng o_eng n_eng n_eng o_eng r_eng t_eng h_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Serapong_Hill s_WB_eng e_eng r_eng a_eng p_eng o_eng n_eng g_eng h_eng i_eng l_eng l_WB_eng
+__Seraya_Avenue s_WB_eng e_eng r_eng a_eng y_eng a_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Sharon_Bible_Presbyterian s_WB_eng h_eng a_eng r_eng o_eng n_eng b_eng i_eng b_eng l_eng e_eng p_eng r_eng e_eng s_eng b_eng y_eng t_eng e_eng r_eng i_eng a_eng n_WB_eng
+__Shelford_Road s_WB_eng h_eng e_eng l_eng f_eng o_eng r_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Shipyard_Crescent s_WB_eng h_eng i_eng p_eng y_eng a_eng r_eng d_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Shopping_Centre s_WB_eng h_eng o_eng p_eng p_eng i_eng n_eng g_eng c_eng e_eng n_eng t_eng r_eng e_WB_eng
+__Shun_Li s_WB_eng h_eng u_eng n_eng l_eng i_WB_eng
+__Si_Ling s_WB_eng i_eng l_eng i_eng n_eng g_WB_eng
+__Siang_Cho_Keong s_WB_eng i_eng a_eng n_eng g_eng c_eng h_eng o_eng k_eng e_eng o_eng n_eng g_WB_eng
+__Siglap_Gardens s_WB_eng i_eng g_eng l_eng a_eng p_eng g_eng a_eng r_eng d_eng e_eng n_eng s_WB_eng
+__Siloso_Beach s_WB_eng i_eng l_eng o_eng s_eng o_eng b_eng e_eng a_eng c_eng h_WB_eng
+__Sim_Choon_Huat s_WB_eng i_eng m_eng c_eng h_eng o_eng o_eng n_eng h_eng u_eng a_eng t_WB_eng
+__Sim_Lim_Square s_WB_eng i_eng m_eng l_eng i_eng m_eng s_eng q_eng u_eng a_eng r_eng e_WB_eng
+__Sim_Yi_Hui s_WB_eng i_eng m_eng y_eng i_eng h_eng u_eng i_WB_eng
+__Simon_Lane s_WB_eng i_eng m_eng o_eng n_eng l_eng a_eng n_eng e_WB_eng
+__Simpang_Bedok s_WB_eng i_eng m_eng p_eng a_eng n_eng g_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Simpang_De_Bedok s_WB_eng i_eng m_eng p_eng a_eng n_eng g_eng d_eng e_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Sims_Way s_WB_eng i_eng m_eng s_eng w_eng a_eng y_WB_eng
+__Sin_Ming s_WB_eng i_eng n_eng m_eng i_eng n_eng g_WB_eng
+__Sing_Hoe s_WB_eng i_eng n_eng g_eng h_eng o_eng e_WB_eng
+__Sing_Joo_Walk s_WB_eng i_eng n_eng g_eng j_eng o_eng o_eng w_eng a_eng l_eng k_WB_eng
+__Singapore_Art_Museum s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng a_eng r_eng t_eng m_eng u_eng s_eng e_eng u_eng m_WB_eng
+__Singapore_Bible s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng b_eng i_eng b_eng l_eng e_WB_eng
+__Singapore_Botanic_Gardens s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng b_eng o_eng t_eng a_eng n_eng i_eng c_eng g_eng a_eng r_eng d_eng e_eng n_eng s_WB_eng
+__Singapore_Cheshire s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng c_eng h_eng e_eng s_eng h_eng i_eng r_eng e_WB_eng
+__Singapore_Conference s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng c_eng o_eng n_eng f_eng e_eng r_eng e_eng n_eng c_eng e_WB_eng
+__Singapore_Philatelic_Museum s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng p_eng h_eng i_eng l_eng a_eng t_eng e_eng l_eng i_eng c_eng m_eng u_eng s_eng e_eng u_eng m_WB_eng
+__Singapore_Recreation s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng r_eng e_eng c_eng r_eng e_eng a_eng t_eng i_eng o_eng n_WB_eng
+__Singapore_Sikh_Education_Foundation s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng s_eng i_eng k_eng h_eng e_eng d_eng u_eng c_eng a_eng t_eng i_eng o_eng n_eng f_eng o_eng u_eng n_eng d_eng a_eng t_eng i_eng o_eng n_WB_eng
+__Singapore_University_Of_Technology_And_Design s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng u_eng n_eng i_eng v_eng e_eng r_eng s_eng i_eng t_eng y_eng o_eng f_eng t_eng e_eng c_eng h_eng n_eng o_eng l_eng o_eng g_eng y_eng a_eng n_eng d_eng d_eng e_eng s_eng i_eng g_eng n_WB_eng
+__Singapore_Youth_Flying s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng y_eng o_eng u_eng t_eng h_eng f_eng l_eng y_eng i_eng n_eng g_WB_eng
+__Singapore'S_Mariners' s_WB_eng i_eng n_eng g_eng a_eng p_eng o_eng r_eng e_eng '_eng s_eng m_eng a_eng r_eng i_eng n_eng e_eng r_eng s_eng '_WB_eng
+__Siok_Wan s_WB_eng i_eng o_eng k_eng w_eng a_eng n_WB_eng
+__Siong_Lim s_WB_eng i_eng o_eng n_eng g_eng l_eng i_eng m_WB_eng
+__Sir_Frank_Swettenham s_WB_eng i_eng r_eng f_eng r_eng a_eng n_eng k_eng s_eng w_eng e_eng t_eng t_eng e_eng n_eng h_eng a_eng m_WB_eng
+__Sit_Wah_Road s_WB_eng i_eng t_eng w_eng a_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Sleepy_Kiwi s_WB_eng l_eng e_eng e_eng p_eng y_eng k_eng i_eng w_eng i_WB_eng
+__Sloane_Court_Hotel s_WB_eng l_eng o_eng a_eng n_eng e_eng c_eng o_eng u_eng r_eng t_eng h_eng o_eng t_eng e_eng l_WB_eng
+__Soo_Bin_Chua s_WB_eng o_eng o_eng b_eng i_eng n_eng c_eng h_eng u_eng a_WB_eng
+__Soo_Chow_Drive s_WB_eng o_eng o_eng c_eng h_eng o_eng w_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Soon_Peng_Yam_Yao_Zi s_WB_eng o_eng o_eng n_eng p_eng e_eng n_eng g_eng y_eng a_eng m_eng y_eng a_eng o_eng z_eng i_WB_eng
+__Soon_Wing_Road s_WB_eng o_eng o_eng n_eng w_eng i_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Sophia_Hull s_WB_eng o_eng p_eng h_eng i_eng a_eng h_eng u_eng l_eng l_WB_eng
+__South_Buona_Vista_Road s_WB_eng o_eng u_eng t_eng h_eng b_eng u_eng o_eng n_eng a_eng v_eng i_eng s_eng t_eng a_eng r_eng o_eng a_eng d_WB_eng
+__South_Perimeter_Road s_WB_eng o_eng u_eng t_eng h_eng p_eng e_eng r_eng i_eng m_eng e_eng t_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__South_Woodlands_Drive s_WB_eng o_eng u_eng t_eng h_eng w_eng o_eng o_eng d_eng l_eng a_eng n_eng d_eng s_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Spring_Lighthouse s_WB_eng p_eng r_eng i_eng n_eng g_eng l_eng i_eng g_eng h_eng t_eng h_eng o_eng u_eng s_eng e_WB_eng
+__Spring_Street s_WB_eng p_eng r_eng i_eng n_eng g_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Springleaf_Avenue s_WB_eng p_eng r_eng i_eng n_eng g_eng l_eng e_eng a_eng f_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Springside_View s_WB_eng p_eng r_eng i_eng n_eng g_eng s_eng i_eng d_eng e_eng v_eng i_eng e_eng w_WB_eng
+__Springwood_Close s_WB_eng p_eng r_eng i_eng n_eng g_eng w_eng o_eng o_eng d_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Sree_Narayana s_WB_eng r_eng e_eng e_eng n_eng a_eng r_eng a_eng y_eng a_eng n_eng a_WB_eng
+__Sri_Murugan_Hill_Temple s_WB_eng r_eng i_eng m_eng u_eng r_eng u_eng g_eng a_eng n_eng h_eng i_eng l_eng l_eng t_eng e_eng m_eng p_eng l_eng e_WB_eng
+__Sri_Siva_Durga s_WB_eng r_eng i_eng s_eng i_eng v_eng a_eng d_eng u_eng r_eng g_eng a_WB_eng
+__Sri_Vairavimada_Kaliamman s_WB_eng r_eng i_eng v_eng a_eng i_eng r_eng a_eng v_eng i_eng m_eng a_eng d_eng a_eng k_eng a_eng l_eng i_eng a_eng m_eng m_eng a_eng n_WB_eng
+__Stadium_Crescent s_WB_eng t_eng a_eng d_eng i_eng u_eng m_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Stadium_Way s_WB_eng t_eng a_eng d_eng i_eng u_eng m_eng w_eng a_eng y_WB_eng
+__Stamford_Raffles s_WB_eng t_eng a_eng m_eng f_eng o_eng r_eng d_eng r_eng a_eng f_eng f_eng l_eng e_eng s_WB_eng
+__Starlight_Road s_WB_eng t_eng a_eng r_eng l_eng i_eng g_eng h_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Stephen_Lee s_WB_eng t_eng e_eng p_eng h_eng e_eng n_eng l_eng e_eng e_WB_eng
+__Stirling_Walk s_WB_eng t_eng i_eng r_eng l_eng i_eng n_eng g_eng w_eng a_eng l_eng k_WB_eng
+__Strand_Hotel s_WB_eng t_eng r_eng a_eng n_eng d_eng h_eng o_eng t_eng e_eng l_WB_eng
+__Stratton_Road s_WB_eng t_eng r_eng a_eng t_eng t_eng o_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Suffolk_Road s_WB_eng u_eng f_eng f_eng o_eng l_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Sunbeam_Evergreen_Place s_WB_eng u_eng n_eng b_eng e_eng a_eng m_eng e_eng v_eng e_eng r_eng g_eng r_eng e_eng e_eng n_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Sundridge_Park_Road s_WB_eng u_eng n_eng d_eng r_eng i_eng d_eng g_eng e_eng p_eng a_eng r_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Sungei_Bedok s_WB_eng u_eng n_eng g_eng e_eng i_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Sungei_Gedong_Road s_WB_eng u_eng n_eng g_eng e_eng i_eng g_eng e_eng d_eng o_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Sungei_Road s_WB_eng u_eng n_eng g_eng e_eng i_eng r_eng o_eng a_eng d_WB_eng
+__Sunny_Ang s_WB_eng u_eng n_eng n_eng y_eng a_eng n_eng g_WB_eng
+__Sunset_Close s_WB_eng u_eng n_eng s_eng e_eng t_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Sunset_Square s_WB_eng u_eng n_eng s_eng e_eng t_eng s_eng q_eng u_eng a_eng r_eng e_WB_eng
+__Sunset_Vale s_WB_eng u_eng n_eng s_eng e_eng t_eng v_eng a_eng l_eng e_WB_eng
+__Suntec_City s_WB_eng u_eng n_eng t_eng e_eng c_eng c_eng i_eng t_eng y_WB_eng
+__Swiss_Club_Link s_WB_eng w_eng i_eng s_eng s_eng c_eng l_eng u_eng b_eng l_eng i_eng n_eng k_WB_eng
+__Syed_Jaafar_Albar s_WB_eng y_eng e_eng d_eng j_eng a_eng a_eng f_eng a_eng r_eng a_eng l_eng b_eng a_eng r_WB_eng
+__Tagore_Road t_WB_eng a_eng g_eng o_eng r_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Tai_Hoe t_WB_eng a_eng i_eng h_eng o_eng e_WB_eng
+__Tai_Seng t_WB_eng a_eng i_eng s_eng e_eng n_eng g_WB_eng
+__Tai_Seng_Drive t_WB_eng a_eng i_eng s_eng e_eng n_eng g_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Taman_Bedok t_WB_eng a_eng m_eng a_eng n_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Taman_Jurong t_WB_eng a_eng m_eng a_eng n_eng j_eng u_eng r_eng o_eng n_eng g_WB_eng
+__Taman_Kembangan t_WB_eng a_eng m_eng a_eng n_eng k_eng e_eng m_eng b_eng a_eng n_eng g_eng a_eng n_WB_eng
+__Taman_Warna t_WB_eng a_eng m_eng a_eng n_eng w_eng a_eng r_eng n_eng a_WB_eng
+__Tamarind_Avenue t_WB_eng a_eng m_eng a_eng r_eng i_eng n_eng d_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Tamarind_Road t_WB_eng a_eng m_eng a_eng r_eng i_eng n_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Tampines_Changkat t_WB_eng a_eng m_eng p_eng i_eng n_eng e_eng s_eng c_eng h_eng a_eng n_eng g_eng k_eng a_eng t_WB_eng
+__Tan_Boo_Liat t_WB_eng a_eng n_eng b_eng o_eng o_eng l_eng i_eng a_eng t_WB_eng
+__Tan_Eng_Joo t_WB_eng a_eng n_eng e_eng n_eng g_eng j_eng o_eng o_WB_eng
+__Tan_Kim_Cheng_Road t_WB_eng a_eng n_eng k_eng i_eng m_eng c_eng h_eng e_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Tan_Teck_Whye_Avenue t_WB_eng a_eng n_eng t_eng e_eng c_eng k_eng w_eng h_eng y_eng e_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Tan_Tock_Seng t_WB_eng a_eng n_eng t_eng o_eng c_eng k_eng s_eng e_eng n_eng g_WB_eng
+__Tanah_Merah t_WB_eng a_eng n_eng a_eng h_eng m_eng e_eng r_eng a_eng h_WB_eng
+__Tanglin_Gate_Road t_WB_eng a_eng n_eng g_eng l_eng i_eng n_eng g_eng a_eng t_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Tanglin_Trust t_WB_eng a_eng n_eng g_eng l_eng i_eng n_eng t_eng r_eng u_eng s_eng t_WB_eng
+__Tangmere_Road t_WB_eng a_eng n_eng g_eng m_eng e_eng r_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Tanjong_Katong t_WB_eng a_eng n_eng j_eng o_eng n_eng g_eng k_eng a_eng t_eng o_eng n_eng g_WB_eng
+__Tanjong_Penjuru t_WB_eng a_eng n_eng j_eng o_eng n_eng g_eng p_eng e_eng n_eng j_eng u_eng r_eng u_WB_eng
+__Tanya_Chua t_WB_eng a_eng n_eng y_eng a_eng c_eng h_eng u_eng a_WB_eng
+__Teban_Garden t_WB_eng e_eng b_eng a_eng n_eng g_eng a_eng r_eng d_eng e_eng n_WB_eng
+__Tebing_Lane t_WB_eng e_eng b_eng i_eng n_eng g_eng l_eng a_eng n_eng e_WB_eng
+__Teck_Hai_Keng t_WB_eng e_eng c_eng k_eng h_eng a_eng i_eng k_eng e_eng n_eng g_WB_eng
+__Teck_Whye t_WB_eng e_eng c_eng k_eng w_eng h_eng y_eng e_WB_eng
+__Tekong_Highway t_WB_eng e_eng k_eng o_eng n_eng g_eng h_eng i_eng g_eng h_eng w_eng a_eng y_WB_eng
+__Telok_Blangah_Crescent t_WB_eng e_eng l_eng o_eng k_eng b_eng l_eng a_eng n_eng g_eng a_eng h_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Telok_Blangah_Rise t_WB_eng e_eng l_eng o_eng k_eng b_eng l_eng a_eng n_eng g_eng a_eng h_eng r_eng i_eng s_eng e_WB_eng
+__Telok_Blangah_Street t_WB_eng e_eng l_eng o_eng k_eng b_eng l_eng a_eng n_eng g_eng a_eng h_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Telok_Kurau t_WB_eng e_eng l_eng o_eng k_eng k_eng u_eng r_eng a_eng u_WB_eng
+__Tembusu_Drive t_WB_eng e_eng m_eng b_eng u_eng s_eng u_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Teng_San_Tian_Hock t_WB_eng e_eng n_eng g_eng s_eng a_eng n_eng t_eng i_eng a_eng n_eng h_eng o_eng c_eng k_WB_eng
+__Teng_Tong_Road t_WB_eng e_eng n_eng g_eng t_eng o_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Terang_Bulan_Avenue t_WB_eng e_eng r_eng a_eng n_eng g_eng b_eng u_eng l_eng a_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Tew_Chew_Street t_WB_eng e_eng w_eng c_eng h_eng e_eng w_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Thong_Bee_Road t_WB_eng h_eng o_eng n_eng g_eng b_eng e_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Thong_Kheng t_WB_eng h_eng o_eng n_eng g_eng k_eng h_eng e_eng n_eng g_WB_eng
+__Tian_Kong t_WB_eng i_eng a_eng n_eng k_eng o_eng n_eng g_WB_eng
+__Tiong_Poh_Avenue t_WB_eng i_eng o_eng n_eng g_eng p_eng o_eng h_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Tiverton_Lane t_WB_eng i_eng v_eng e_eng r_eng t_eng o_eng n_eng l_eng a_eng n_eng e_WB_eng
+__Toa_Payoh t_WB_eng o_eng a_eng p_eng a_eng y_eng o_eng h_WB_eng
+__Toa_Payoh_East t_WB_eng o_eng a_eng p_eng a_eng y_eng o_eng h_eng e_eng a_eng s_eng t_WB_eng
+__Toa_Payoh_North t_WB_eng o_eng a_eng p_eng a_eng y_eng o_eng h_eng n_eng o_eng r_eng t_eng h_WB_eng
+__Toa_Payoh_Rise t_WB_eng o_eng a_eng p_eng a_eng y_eng o_eng h_eng r_eng i_eng s_eng e_WB_eng
+__Toh_Tuck_Drive t_WB_eng o_eng h_eng t_eng u_eng c_eng k_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Toh_Tuck_Road t_WB_eng o_eng h_eng t_eng u_eng c_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Tokio_Marine t_WB_eng o_eng k_eng i_eng o_eng m_eng a_eng r_eng i_eng n_eng e_WB_eng
+__Topaz_Road t_WB_eng o_eng p_eng a_eng z_eng r_eng o_eng a_eng d_WB_eng
+__Tras_Street t_WB_eng r_eng a_eng s_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Treetop_Walk t_WB_eng r_eng e_eng e_eng t_eng o_eng p_eng w_eng a_eng l_eng k_WB_eng
+__Trevose_Place t_WB_eng r_eng e_eng v_eng o_eng s_eng e_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Tuas_Avenue t_WB_eng u_eng a_eng s_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Tuas_Road t_WB_eng u_eng a_eng s_eng r_eng o_eng a_eng d_WB_eng
+__Tuas_Second_Link t_WB_eng u_eng a_eng s_eng s_eng e_eng c_eng o_eng n_eng d_eng l_eng i_eng n_eng k_WB_eng
+__Tuas_Terminal_Road t_WB_eng u_eng a_eng s_eng t_eng e_eng r_eng m_eng i_eng n_eng a_eng l_eng r_eng o_eng a_eng d_WB_eng
+__Turf_Ciub_Road t_WB_eng u_eng r_eng f_eng c_eng i_eng u_eng b_eng r_eng o_eng a_eng d_WB_eng
+__Ubi_Close u_WB_eng b_eng i_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Ubi_Crescent u_WB_eng b_eng i_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Ubi_Link u_WB_eng b_eng i_eng l_eng i_eng n_eng k_WB_eng
+__Ulu_Sembawang u_WB_eng l_eng u_eng s_eng e_eng m_eng b_eng a_eng w_eng a_eng n_eng g_WB_eng
+__Unity_Street u_WB_eng n_eng i_eng t_eng y_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__University_Town u_WB_eng n_eng i_eng v_eng e_eng r_eng s_eng i_eng t_eng y_eng t_eng o_eng w_eng n_WB_eng
+__Upper_Aljunied u_WB_eng p_eng p_eng e_eng r_eng a_eng l_eng j_eng u_eng n_eng i_eng e_eng d_WB_eng
+__Upper_Aljunied_Link u_WB_eng p_eng p_eng e_eng r_eng a_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng l_eng i_eng n_eng k_WB_eng
+__Upper_Aljunied_Road u_WB_eng p_eng p_eng e_eng r_eng a_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng r_eng o_eng a_eng d_WB_eng
+__Upper_Bedok u_WB_eng p_eng p_eng e_eng r_eng b_eng e_eng d_eng o_eng k_WB_eng
+__Upper_Bedok_Road u_WB_eng p_eng p_eng e_eng r_eng b_eng e_eng d_eng o_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Upper_Bukit_Timah u_WB_eng p_eng p_eng e_eng r_eng b_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_WB_eng
+__Upper_Bukit_Timah_Road u_WB_eng p_eng p_eng e_eng r_eng b_eng u_eng k_eng i_eng t_eng t_eng i_eng m_eng a_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Upper_Changi_Road u_WB_eng p_eng p_eng e_eng r_eng c_eng h_eng a_eng n_eng g_eng i_eng r_eng o_eng a_eng d_WB_eng
+__Upper_Joo_Aljunied_Link u_WB_eng p_eng p_eng e_eng r_eng j_eng o_eng o_eng a_eng l_eng j_eng u_eng n_eng i_eng e_eng d_eng l_eng i_eng n_eng k_WB_eng
+__Upper_Palm_Valley_Road u_WB_eng p_eng p_eng e_eng r_eng p_eng a_eng l_eng m_eng v_eng a_eng l_eng l_eng e_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Upper_Paya_Lebar_Road u_WB_eng p_eng p_eng e_eng r_eng p_eng a_eng y_eng a_eng l_eng e_eng b_eng a_eng r_eng r_eng o_eng a_eng d_WB_eng
+__Upper_Peirce_Reservoir u_WB_eng p_eng p_eng e_eng r_eng p_eng e_eng i_eng r_eng c_eng e_eng r_eng e_eng s_eng e_eng r_eng v_eng o_eng i_eng r_WB_eng
+__Upper_Seletar_Reservoir u_WB_eng p_eng p_eng e_eng r_eng s_eng e_eng l_eng e_eng t_eng a_eng r_eng r_eng e_eng s_eng e_eng r_eng v_eng o_eng i_eng r_WB_eng
+__Upper_Serangoon u_WB_eng p_eng p_eng e_eng r_eng s_eng e_eng r_eng a_eng n_eng g_eng o_eng o_eng n_WB_eng
+__Upper_Wilkie_Road u_WB_eng p_eng p_eng e_eng r_eng w_eng i_eng l_eng k_eng i_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Vaughan_Road v_WB_eng a_eng u_eng g_eng h_eng a_eng n_eng r_eng o_eng a_eng d_WB_eng
+__Veerasamy_Road v_WB_eng e_eng e_eng r_eng a_eng s_eng a_eng m_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Verde_Crescent v_WB_eng e_eng r_eng d_eng e_eng c_eng r_eng e_eng s_eng c_eng e_eng n_eng t_WB_eng
+__Victoria_Park_Road v_WB_eng i_eng c_eng t_eng o_eng r_eng i_eng a_eng p_eng a_eng r_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Vigilante_Drive v_WB_eng i_eng g_eng i_eng l_eng a_eng n_eng t_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
+__Vijesh_Ashok_Ghariwala v_WB_eng i_eng j_eng e_eng s_eng h_eng a_eng s_eng h_eng o_eng k_eng g_eng h_eng a_eng r_eng i_eng w_eng a_eng l_eng a_WB_eng
+__Vivien_Quahe v_WB_eng i_eng v_eng i_eng e_eng n_eng q_eng u_eng a_eng h_eng e_WB_eng
+__Wak_Hassan w_WB_eng a_eng k_eng h_eng a_eng s_eng s_eng a_eng n_WB_eng
+__Wak_Hassan_Place w_WB_eng a_eng k_eng h_eng a_eng s_eng s_eng a_eng n_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Wak_Tanjong w_WB_eng a_eng k_eng t_eng a_eng n_eng j_eng o_eng n_eng g_WB_eng
+__Wallace_Way w_WB_eng a_eng l_eng l_eng a_eng c_eng e_eng w_eng a_eng y_WB_eng
+__Walter_Woon w_WB_eng a_eng l_eng t_eng e_eng r_eng w_eng o_eng o_eng n_WB_eng
+__Wan_Tho_Avenue w_WB_eng a_eng n_eng t_eng h_eng o_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Wareham_Road w_WB_eng a_eng r_eng e_eng h_eng a_eng m_eng r_eng o_eng a_eng d_WB_eng
+__Waringin_Walk w_WB_eng a_eng r_eng i_eng n_eng g_eng i_eng n_eng w_eng a_eng l_eng k_WB_eng
+__Warwick_Road w_WB_eng a_eng r_eng w_eng i_eng c_eng k_eng r_eng o_eng a_eng d_WB_eng
+__Waseda_Shibuya w_WB_eng a_eng s_eng e_eng d_eng a_eng s_eng h_eng i_eng b_eng u_eng y_eng a_WB_eng
+__Waterloo_Street w_WB_eng a_eng t_eng e_eng r_eng l_eng o_eng o_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Watten_Estate_Road w_WB_eng a_eng t_eng t_eng e_eng n_eng e_eng s_eng t_eng a_eng t_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Wee_Beng_Chong w_WB_eng e_eng e_eng b_eng e_eng n_eng g_eng c_eng h_eng o_eng n_eng g_WB_eng
+__Wellington_Circle w_WB_eng e_eng l_eng l_eng i_eng n_eng g_eng t_eng o_eng n_eng c_eng i_eng r_eng c_eng l_eng e_WB_eng
+__West_Blue_Stars w_WB_eng e_eng s_eng t_eng b_eng l_eng u_eng e_eng s_eng t_eng a_eng r_eng s_WB_eng
+__West_Perimeter_Road w_WB_eng e_eng s_eng t_eng p_eng e_eng r_eng i_eng m_eng e_eng t_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
+__West_Spring w_WB_eng e_eng s_eng t_eng s_eng p_eng r_eng i_eng n_eng g_WB_eng
+__Westwood_Avenue w_WB_eng e_eng s_eng t_eng w_eng o_eng o_eng d_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Whampoa_East w_WB_eng h_eng a_eng m_eng p_eng o_eng a_eng e_eng a_eng s_eng t_WB_eng
+__Whitchurch_Road w_WB_eng h_eng i_eng t_eng c_eng h_eng u_eng r_eng c_eng h_eng r_eng o_eng a_eng d_WB_eng
+__Whitley_Road w_WB_eng h_eng i_eng t_eng l_eng e_eng y_eng r_eng o_eng a_eng d_WB_eng
+__Wilmonar_Avenue w_WB_eng i_eng l_eng m_eng o_eng n_eng a_eng r_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Windsor_Park_Hill w_WB_eng i_eng n_eng d_eng s_eng o_eng r_eng p_eng a_eng r_eng k_eng h_eng i_eng l_eng l_WB_eng
+__Wishart_Road w_WB_eng i_eng s_eng h_eng a_eng r_eng t_eng r_eng o_eng a_eng d_WB_eng
+__Wittering_Road w_WB_eng i_eng t_eng t_eng e_eng r_eng i_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Wong_Chin_Yoke_Road w_WB_eng o_eng n_eng g_eng c_eng h_eng i_eng n_eng y_eng o_eng k_eng e_eng r_eng o_eng a_eng d_WB_eng
+__Wong_Hock_Boon w_WB_eng o_eng n_eng g_eng h_eng o_eng c_eng k_eng b_eng o_eng o_eng n_WB_eng
+__Woodgrove_View w_WB_eng o_eng o_eng d_eng g_eng r_eng o_eng v_eng e_eng v_eng i_eng e_eng w_WB_eng
+__Woodland_Street w_WB_eng o_eng o_eng d_eng l_eng a_eng n_eng d_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Woodlands_Galaxy w_WB_eng o_eng o_eng d_eng l_eng a_eng n_eng d_eng s_eng g_eng a_eng l_eng a_eng x_eng y_WB_eng
+__Woodleigh_Close w_WB_eng o_eng o_eng d_eng l_eng e_eng i_eng g_eng h_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Xilin_Avenue x_WB_eng i_eng l_eng i_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Yan_Hui_Chang y_WB_eng a_eng n_eng h_eng u_eng i_eng c_eng h_eng a_eng n_eng g_WB_eng
+__Yangtze_Building y_WB_eng a_eng n_eng g_eng t_eng z_eng e_eng b_eng u_eng i_eng l_eng d_eng i_eng n_eng g_WB_eng
+__Yao_Zi y_WB_eng a_eng o_eng z_eng i_WB_eng
+__Yarwood_Avenue y_WB_eng a_eng r_eng w_eng o_eng o_eng d_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
+__Yeoh_Ghim_Seng y_WB_eng e_eng o_eng h_eng g_eng h_eng i_eng m_eng s_eng e_eng n_eng g_WB_eng
+__Yew_Tee y_WB_eng e_eng w_eng t_eng e_eng e_WB_eng
+__Yew_Tee_Close y_WB_eng e_eng w_eng t_eng e_eng e_eng c_eng l_eng o_eng s_eng e_WB_eng
+__Yew_Tee_Point y_WB_eng e_eng w_eng t_eng e_eng e_eng p_eng o_eng i_eng n_eng t_WB_eng
+__Yip_Cheong_Fun y_WB_eng i_eng p_eng c_eng h_eng e_eng o_eng n_eng g_eng f_eng u_eng n_WB_eng
+__Yishun_Central y_WB_eng i_eng s_eng h_eng u_eng n_eng c_eng e_eng n_eng t_eng r_eng a_eng l_WB_eng
+__Yishun_Street y_WB_eng i_eng s_eng h_eng u_eng n_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
+__Yong_Melvin_Yik_Chye y_WB_eng o_eng n_eng g_eng m_eng e_eng l_eng v_eng i_eng n_eng y_eng i_eng k_eng c_eng h_eng y_eng e_WB_eng
+__York_Place y_WB_eng o_eng r_eng k_eng p_eng l_eng a_eng c_eng e_WB_eng
+__Yu_Huang_Zhi_Zun_Temple y_WB_eng u_eng h_eng u_eng a_eng n_eng g_eng z_eng h_eng i_eng z_eng u_eng n_eng t_eng e_eng m_eng p_eng l_eng e_WB_eng
+__Yuan_Ching y_WB_eng u_eng a_eng n_eng c_eng h_eng i_eng n_eng g_WB_eng
+__Yung_Kuang_Road y_WB_eng u_eng n_eng g_eng k_eng u_eng a_eng n_eng g_eng r_eng o_eng a_eng d_WB_eng
+__Yuva_Bharati y_WB_eng u_eng v_eng a_eng b_eng h_eng a_eng r_eng a_eng t_eng i_WB_eng
+__Yvonne_Ng y_WB_eng v_eng o_eng n_eng n_eng e_eng n_eng g_WB_eng
+__Zainudin_Nordin z_WB_eng a_eng i_eng n_eng u_eng d_eng i_eng n_eng n_eng o_eng r_eng d_eng i_eng n_WB_eng
+__Zhang_Hui z_WB_eng h_eng a_eng n_eng g_eng h_eng u_eng i_WB_eng
+__Zhou_Ying_Nan z_WB_eng h_eng o_eng u_eng y_eng i_eng n_eng g_eng n_eng a_eng n_WB_eng
+__Zion_Bishan_Bible_Presbyterian z_WB_eng i_eng o_eng n_eng b_eng i_eng s_eng h_eng a_eng n_eng b_eng i_eng b_eng l_eng e_eng p_eng r_eng e_eng s_eng b_eng y_eng t_eng e_eng r_eng i_eng a_eng n_WB_eng

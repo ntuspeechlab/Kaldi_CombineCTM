@@ -1,5 +1,0 @@
-__jalan_bahar:jalan bahar:jalan bahar
-__hubert_hill:hubert hill:hubert hill
-__jalan_gemala:jalan gemala:jalan gemala
-__singapore_art_museum:singapore art museum:singapore art museum
-__vu_ly_tee:vu ly tee:vu ly tee,voo lee tea

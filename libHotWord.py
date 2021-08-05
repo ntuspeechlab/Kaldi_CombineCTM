@@ -30,45 +30,41 @@ Vu Ly Thy: voo lai tea
 
 @dataclass
 class C_OneHotWord:
-    hotWordLabel: str
-    hotWordStr: str      
-    hotWordArrayPron: []
-    def __init__(self, hotWordStr):
-        hotWordStr = hotWordStr.rstrip().lower()
-        tmpStr = '__'+hotWordStr.replace(' ','_')
-        self.hotWordLabel = tmpStr
-        self.hotWordStr = hotWordStr
-        self.hotWordArrayPron = [hotWordStr.lower()]
-
+    hotWordStr: str     # this is the original hotword, case is important! 
+    hotWordLabel: str   # this is __hotword_name_in_lower_case
+    hotWordArrayPron: [] # This is the list of pronunciation ALL in lower case when expanded
+    def __init__(self, in_hotWordStr):
+        hotWordStr        = in_hotWordStr.rstrip()
+        self.hotWordStr   = hotWordStr
+        self.hotWordLabel = '__'+hotWordStr.replace(' ','_')  # the label is with __hotword_string
+        self.hotWordArrayPron = [hotWordStr.lower()]          # all pronunciation is lowered case
+ 
     def addPron(self,in_pronStr):
-        pronStr = in_pronStr.lower().strip(' \t\n')
-        tmp     = pronStr
-        tmp=tmp.replace(' ','')
-        if (len(tmp)>0):
-            tokenArray=tmp.split('_')
-            if ( len(tokenArray) > 0):
-                self.hotWordArrayPron.append(pronStr)
-        else:
-            pass
+        tmp     = re.sub('[\s+]', '', in_pronStr)
+        #sanity check, lets deal with empty pronStr!
+        if(len(tmp)>=1):
+            pron_Str = in_pronStr.lower().strip(' \t\n')
+            self.hotWordArrayPron.append(pron_Str)
+  
 
-
+    # We are now ONLY assuming for english lexicon 
+    # for grapheme based
     def getPronEntry(self,ipStr):
         opStr = ""
         if len(ipStr) <= 0:
             return opStr
 
         ipStr = ipStr.replace(' ','')    
-        opStr = ipStr[0]+'_WB'
-        for i in range(1,len(ipStr)):
-            opStr = opStr+' '+ipStr[i]
+        opStr = ipStr[0]+'_WB_eng'
+        for i in range(1,len(ipStr)-1):
+            opStr = opStr+' '+ipStr[i]+'_eng'
 
-        if (len(ipStr)>1):
-            opStr = opStr+'_WB'    
+        if (len(ipStr)>=2):
+            opStr = opStr+' '+ipStr[len(ipStr)-1]+'_WB_eng'    
 
         return(opStr)    
 
     def writeOneWordLexicon(self,opfile):
-        print('p0, hotWordLabl=',self.hotWordLabel)
         for pronStr in self.hotWordArrayPron:
             lexEntry = self.getPronEntry(pronStr)
             opfile.write("{0} {1}\n".format(self.hotWordLabel, lexEntry))
@@ -147,12 +143,28 @@ class C_HotWordList:
         opfile = open(opfilename,'w')
         print('Saving lexicon of hotword')
         for oneHotWordStr in self.listHotWordStr:
-            print('writing ',oneHotWordStr)
             oneHotWord = self.dictHWStrToHotWord[oneHotWordStr]
             oneHotWord.writeOneWordLexicon_withHotWordStr(opfile)
         opfile.close()
         print('completed saving:',opfilename,' has ',len(self.dictHWStrToLabel),' unique hotwords\n')    
 
+
+    # This function takes an inStr and convert those string that are hotwords to labels
+    def convertStrToHotWordLabel(self,inStr):
+        return(multireplace(inStr, self.dictHWStrToLabel, False))
+
+    def convertStrToHotWordLabel_ONLY(self,inStr):
+        tmpStr = multireplace(inStr, self.dictHWStrToLabel, False)
+        opToken = tmpStr.split()  # lets retain only those that have __
+        opStr = ''
+        for tok in opToken:
+            if tok[0:2] == '__':
+                opStr = opStr+ ' '+tok
+        return(opStr)        
+
+
+    def convertLabelToWord(self,inStr):
+        return( multireplace(inStr, self.dictLabelToHWStr, False))
 
 
 """
@@ -210,62 +222,35 @@ def multireplace(string, replacements, ignore_case=False):
 
 
 
-def unit_test_Keyword():
+def unit_test_Keyword(inRawKeyWord_FileName,opLexicon_FileName, opLexicon_withHWStr_FileName):
     listHotWord = C_HotWordList()
-    listHotWord.read_HotWordList(    './TestData/UserKeywordList.txt')
-    listHotWord.write_HotWordLexicon('./TestData/UserKeywordListLexicon.txt')
-    listHotWord.write_HotWordLexicon_withHotWordStr('./TestData/UserKeywordListLexicon_withHotWordStr.txt')
-    myDict_LabelToStr = listHotWord.dictLabelToHWStr
-    myDict_StrToLabel = listHotWord.dictHWStrToLabel
-
-    print('\n============P0==============')
-    print(myDict_LabelToStr['__hubert_hill'])
-    print(myDict_StrToLabel['Hubert Hill'])
-
+    listHotWord.read_HotWordList( inRawKeyWord_FileName)
+    listHotWord.write_HotWordLexicon(opLexicon_FileName)
+    listHotWord.write_HotWordLexicon_withHotWordStr(opLexicon_withHWStr_FileName)
+ 
+ 
     print('\n============P1==============')
     rawStr = "Jalan Gemala is near Hubert Hill and Singapore Art Museum"
-    hotStr = multireplace(rawStr, myDict_StrToLabel, False)
-    print(rawStr)
-    print(hotStr)
+ 
+    print('Using the hotword class to convert from raw, words_with_label, label_only')
+    print('rawStr =', rawStr)
+    strWithLabel = listHotWord.convertStrToHotWordLabel(rawStr)
+    print('P1 (strWithLabel) :',strWithLabel)
+    print('P2 (labelToWord)  :', listHotWord.convertLabelToWord(strWithLabel))
+    labelOnly = listHotWord.convertStrToHotWordLabel_ONLY(rawStr)
+    print('P3 (label ONLY)        :', labelOnly)
+    print('P4 (label ONLY to word):', listHotWord.convertLabelToWord(labelOnly))
     print('\n============P2==============')
-    rawStr2 = multireplace(hotStr, myDict_LabelToStr, False)
-    print('RawStr2 = ',rawStr2)
-    print('sanity check {}'.format(rawStr == rawStr2))
 
 
 
 
+def unit_test_libHotWord():
 
-
-def unit_test_HotWordList():
-    listHotWord = C_HotWordList()
-    listHotWord.read_HotWordList(    './TestData/UserKeywordList.txt')
-    myDict_LabelToStr = listHotWord.dictLabelToHWStr
-    myDict_StrToLabel = listHotWord.dictHWStrToLabel
-
-    print('\n============P0==============')
-    print(myDict_LabelToStr['__hubert_hill'])
-    print(myDict_StrToLabel['Hubert Hill'])
-
-    print('\n============P1==============')
-    rawStr = "Jalan Gemala is near Hubert Hill and Singapore Art Museum"
-    hotStr = multireplace(rawStr, myDict_StrToLabel, False)
-    print(rawStr)
-    print(hotStr)
-    print('\n============P2==============')
-    rawStr2 = multireplace(hotStr, myDict_LabelToStr, False)
-    print('RawStr2 = ',rawStr2)
-    print('sanity check {}'.format(rawStr == rawStr2))
-
-
-def main():
-
-    listHotWord = C_HotWordList()
-    listHotWord.read_HotWordList(    './TestData/UserKeywordList.txt')
-    listHotWord.write_HotWordLexicon('./TestData/UserKeywordListLexicon.txt')
-    listHotWord.write_HotWordLexicon_withHotWordStr('./TestData/UserKeywordListLexicon_withHotWordStr.txt')
-    unit_test_Keyword()
-    unit_test_HotWordList()
+    inRawKeyWord_FileName = './TestData/FULL_KeyWordRawList.txt'
+    opLexicon_FileName    = './TestData/Small_KeyWordRawList_Lexicon.txt'
+    opLexicon_withHWStr_FileName = './TestData/Small_KeyWordRawList_withHWStr_Lexicon.txt'
+    unit_test_Keyword(inRawKeyWord_FileName, opLexicon_FileName, opLexicon_withHWStr_FileName)
 
 
 #    oneHotWord = C_OneHotWord("Jalan Bahar")
@@ -275,4 +260,4 @@ def main():
 
     
 if __name__ == "__main__":
-    main()
+    unit_test_libHotWord()
