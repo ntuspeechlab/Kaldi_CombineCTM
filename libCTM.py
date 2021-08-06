@@ -12,6 +12,7 @@ import os, sys, io
 import argparse
 from   dataclasses import dataclass
 from   typing import List
+from   libHotWord import C_HotWordList
 
 
 logging.basicConfig(
@@ -22,6 +23,9 @@ log = logging.getLogger("{}".format(os.path.basename(sys.argv[0])))
 
 
 # This simple class contains a single word's information from CTM
+# CTM is kaldi format to retain start/end time, in this case we are rememebering for each word
+# the original kaldi has startTime and duration, we have kept the end time for convenience!
+# the fileID is basically the utterance id (?) infromation 
 @dataclass
 class C_WordCTM:
     fileID: str
@@ -36,29 +40,38 @@ class C_WordCTM:
             self.EndTime   = StartTime+DurTime
             self.wordStr   = wordStr
 
+
+#
 # This simple class contains an utterance's information from CTM
+# given an utterance, we have an array (list) of wordCTM
+# we will also keep the uttStr, basically keeping all the words in the wordCTM as a string
+# uttName is the name of the utterance
+# uttStr == the array of word in the wordCTM
+#
 @dataclass
 class C_UttCTM:
     uttName: str
     arrayWord: List[C_WordCTM]
     uttStr: str
-
  
     def __init__(self, uttName, uttStr):
         self.uttName   = uttName
         self.uttStr    = uttStr
         self.arrayWord = []
        
-        
+    # we assume we will add one word at a time
+    # this allow us to update the uttStr as we add into the class    
     def addWordCTM(self, oneWordCTM):
         self.arrayWord +=[oneWordCTM]
         if len(self.uttStr) != 0:
             self.uttStr  += ' '+oneWordCTM.wordStr
         else:
             self.uttStr   = oneWordCTM.wordStr
+            # this is the first word added, thats why uttStr has length == 0
 
     
 # This class contains all utterance from a CTM file
+# We will remember the filename, and keep all the utterance as a list
 @dataclass
 class C_ArrayUttCTM:
     fileName: str
@@ -71,6 +84,8 @@ class C_ArrayUttCTM:
     def addUttCTM(self, oneUttCTM):
         self.arrayUttCTM += [oneUttCTM]
 
+    # the CTM file format is this
+    # fileID 1 startTime duration singleWord (or hotwordlabel)
     def fn_ctmParseLine(self,line):
         tokenArray=line.split()
         if len(tokenArray)!=5:
@@ -80,19 +95,6 @@ class C_ArrayUttCTM:
                                                      round(float(tokenArray[2])+float(tokenArray[3]),5),
                                                      float(tokenArray[3]),tokenArray[4])
         return (fileID, StartTime, EndTime, DurTime, wordStr)
-
-
-    def fn_textParseLine(self,line):
-        tokenArray=line.split()
-        fileID = tokenArray[0];
-        if (len(tokenArray)>=1):
-            uttStr = tokenArray[1]
-            for tt in tokenArray[2:len(tokenArray)]:
-                uttStr += ' '+tt
-        else:
-            uttStr = ''
-
-        return (fileID, uttStr)
 
 
 
@@ -139,8 +141,26 @@ class C_ArrayUttCTM:
             self.addUttCTM(oneUttCTM)
             log.info("Completed Reading CTM File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
             infile.close()
-            
 
+
+
+    # This format is for WER scoring, each line is uttID and the string (of the utterance)
+    # here we assume that the CTM file ONLY contain the fileID and string (of the utterence)
+    def fn_textParseLine(self,line):
+        tokenArray=line.split()
+        fileID = tokenArray[0];
+        if (len(tokenArray)>=1):
+            uttStr = tokenArray[1]
+            for tt in tokenArray[2:len(tokenArray)]:
+                uttStr += ' '+tt
+        else:
+            uttStr = ''
+
+        return (fileID, uttStr)
+
+           
+
+    # This function assumes the CTM file ONLY contain fileID and string
     def readTextFile(self, fileName):
         self.arrayUttCTM = []
         currUttName = ''
@@ -155,17 +175,20 @@ class C_ArrayUttCTM:
                     self.addUttCTM(oneUttCTM)    
                         
 
+
     # uttid  text-per-sentence
     def writeTextFile(self, fileName):
         log.info("Writing Text File : ({})".format(fileName))
 
         opfile = open(fileName,"w",encoding='utf8')
         for eachUtt in self.arrayUttCTM:
+            # we can write the utterance if we have an array of words
             if (len(eachUtt.arrayWord) > 0):
                 opfile.write("{0} ".format(eachUtt.arrayWord[0].fileID))
                 for eachWord in eachUtt.arrayWord: 
                     opfile.write("{0} ".format(eachWord.wordStr))
             else:
+                    # or we directly use the uttStr, which should be the same!!!!
                     # The two SHOULD be the same! bottom -> we initialse from text file
                     opfile.write("{0} ".format(eachUtt.uttName))
                     opfile.write(eachUtt.uttStr)
@@ -178,32 +201,75 @@ class C_ArrayUttCTM:
     # here we ONLY consider hotword of the forms __xxx_yy_xxx, __xx_yy_xx
     # This is just a quick hack! 
     # we should be checking the hotword list
-    def fn_splitHotWord(self,inStr):
-        split_hotWordStr = inStr.replace('__','').replace('_',' ')
-        return(split_hotWordStr)
+    #def fn_splitHotWord(self,inStr):
+    #    split_hotWordStr = inStr.replace('__','').replace('_',' ')
+    #    return(split_hotWordStr)
 
     # uttid  text-per-sentence
-    def writeTextFile_SplitHotWord(self, fileName):
-        log.info("Writing Text File : ({})".format(fileName))
+    #def writeTextFile_SplitHotWord(self, fileName):
+    #    log.info("Writing Text File : ({})".format(fileName))
 
-        opfile = open(fileName,"w",encoding='utf8')
+    #    opfile = open(fileName,"w",encoding='utf8')
+    #    for eachUtt in self.arrayUttCTM:
+    #        opfile.write("{0} ".format(eachUtt.uttName))
+    #        split_hotWordStr = self.fn_splitHotWord(eachUtt.uttStr)
+    #        opfile.write("{0} ".format(split_hotWordStr))
+    #        # the uttStr should have saved it as well !!! :)    
+    #        opfile.write('\n')    
+    #    opfile.close()
+    #    log.info("Completed Text File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+
+
+    # 
+    # this function returns a CTM with ONLY HOTWORD entiries
+    # listHotWord is a dictionary containing ALL the hotwords already
+    # it has a method to convert its input string to required format
+    #
+    def saveCTM_HotWordOnly(self,listHotWord):
+        newArrayCTM = C_ArrayUttCTM()
         for eachUtt in self.arrayUttCTM:
-            opfile.write("{0} ".format(eachUtt.uttName))
-            split_hotWordStr = self.fn_splitHotWord(eachUtt.uttStr)
-            opfile.write("{0} ".format(split_hotWordStr))
-            # the uttStr should have saved it as well !!! :)    
-            opfile.write('\n')    
-        opfile.close()
-        log.info("Completed Text File ({}) has ({}) entries".format(fileName,len(self.arrayUttCTM)))
+            hotWordOnlyStr = listHotWord.convertStrToHotWordLabel_ONLY(eachUtt.uttStr)
+            oneUttCTM  = C_UttCTM(eachUtt.uttName, hotWordOnlyStr) 
+            newArrayCTM.addUttCTM(oneUttCTM)
+        return newArrayCTM
 
+    # this function returns a CTM with Word ONLY entiries
+    # listHotWord is a dictionary containing ALL the hotwords already
+    # it has a method to convert its input string to required format
+    #
+    def saveCTM_WordOnly(self,listHotWord):
+        newArrayCTM = C_ArrayUttCTM()
+        for eachUtt in self.arrayUttCTM:
+            wordAndhotWordStr = listHotWord.convertLabelToWord(eachUtt.uttStr)
+            oneUttCTM  = C_UttCTM(eachUtt.uttName,wordAndhotWordStr) 
+            newArrayCTM.addUttCTM(oneUttCTM)
+        return newArrayCTM
 
+    # this function returns a CTM with Word And HOTWordLabel entiries
+    # listHotWord is a dictionary containing ALL the hotwords already
+    # it has a method to convert its input string to required format
+    #
+    def saveCTM_WordAndHotWordLabel(self,listHotWord):
+        newArrayCTM = C_ArrayUttCTM()
+        for eachUtt in self.arrayUttCTM:
+            wordAndhotWordLabel = listHotWord.convertStrToHotWordLabel(eachUtt.uttStr)
+            oneUttCTM  = C_UttCTM(eachUtt.uttName,wordAndhotWordLabel) 
+            newArrayCTM.addUttCTM(oneUttCTM)
+        return newArrayCTM
                     
 ## End of definition for class C_ArrayUttCTM
             
 
-# This function removes all words in the CTM that are NOT hotwords, --> no __ in the 
+# I dont like this function as IT does not use dictionary to solve the problem
+# This function removes all words in the CTM that are 
+# NOT hotwords, --> no __ in the 
 # begining of the string
-def fn_retainOnlyHotWord(oneUttCTM):
+# BUT IT MUST be retained NOW because We are using the oneUTTCTM's original information of time
+# #        if listHotWord.verifyIsHOTWORD(oneUttCTM.arrayWord[i].wordStr.lower()) == 1:
+# and NOW the hotword is case sensitive, BUT the decoder op is NOT,
+# so we have to prepare the lexicon for it first
+#
+def fn_retainOnlyHotWord(listHotWord, oneUttCTM):
     ret_utt = C_UttCTM(oneUttCTM.uttName,'')
     for i in range(0,len(oneUttCTM.arrayWord)):
         if oneUttCTM.arrayWord[i].wordStr[0:2] =='__':
@@ -211,6 +277,8 @@ def fn_retainOnlyHotWord(oneUttCTM):
     return(ret_utt)
 
 
+
+# combing the master and hotword decoder, we need to find where the word is in word index
 # find and return which index in MasterCTM is timeVal in
 def fn_find_CurrWord(MasterCTM, timeVal):
     foundIdx   = -1;

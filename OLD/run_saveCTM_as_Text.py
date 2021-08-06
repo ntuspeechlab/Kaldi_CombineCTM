@@ -9,7 +9,7 @@ Created on Tue Aug  3 20:11:03 2021
 Author: Chng Eng Siong
 Date: 31 July 2021
 Last edited: 1st Aug 2021 (CES), 11:07pm
-Objective: to convert the ctm file to text file
+Objective: to convert the ctm file to text file ready for WER
 Usage: python3 run_saveCTM_as_Text.py --ctm yourCTMFileName.ctm
 
 This function allows CTM files to saved as text files so that WER can be called
