@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Source this file, and then check ./TestDataOp
+# The output should be self-explanatory
 #
 # Step 1: creating the lexicon for hotword decoder from rawList of hotword!
 #
@@ -12,6 +14,13 @@ python3 run_createHotWordLexicon.py --hotwordRawList $hotwordlist \
                                     --opLexicon_withHWStr  $opLexiconWithHWR
 
 
+#
+# Step 1B, creating the hotword decoder's lexicon AND language model count
+#
+python3 run_createhotWordLexiconUnigram.py --unigram_countFile ./TestData_Clean/unigram.count --topNunigram 5000 --hotwordRawList   ./TestData_Clean/hotwordRawList.txt  --opHotDecoderLexicon ./TestDataOp/hotwordDecoderLex.txt   --opHotDecoderUnigram ./TestDataOp/hotwordDecoderUnigram.txt  --fixHotWord_position 300
+
+# we will take the top (above example) 5000 words.
+# we will use the top300's count to initialize for ALL hotwords in hotword list
 
 #
 # you should NOW build your hotword decoder and score
@@ -48,5 +57,5 @@ outHotWord=./TestDataOp/hotword
 outMaster=./TestDataOp/master
 outDual=./TestDataOp/dual
 python3 run_convertCTM_toWERscoringText.py  --ctm $hotwordCTM --hotwordRawList $hotwordlist --opFileName $outHotWord
-python3 run_convertCTM_toWERscoringText.py  --ctm $masterCTM --hotwordRawList $hotwordlist --opFileName $outMaster
-python3 run_convertCTM_toWERscoringText.py  --ctm $dualCTM --hotwordRawList $hotwordlist --opFileName $outDual
+python3 run_convertCTM_toWERscoringText.py  --ctm $masterCTM  --hotwordRawList $hotwordlist --opFileName $outMaster
+python3 run_convertCTM_toWERscoringText.py  --ctm $dualCTM    --hotwordRawList $hotwordlist --opFileName $outDual

@@ -145,6 +145,12 @@ class C_HotWordList:
             # we keep the above information to ease tracking of the new hotword string
         return 0
 
+    def add_HotWordList(self, setHotWord):
+        for tokStr in setHotWord:
+            self.listReadStr.append(tokStr)    
+            self.fn_textParseLine(tokStr)
+
+
     # actual function reading the rawHotWordList.txt files
     def read_HotWordList(self,infilename):
         self.fileName = infilename
