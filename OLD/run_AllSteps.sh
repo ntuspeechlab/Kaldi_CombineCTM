@@ -59,5 +59,3 @@ outDual=./TestDataOp/dual
 python3 run_convertCTM_toWERscoringText.py  --ctm $hotwordCTM --hotwordRawList $hotwordlist --opFileName $outHotWord
 python3 run_convertCTM_toWERscoringText.py  --ctm $masterCTM  --hotwordRawList $hotwordlist --opFileName $outMaster
 python3 run_convertCTM_toWERscoringText.py  --ctm $dualCTM    --hotwordRawList $hotwordlist --opFileName $outDual
-
-#  --ctm ./TestData_Clean/hotword.ctm  --hotwordRawList ./TestData_Clean/hotwordRawList.txt  --opFileName ./TestDataOp/hotword

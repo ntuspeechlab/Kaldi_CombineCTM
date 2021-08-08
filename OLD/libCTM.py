@@ -12,7 +12,7 @@ import os, sys, io
 import argparse
 from   dataclasses import dataclass
 from   typing import List
-from   libHotWord import C_HotWordList
+from   libWord import C_WordList
 
 
 logging.basicConfig(
@@ -119,7 +119,7 @@ class C_ArrayUttCTM:
         with open(fileName, 'r', encoding='utf8') as infile:
             for line in infile:
                 line = line.strip()
-                line = line.lower()
+                #line = line.lower()  # we should NOT change the case of the line being read
                 (uttID, startTime, endTime, durTime, wordStr) = self.fn_ctmParseLine(line)
                 oneWordCTM = C_WordCTM(uttID,startTime, durTime, wordStr) 
             
@@ -168,7 +168,7 @@ class C_ArrayUttCTM:
         with open(fileName, 'r', encoding='utf8') as infile:
             for line in infile:
                 line = line.strip()
-                line = line.lower()
+                #line = line.lower()  # WE SHOULD NOT CHANGE THE CASE OF THE LINE?
                 (uttID, uttStr) = self.fn_textParseLine(line)
                 if (len(uttStr)> 0):
                     oneUttCTM  = C_UttCTM(uttID, uttStr) 

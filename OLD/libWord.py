@@ -4,7 +4,7 @@ Filename: libWord.py (to be imported as a module)
 Author: Chng Eng Siong
 Date: 6 Aug 2021
 Last edited: 3rd Aug 2021 (CES), 11:07pm
-Objective: Libraries supporting hotword
+Objective: Libraries supporting hotword and word
 """
 #
 import re
@@ -40,13 +40,13 @@ Vu Ly Thy: voo lai tea
 
 @dataclass
 class C_OneWord:
-    hotWordFlag: int    # 1 is True, 0 is False
-    wordStr: str     # this is the hotword, case is important! 
+    hotWordFlag: int    # 1 is True, 0 is False (this affects __ in the label!)
+    wordStr: str     # this is the word as seen by human, case is important! 
     wordLabel: str   # If its hotword then  __hotword_name_in_lower_case, else no __ in first two character
     wordArrayPron: [] # This is the list of pronunciation ALL in lower case when expanded
 
-    # initialise a howtowrd by its hotwordstring
-    # to the label and first pronunciation!
+    # initialise a word by its wordstr
+    # and we will update the label and initialise its first pronunciation!
     def __init__(self, inWordStr, hotWordFlag):   # MUST set hotword FLag for each word
         self.hotWordFlag  = hotWordFlag
         wordStr           = inWordStr.rstrip()
@@ -54,10 +54,12 @@ class C_OneWord:
         if hotWordFlag == True:
             self.wordLabel = '__'+wordStr.replace(' ','_')  # the label is with __word_string
         else:
-            self.wordLabel    = wordStr.replace(' ','_')  # the label is with word_string
-            # THE only difference is NO __ in front
-
-        self.wordArrayPron = [wordStr.lower()]          # all pronunciation is lowered case
+            self.wordLabel    = wordStr.replace(' ','_')  
+            # the label is word_string (no __ in front to mark as hotword)
+            
+        self.wordArrayPron = [wordStr.lower().strip(' \t\n')]          
+        # all pronunciation is lowered case as saved as list in lower case!
+        # removing all white space as well, hence Orchard Road becomes orchardroad
  
     # we can add more pronunciation
     def addPron(self,inPronStr):
@@ -70,8 +72,9 @@ class C_OneWord:
 
     # This function generates the lexicon entry given pronStr
     # We are now ONLY assuming for english lexicon 
+    # we are assuming grapheme based lexicon
     def getPronEntry(self,ipStr):
-        if len(ipStr) <= 0:
+        if len(ipStr) <= 0:  # sanity check
             return ""
 
         opStr = ""
@@ -90,18 +93,18 @@ class C_OneWord:
     # saving the single word as lexicon entry
     # we save 2 fields, field1  == label (__Orchard_Road)
     # the second field , field2 == pronunciation string for kaldi in grapheme format
+    # lets deal with multiple pronunciation 
     def writeOneWordLexicon(self,opfile):
         countPron = 0
         for pronStr in self.wordArrayPron:
             lexEntry = self.getPronEntry(pronStr)
-            if countPron == 0:
+            if (countPron == 0):
                 opfile.write("{0} {1}\n".format(self.wordLabel, lexEntry))
             else:
-                opfile.write("{0}#{2} {1}\n".format(self.wordLabel, lexEntry, countPron))
-                    
-            countPron=countPron+1
+                opfile.write("{0}#{1} {2}\n".format(self.wordLabel, countPron, lexEntry))
 
-            # IMPORTANT *** SHOULD WE WRITE #1, #2 for multiple pronunciation???
+            countPron = countPron+1    
+            # IMPORTANT *** we are writing #1, .. #2,  for multiple pronunciation
 
 
     # saving the single word as lexicon entry with 3 fields!
@@ -130,7 +133,7 @@ class C_WordList:
     dictWStrToLabel: dict
     dict_HotWordStrToLabel: dict
     dict_HotWordLabelToWordStr: dict
-    dictWStrToCWord: dict
+    dictWStrToCWord: dict   # this is the dictionary linking WStr to the element C_OneWord
 
     def __init__(self):
         self.fileName = ''
@@ -140,21 +143,26 @@ class C_WordList:
         self.dictWStrToLabel = {}
         self.dict_HotWordStrToLabel = {}
         self.dict_HotWordLabelToWordStr = {}
-        self.dictWStrToCWord  = {}
+        self.dictWStrToCWord  = {} # this is the dictionary linking WStr to the element C_OneWord
 
 
 
-    # function supporting reading the rawWordList.txt
+    # function supporting reading the HotWordList.txt
     # as well as normal list of words file files
     # parsing a line containg 2 fields (wordstring: wordpronunciation str (if exist))
     # eg   
     # e.g,  Vu Ly Thy:vu lee tea
     #       Vu Ly Thy:voo ly tee
     # field 1== word string  
-    # field 2== alternate pronunciation of the word
+    # field 2== alternate pronunciation of the word (if any)
+    # we need to be give a flag, to tell us if we are to treat the line being parsed as a hotword or not?
+    # if its a hotword, then we have to save this OneWord's HotWordFlag == 1
     def fn_textParseLine(self,line, hotWordFlag):
         tokenArray=line.split(':')
         wordStr = tokenArray[0].replace('\t',' ').strip('\n');
+
+        # before we create a new word, we have to test
+        # if we have seen if before
         if wordStr in self.dictWStrToLabel.keys():            
             currWord = self.dictWStrToCWord[wordStr]
             if (len(tokenArray) >= 2):
@@ -167,11 +175,11 @@ class C_WordList:
             self.dictWStrToLabel[wordStr]= oneWord.wordLabel  
             self.dictLabelToWStr[oneWord.wordLabel] = wordStr
             self.listWordStr.append(wordStr)
+            # if it is a hotword being processed, we must remember it
+            # in the additional dictionary!
             if (hotWordFlag == True):
                 self.dict_HotWordStrToLabel[wordStr]= oneWord.wordLabel  
                 self.dict_HotWordLabelToWordStr[oneWord.wordLabel] = wordStr
-
-
             # we keep the above information to ease tracking of the new hotword string
         return 0
 
@@ -233,10 +241,7 @@ class C_WordList:
 
 
     def convertLabelToWord(self,inStr):
-        tmpStr0  = multireplace(inStr, self.dict_HotWordStrToLabel, True)
-        # This is a sanity check to convert everything to label first
-        # this allow us to keep the case
-        return( multireplace(tmpStr0, self.dictLabelToWStr, True))
+        return( multireplace(inStr, self.dictLabelToWStr, True))
     # We should change this to False (case is important in future
     # IMPORTANT: this is to ignore case when we find, BUT actually we should?
 
@@ -251,22 +256,19 @@ class C_WordList:
     #
     def convertStrToHotWordLabel_ONLY(self,inStr):
         # sanity check, lets convert hotwords into hotwords label first
-        tmpStr0 = multireplace(inStr, self.dict_HotWordLabelToWordStr, True)
-        # This is to convert labels to string first!! :) its sanity check!
-        tmpStr  = multireplace(tmpStr0, self.dict_HotWordStrToLabel, True)
+        tmpStr = multireplace(inStr, self.dict_HotWordStrToLabel, True)  
         opToken = tmpStr.split()  # lets retain only those that have __
-        opStr = ''   # stores the tokens retained, MUST only be those that have __ in front
+        tmpStr = ''   # stores the tokens retained, MUST only be those that have __ in front
         for tok in opToken:
             if tok[0:2] == '__':        # be careful, we MUST remember all hotwords start with '__'
-                opStr = opStr+ ' '+tok
-        return(opStr.strip())       # because the first token added the space, this is a hack! 
+                tmpStr = tmpStr+ ' '+tok
+        self.convertLabelToWord(tmpStr.strip())      
+         # because the first token added the space, this is a hack! to strip
+         # and we make it of label BACK to word
+
 
     def convertHotWordLabelToWordStr(self,inStr):
-        tmpStr0  = multireplace(inStr, self.dict_HotWordStrToLabel, True)
-        # This is a sanity check to convert everything to label first
-        # this allow us to keep the case
-        return( multireplace(tmpStr0, self.dict_HotWordLabelToWordStr, True))
-
+        return( multireplace(inStr, self.dict_HotWordLabelToWordStr, True))
     # We should change this to False (case is important in future
     # IMPORTANT: this is to ignore case when we find, BUT actually we should?
 
