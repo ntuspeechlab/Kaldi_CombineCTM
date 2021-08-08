@@ -12,7 +12,7 @@ Last edited: 1st Aug 2021 (CES), 11:07pm
 """
 import logging
 import os, sys, io
-from   libHotWord import C_HotWordList
+from   libWord import C_WordList
 import argparse
 import pandas as pd
 # must install pandas, using bash cmd line:
@@ -57,8 +57,9 @@ def real_main():
     args = parse.parse_args()
 
     # Lets read the hot word first
-    listHotWord = C_HotWordList()
-    listHotWord.read_HotWordList( args.hotwordRawList)
+    listWord = C_WordList()
+    listWord.read_WordList( args.hotwordRawList, True)
+    # we must pass it a flag to tell HIM if of if not hotWord
 
     # lets prepare to write the hotword decoder unigram count!!!
     opfile_HotDecoderUnigram = open( args.opHotDecoderUnigram,'w')
@@ -68,9 +69,11 @@ def real_main():
         args.fixHotWord_position  = args.topNunigram
 
     # we will use pandas, and assume that the unigram count has 2 fields
-    # The first row must be modified to have two fields,  'token','count'
+    # The first row must NOT be ignored, hence header = none
     # see how to use pandas in: https://re-thought.com/pandas-value_counts/
-    df = pd.read_csv(args.unigram_countFile, dtype={'token':'str', 'count':'int'}, sep='\t')
+    df = pd.read_csv(args.unigram_countFile, header=None, encoding='utf8', dtype={'token':'str', 'count':'int'}, sep='\t')
+    # BUT pandas require 1st row to have the field ID
+    # we can replocate it by the following, BUT we must save the original first!
     df.columns = ['token','count']
     sorted_df = df.sort_values('count',ascending=False)
     print('num of elements read in ',args.unigram_countFile,' = ', len(df))
@@ -92,10 +95,10 @@ def real_main():
 
     print('written ',numFound,' entries in sorted_unigram')
     numFound = 0
-    for oneHotWordStr in  listHotWord.listHotWordStr:
-        oneHotWord = listHotWord.dictHWStrToHotWord[oneHotWordStr]
+    for oneWordStr in  listWord.listWordStr:
+        oneWord = listWord.dictWStrToWord[oneWordStr]
         numFound=numFound+1
-        opfile_HotDecoderUnigram.write("{0}\t{1}\n".format(oneHotWord.hotWordLabel , foundCountThreshold))
+        opfile_HotDecoderUnigram.write("{0}\t{1}\n".format(oneWord.wordLabel , foundCountThreshold))
     print('written ',numFound,' entries in hotwordList')
 
     opfile_HotDecoderUnigram.close()
@@ -103,9 +106,9 @@ def real_main():
     # saving the hotword decoder lexicon
     # it is the hotwordlist entries AND the found topN unigram entires
 
-    listHotWord.add_HotWordList( sorted((list_englishWordsUnigram)))
-    listHotWord.write_HotWordLexicon(args.opHotDecoderLexicon)
-
+    listWord.add_WordList( sorted(list_englishWordsUnigram), False)  #MUST set second entry to False it is NOT a hotword
+    listWord.write_WordLexicon(args.opHotDecoderLexicon)
+    
 
 
 def main():

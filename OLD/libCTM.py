@@ -12,7 +12,7 @@ import os, sys, io
 import argparse
 from   dataclasses import dataclass
 from   typing import List
-from   libWord import C_WordList
+from   libHotWord import C_HotWordList
 
 
 logging.basicConfig(

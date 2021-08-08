@@ -12,7 +12,7 @@ opLexiconWithHWR=./TestDataOp/opLexicon_withHWStr.txt
 python3 run_createHotWordLexicon.py --hotwordRawList $hotwordlist \
                                     --opLexicon $opLexicon \
                                     --opLexicon_withHWStr  $opLexiconWithHWR
-
+# The above can be skipped as below Step1B will generate the lexicon needed as well
 
 #
 # Step 1B, creating the hotword decoder's lexicon AND language model count

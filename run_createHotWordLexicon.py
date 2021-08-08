@@ -24,7 +24,7 @@ ex:
 import logging
 import os, sys, io
 import argparse
-from   libHotWord import C_HotWordList
+from   libWord import C_WordList
 
 logging.basicConfig(
     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s [%(filename)s:%(lineno)d] %(message)s',
@@ -40,9 +40,9 @@ parse.add_argument('--opLexicon_withHWStr', required=True,  help="lexicon with H
 args = parse.parse_args()
  
 
-listHotWord = C_HotWordList()
-listHotWord.read_HotWordList( args.hotwordRawList)
-listHotWord.write_HotWordLexicon(args.opLexicon)
-listHotWord.write_HotWordLexicon_withHotWordStr(args.opLexicon_withHWStr)
+listHotWord = C_WordList()
+listHotWord.read_WordList( args.hotwordRawList, True)   # second parameter tells system that its hotword reading
+listHotWord.write_WordLexicon(args.opLexicon)
+listHotWord.write_WordLexicon_withWordStr(args.opLexicon_withHWStr)
  
  

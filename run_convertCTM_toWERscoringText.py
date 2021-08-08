@@ -20,7 +20,7 @@ import logging
 import os, sys, io
 import argparse
 from   libCTM     import C_ArrayUttCTM   # eng siong's CTM library 
-from   libHotWord import C_HotWordList
+from   libWord    import C_WordList
 
 logging.basicConfig(
     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s [%(filename)s:%(lineno)d] %(message)s',
@@ -52,8 +52,8 @@ def real_main():
     uttFileCTM = C_ArrayUttCTM()
     uttFileCTM.readCTMFile(args.ctm) 
 
-    listHotWord = C_HotWordList()
-    listHotWord.read_HotWordList( args.hotwordRawList)
+    listHotWord = C_WordList()
+    listHotWord.read_WordList( args.hotwordRawList, True)  # we must remember to tell the function that this is HOTWORDS
 
     # the CTM class .saveCTM_HotWordOnly returns a uttArrayCTM class that have each utterance with ONLY hotwords!
     uttArrayHotWordONLY = uttFileCTM.saveCTM_HotWordOnly(listHotWord)

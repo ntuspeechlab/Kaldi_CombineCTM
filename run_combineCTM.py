@@ -14,7 +14,7 @@ import argparse
 import libCTM
 from   libCTM import C_ArrayUttCTM   # eng siong's library 
 from   libCTM import C_UttCTM
-from   libHotWord import C_HotWordList
+from   libWord import C_WordList
 
 logging.basicConfig(
     format='%(asctime)s,%(msecs)d %(name)s %(levelname)s [%(filename)s:%(lineno)d] %(message)s',
@@ -48,8 +48,8 @@ def real_main():
     uttFileHotWordCTM.readCTMFile(args.hotword_ctm)  
 
     # This is for the future! :) 
-    listHotWord = C_HotWordList()
-    listHotWord.read_HotWordList( args.hotwordRawList)
+    listHotWord = C_WordList()
+    listHotWord.read_WordList( args.hotwordRawList, True)  # we must tell the function that we are reading HOTLIST
 
     dualDecoderCTM = C_ArrayUttCTM()
     collar  = args.collar_rate
