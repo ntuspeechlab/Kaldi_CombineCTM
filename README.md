@@ -3,6 +3,7 @@
 
 ### Author: Chng Eng Siong
 ### Date: 31st July 2021
+##Last updated: 8 Aug 2021
 
 Objective: 
 
@@ -17,6 +18,8 @@ The code in the  folder allows you to
             b) word_hotword
             c) hotwordOnly
 
+
+You can see how to run in run_AllStep.sh in Ubuntu
 
 1) generate the hotword decoder lexicon from the hotwordlist:
 # The following command generates the hotword lexicon from hotwordlist
@@ -33,6 +36,19 @@ ex:
                 __Vu_Ly_Tee:Vu Ly Tee:vu ly tee,vu lee tea,voo lee tea
                 __Abraham_Solomon:Abraham Solomon:abraham solomon_
 
+# The above can be skipped as below Step1B will generate the lexicon needed as well
+#
+# Step 1B, creating the hotword decoder's lexicon AND language model count
+#
+python3 run_createhotWordLexiconUnigram.py --unigram_countFile ./TestData_Clean/unigram.count --topNunigram 5000 --hotwordRawList   ./TestData_Clean/hotwordRawList.txt  --opHotDecoderLexicon ./TestDataOp/hotwordDecoderLex.txt   --opHotDecoderUnigram ./TestDataOp/hotwordDecoderUnigram.txt  --fixHotWord_position 300
+
+# we will take the top (above example) 5000 words.
+# we will use the top300's count to initialize for ALL hotwords in hotword list
+
+#
+# you should NOW build your hotword decoder and score
+# if you are successful, you will get 2 files,
+# the hotword.ctm and the master.ctm
 
 
 2) experimental output to combine hotword and master decoder ctm file.
