@@ -40,9 +40,9 @@ Vu Ly Thy: voo lai tea
 
 @dataclass
 class C_OneWord:
-    hotWordFlag: int    # 1 is True, 0 is False
-    wordStr: str     # this is the hotword, case is important! 
-    wordLabel: str   # If its hotword then  __hotword_name_in_lower_case, else no __ in first two character
+    hotWordFlag: int  # 1 is True, 0 is False
+    wordStr: str      # this is the hotword, case is important! 
+    wordLabel: str    # If its hotword then  __hotword_name_in_lower_case, else no __ in first two character
     wordArrayPron: [] # This is the list of pronunciation ALL in lower case when expanded
 
     # initialise a howtowrd by its hotwordstring
@@ -232,11 +232,19 @@ class C_WordList:
         print('completed saving:',opfilename,' has ',len(self.dictWStrToLabel),' unique hotwords\n')    
 
 
+
+    # This is a hack, we will make __Tanjong_Pagar#1 to become __Tanjong_Pagar
+    # inStr is a string with many tokens
+    def removeLabel_multiPronDisambiguation(self,inStr):
+        return(re.sub('[#][0-9]','',inStr))
+        
+
     def convertLabelToWord(self,inStr):
-        tmpStr0  = multireplace(inStr, self.dict_HotWordStrToLabel, True)
+        tmpStr0= self.removeLabel_multiPronDisambiguation(inStr)
+        tmpStr1  = multireplace(tmpStr0, self.dict_HotWordStrToLabel, True)
         # This is a sanity check to convert everything to label first
         # this allow us to keep the case
-        return( multireplace(tmpStr0, self.dictLabelToWStr, True))
+        return( multireplace(tmpStr1, self.dictLabelToWStr, True))
     # We should change this to False (case is important in future
     # IMPORTANT: this is to ignore case when we find, BUT actually we should?
 
@@ -245,16 +253,18 @@ class C_WordList:
     # e.g, if "Orchard Road" is a hotword in dictionary, then __Orchard_Road is returned
     # here the case == True is used, => we ignore case
     def convertStrToHotWordLabel(self,inStr):
-        return(multireplace(inStr, self.dict_HotWordStrToLabel, True))
+        tmpStr0= self.removeLabel_multiPronDisambiguation(inStr)
+        return(multireplace(tmpStr0, self.dict_HotWordStrToLabel, True))
 
     # This function takes an inStr and remove all words except Hotword Labels
     #
     def convertStrToHotWordLabel_ONLY(self,inStr):
+        tmpStr0= self.removeLabel_multiPronDisambiguation(inStr)
         # sanity check, lets convert hotwords into hotwords label first
-        tmpStr0 = multireplace(inStr, self.dict_HotWordLabelToWordStr, True)
+        tmpStr1 = multireplace(tmpStr0, self.dict_HotWordLabelToWordStr, True)
         # This is to convert labels to string first!! :) its sanity check!
-        tmpStr  = multireplace(tmpStr0, self.dict_HotWordStrToLabel, True)
-        opToken = tmpStr.split()  # lets retain only those that have __
+        tmpStr2  = multireplace(tmpStr1, self.dict_HotWordStrToLabel, True)
+        opToken = tmpStr2.split()  # lets retain only those that have __
         opStr = ''   # stores the tokens retained, MUST only be those that have __ in front
         for tok in opToken:
             if tok[0:2] == '__':        # be careful, we MUST remember all hotwords start with '__'
@@ -262,10 +272,11 @@ class C_WordList:
         return(opStr.strip())       # because the first token added the space, this is a hack! 
 
     def convertHotWordLabelToWordStr(self,inStr):
-        tmpStr0  = multireplace(inStr, self.dict_HotWordStrToLabel, True)
+        tmpStr0= self.removeLabel_multiPronDisambiguation(inStr)
+        tmpStr1  = multireplace(tmpStr0, self.dict_HotWordStrToLabel, True)
         # This is a sanity check to convert everything to label first
         # this allow us to keep the case
-        return( multireplace(tmpStr0, self.dict_HotWordLabelToWordStr, True))
+        return( multireplace(tmpStr1, self.dict_HotWordLabelToWordStr, True))
 
     # We should change this to False (case is important in future
     # IMPORTANT: this is to ignore case when we find, BUT actually we should?

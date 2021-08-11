@@ -18,14 +18,36 @@ The code in the  folder allows you to
             c) hotwordOnly
 
 
-1) generate the hotword decoder lexicon from the hotwordlist:
+# requirements:
+# 1) MUST install nltk words
+#>>> import nltk
+#>>> nltk.download('words')
+# 
+# 2) MUST have SRILM installed
+# 3) must source kaldi path as we will use ngram-count (SRILM)
+
+
+
+# How to use
+1) Prep ./TestData_Clean (put in the files as in example)
+2) Just execute
+source run1_BuildLexiconLM.sh
+--> here MUST run building of the hotword decoder then
+source run2_combineDual.sh  -> to produce the output of the dual, master and hotword for WER evaluation
+3) Then check ./TestDataOp
+
+
+
+# 1) generate the hotword decoder lexicon from the hotwordlist:
 # The following command generates the hotword lexicon from hotwordlist
-python3 run_createHotWordLexicon.py --hotwordRawList ./TestData_Clean/hotwordRawList.txt --opLexicon ./TestDataOp/opLexicon.txt --opLexicon_withHWStr  ./TestData_Op/opLexicon_withHWStr.txt
+
+python3 run_createHotWordLexicon.py --hotwordRawList ./TestData_Clean/hotwordRawList.txt --opLexicon ./TestDataOp/Lex_HotWord.txt --opLexicon_withHWStr  ./TestDataOp/LexHotWord_withHWStr.txt
 ex:
     hotwordRawList      = './TestData_Clean/hotwordRawList.txt' -> a list of hotwords
-    opLexicon           = './TestData_Op/hotword_Lexicon.txt'   -> ready for ASR use
-    opLexicon_withHWStr = './TestData_Op/hotwordRaw_Lexicon_withHWStr.txt'  -> this is for debugging purposes,
-                you can see the multiple pronunciation here, example below:
+    opLexicon           = './TestData_Op/Lex_HotWord.txt '   -> ready for ASR use
+    opLexicon_withHWStr = './TestData_Op/LexHotWord_withHWStr.txt'  
+                            -> this is for debugging purposes,
+    you can see the multiple pronunciation here, example below:
                     field 1 == label (case sensitive!)
                     field 2 == original hotword string found in hotwordRawList.txt (case sensitive!)
                     field 3 == pronunciation string separated by comma ','. since phones id, ONLY lower case allowed.

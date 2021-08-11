@@ -12,7 +12,7 @@ Last edited: 1st Aug 2021 (CES), 11:07pm
 """
 import logging
 import os, sys, io
-from   libWord import C_WordList
+from   libWord import C_WordList, C_OneWord
 import argparse
 import pandas as pd
 # must install pandas, using bash cmd line:
@@ -54,6 +54,7 @@ def real_main():
     parse.add_argument('--opHotDecoderUnigram', required=True,  help="hotword decoder unigramcount")
     parse.add_argument('--fixHotWord_position', type=int, default=300, help="fixing hotword into sorted unigram count at position xxx")
     
+    
     args = parse.parse_args()
 
     # Lets read the hot word first
@@ -94,12 +95,24 @@ def real_main():
                 break
 
     print('written ',numFound,' entries in sorted_unigram')
-    numFound = 0
     for oneWordStr in  listWord.listWordStr:
         oneWord = listWord.dictWStrToCWord[oneWordStr]
-        numFound=numFound+1
-        opfile_HotDecoderUnigram.write("{0}\t{1}\n".format(oneWord.wordLabel , foundCountThreshold))
+        countPron = 0
+        for pronStr in oneWord.wordArrayPron:        
+            if countPron == 0:
+                opfile_HotDecoderUnigram.write("{0}\t{1}\n".format(oneWord.wordLabel , foundCountThreshold))
+                countPron=countPron+1
+            else:
+                opfile_HotDecoderUnigram.write("{0}#{2} {1}\n".format(oneWord.wordLabel , foundCountThreshold, countPron))
+                countPron=countPron+1
+        numFound=numFound+countPron        
+
     print('written ',numFound,' entries in hotwordList')
+
+    listOfWordToAdd = ['<s>','</s>','<unk>','<noise>','<v-noise>']
+    for oneWordStr in  listOfWordToAdd:
+        numFound=numFound+1
+        opfile_HotDecoderUnigram.write("{0}\t{1}\n".format(oneWordStr , foundCountThreshold))
 
     opfile_HotDecoderUnigram.close()
     

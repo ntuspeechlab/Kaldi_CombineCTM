@@ -16,3 +16,6 @@ python3 run_createhotWordLexiconUnigram.py --unigram_countFile ./TestData_Clean/
 
 # we will take the top (above example) 5000 words.
 # we will use the top300's count to initialize for ALL hotwords in hotword list
+
+ngram-count -read ./TestDataOp/hotwordDecoderUnigram.txt   -lm ./TestDataOp/hotwordDecoderUnigram.arpa
+

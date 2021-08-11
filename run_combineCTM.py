@@ -57,7 +57,7 @@ def real_main():
     
     for (eachMasterUtt, eachHotWordUtt) in zip(uttFileMasterCTM.arrayUttCTM,
                                                uttFileHotWordCTM.arrayUttCTM):
-        test_hotWordOnlyStr             = listHotWord.convertStrToHotWordLabel_ONLY(eachHotWordUtt.uttStr)
+        #test_hotWordOnlyStr             = listHotWord.convertStrToHotWordLabel_ONLY(eachHotWordUtt.uttStr)
 
         oneUttHotWordONLYCTM  = libCTM.fn_retainOnlyHotWord(listHotWord, eachHotWordUtt)
         retCTM                = libCTM.fn_combineMasterCTM_HotWordCTM(eachMasterUtt, 

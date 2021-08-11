@@ -295,6 +295,8 @@ def fn_find_CurrWord(MasterCTM, timeVal):
 
     return foundIdx        
 
+
+
 # current collar is collar*durationword Word (should be a value between 0.1~0.4 I guess)       
 def fn_findStartEndMasterIdx(MasterCTM, HotWordStartTime,HotWordEndTime,collar=0.1):
 
