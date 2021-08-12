@@ -196,8 +196,6 @@ __Colchester_Grove c_WB_eng o_eng l_eng c_eng h_eng e_eng s_eng t_eng e_eng r_en
 __College_Of_Medicine c_WB_eng o_eng l_eng l_eng e_eng g_eng e_eng o_eng f_eng m_eng e_eng d_eng i_eng c_eng i_eng n_eng e_WB_eng
 __Collyer_Quay c_WB_eng o_eng l_eng l_eng y_eng e_eng r_eng q_eng u_eng a_eng y_WB_eng
 __Compassvale_Drive c_WB_eng o_eng m_eng p_eng a_eng s_eng s_eng v_eng a_eng l_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
-__Compassvale_Drive#1 c_WB_eng o_eng m_eng p_eng a_eng s_eng l_eng i_eng v_eng e_WB_eng
-__Compassvale_Drive#2 c_WB_eng o_eng m_eng p_eng a_eng s_eng s_eng e_eng e_eng d_eng r_eng i_eng v_eng e_WB_eng
 __Compassvale_Road c_WB_eng o_eng m_eng p_eng a_eng s_eng s_eng v_eng a_eng l_eng e_eng r_eng o_eng a_eng d_WB_eng
 __Coney_Island c_WB_eng o_eng n_eng e_eng y_eng i_eng s_eng l_eng a_eng n_eng d_WB_eng
 __Connexis_South c_WB_eng o_eng n_eng n_eng e_eng x_eng i_eng s_eng s_eng o_eng u_eng t_eng h_WB_eng
@@ -503,8 +501,6 @@ __Joo_Koon_Crescent j_WB_eng o_eng o_eng k_eng o_eng o_eng n_eng c_eng r_eng e_e
 __Jula_Juli j_WB_eng u_eng l_eng a_eng j_eng u_eng l_eng i_WB_eng
 __Junction_Nine j_WB_eng u_eng n_eng c_eng t_eng i_eng o_eng n_eng n_eng i_eng n_eng e_WB_eng
 __Jupiter_Road j_WB_eng u_eng p_eng i_eng t_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
-__Jupiter_Road#1 j_WB_eng u_eng p_eng i_eng t_eng l_eng o_eng a_eng d_WB_eng
-__Jupiter_Road#2 j_WB_eng u_eng p_eng i_eng t_eng e_eng r_eng r_eng o_eng a_eng d_WB_eng
 __Jurong_Bird j_WB_eng u_eng r_eng o_eng n_eng g_eng b_eng i_eng r_eng d_WB_eng
 __Jurong_East_Avenue j_WB_eng u_eng r_eng o_eng n_eng g_eng e_eng a_eng s_eng t_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
 __Jurong_Island j_WB_eng u_eng r_eng o_eng n_eng g_eng i_eng s_eng l_eng a_eng n_eng d_WB_eng
@@ -539,8 +535,6 @@ __Kay_Siang_Road k_WB_eng a_eng y_eng s_eng i_eng a_eng n_eng g_eng r_eng o_eng 
 __Keat_Hong_Link k_WB_eng e_eng a_eng t_eng h_eng o_eng n_eng g_eng l_eng i_eng n_eng k_WB_eng
 __Kebun_Baru k_WB_eng e_eng b_eng u_eng n_eng b_eng a_eng r_eng u_WB_eng
 __Keck_Seng k_WB_eng e_eng c_eng k_eng s_eng e_eng n_eng g_WB_eng
-__Keck_Seng#1 k_WB_eng e_eng k_eng s_eng i_eng n_eng g_WB_eng
-__Keck_Seng#2 k_WB_eng i_eng c_eng k_eng s_eng e_eng n_eng g_WB_eng
 __Kee_Seng_Street k_WB_eng e_eng e_eng s_eng e_eng n_eng g_eng s_eng t_eng r_eng e_eng e_eng t_WB_eng
 __Kee_Sun_Avenue k_WB_eng e_eng e_eng s_eng u_eng n_eng a_eng v_eng e_eng n_eng u_eng e_WB_eng
 __Keene_Road k_WB_eng e_eng e_eng n_eng e_eng r_eng o_eng a_eng d_WB_eng

@@ -35,7 +35,7 @@ source run1_BuildLexiconLM.sh
 --> here MUST run building of the hotword decoder then
 source run2_combineDual.sh  -> to produce the output of the dual, master and hotword for WER evaluation
 3) Then check ./TestDataOp
-
+4) Then source run3_wer_scoring.sh (the results of the hotword, master and dual vs ref will be generated)
 
 
 # 1) generate the hotword decoder lexicon from the hotwordlist:
@@ -74,6 +74,9 @@ python3 run_convertCTM_toWERscoringText.py  --hotwordRawList ./TestData_Clean/ho
         b) yourfilename_WordAndHotWordLabel.txt
         b) yourfilename_WordONLY.txt
 
+4) To score WER, run3_wer_scoring.sh
+    - we call run_scoreWER.py for various decoder's op, (hotword, master and dual) to compare against ref
+    
 
         
 

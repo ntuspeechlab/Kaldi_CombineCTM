@@ -33,6 +33,7 @@ log = logging.getLogger("{}".format(os.path.basename(sys.argv[0])))
 
 # Example to run the code
 # python3 run_convertCTM_toWERscoringText.py  --ctm ./TestDataOp/dual_WordwithHotWord.ctm --hotwordRawList ./TestData_Clean/hotwordRawList.txt --opFileName ./TestDataOp/dual
+# if your ctm file has filename extension .txt, then it assumes every line is a sentence
 #  -> it will generate 3 types of outputfiles:
 #        a) yourCTM_hotwordONLY.txt
 #        b) yourCTM_Wordwithhotword.txt
@@ -50,7 +51,11 @@ def real_main():
  
     print('Release 6rd Aug 2021\n')    
     uttFileCTM = C_ArrayUttCTM()
-    uttFileCTM.readCTMFile(args.ctm) 
+    if (args.ctm[-4:len(args.ctm)] == '.txt'):
+        uttFileCTM.readTextFile(args.ctm) 
+
+    if (args.ctm[-4:len(args.ctm)] == '.ctm'):
+        uttFileCTM.readCTMFile(args.ctm) 
 
     listHotWord = C_WordList()
     listHotWord.read_WordList( args.hotwordRawList, True)  # we must remember to tell the function that this is HOTWORDS

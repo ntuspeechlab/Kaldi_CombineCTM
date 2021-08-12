@@ -5196,8 +5196,6 @@ __Colchester_Grove	5917
 __College_Of_Medicine	5917
 __Collyer_Quay	5917
 __Compassvale_Drive	5917
-__Compassvale_Drive#1 5917
-__Compassvale_Drive#2 5917
 __Compassvale_Road	5917
 __Coney_Island	5917
 __Connexis_South	5917
@@ -5503,8 +5501,6 @@ __Joo_Koon_Crescent	5917
 __Jula_Juli	5917
 __Junction_Nine	5917
 __Jupiter_Road	5917
-__Jupiter_Road#1 5917
-__Jupiter_Road#2 5917
 __Jurong_Bird	5917
 __Jurong_East_Avenue	5917
 __Jurong_Island	5917
@@ -5539,8 +5535,6 @@ __Kay_Siang_Road	5917
 __Keat_Hong_Link	5917
 __Kebun_Baru	5917
 __Keck_Seng	5917
-__Keck_Seng#1 5917
-__Keck_Seng#2 5917
 __Kee_Seng_Street	5917
 __Kee_Sun_Avenue	5917
 __Keene_Road	5917

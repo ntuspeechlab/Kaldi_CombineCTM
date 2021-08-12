@@ -1,0 +1,3 @@
+%WER 37.27 [ 4105 / 11014, 28 ins, 2370 del, 1707 sub ]
+%SER 90.90 [ 1069 / 1176 ]
+Scored 1176 sentences, 0 not present in hyp.

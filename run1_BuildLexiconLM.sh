@@ -9,8 +9,7 @@ source pathLaptop.sh
 # Step 1.1: # Step 1.1, creating the hotword decoder's lexicon AND language model count
 # Input IS ONLY the required hotwordRawList.txt
 
-in_hotwordRawlist=./TestData_Clean/hotwordRawList_with#.txt 
-#in_hotwordRawlist=./TestData_Clean/hotwordRawList.txt 
+in_hotwordRawlist=./TestData_Clean/hotwordRawList.txt 
 
 in_MasterUnigramCount=./TestData_Clean/unigram.count
 op_hotWordLex=./TestDataOp/hotwordDecoderLex.txt
