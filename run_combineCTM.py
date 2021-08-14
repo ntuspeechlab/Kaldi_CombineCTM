@@ -55,13 +55,20 @@ def real_main():
     collar  = args.collar_rate
     # This value should be between 0~0.5? tells you how much to eat into the next word duration
     
-    for (eachMasterUtt, eachHotWordUtt) in zip(uttFileMasterCTM.arrayUttCTM,
-                                               uttFileHotWordCTM.arrayUttCTM):
-        #test_hotWordOnlyStr             = listHotWord.convertStrToHotWordLabel_ONLY(eachHotWordUtt.uttStr)
 
-        oneUttHotWordONLYCTM  = libCTM.fn_retainOnlyHotWord(listHotWord, eachHotWordUtt)
-        retCTM                = libCTM.fn_combineMasterCTM_HotWordCTM(eachMasterUtt, 
+    for eachMasterUtt in uttFileMasterCTM.arrayUttCTM:
+        uttName          = eachMasterUtt.uttName
+        found_hotWordUtt = uttFileHotWordCTM.getCTMfromUttName(uttName) 
+        if ( found_hotWordUtt == 0):
+            print('Error cannot find')
+            log.info("{}".format('warning, hotword ctm does not have this utt'+uttName+'\n'))
+            # since there is no hotword utt, just add the master utt as dual!
+            retCTM = eachMasterUtt
+        else:
+            oneUttHotWordONLYCTM  = libCTM.fn_retainOnlyHotWord(listHotWord, found_hotWordUtt)
+            retCTM                = libCTM.fn_combineMasterCTM_HotWordCTM(eachMasterUtt, 
                                                   oneUttHotWordONLYCTM, collar)
+        
         dualDecoderCTM.addUttCTM(retCTM)
         
     dualDecoderCTM.writeCTMFile(args.dual_ctm)

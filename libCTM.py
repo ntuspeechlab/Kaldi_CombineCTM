@@ -75,14 +75,35 @@ class C_UttCTM:
 @dataclass
 class C_ArrayUttCTM:
     fileName: str
-    arrayUttCTM: List[C_UttCTM]    
+    arrayUttCTM: List[C_UttCTM]
+    dictNameToUtt = {}    
 
     def __init__(self):
         self.fileName = ''
         self.arrayUttCTM = []
-        
+        self.dictNameToUtt = {}
+
     def addUttCTM(self, oneUttCTM):
         self.arrayUttCTM += [oneUttCTM]
+        if self.verifyUttNameExist(oneUttCTM.uttName) == 0:
+            self.dictNameToUtt[oneUttCTM.uttName] = oneUttCTM
+            # we will savely add the utt into the array
+        else:
+            log.warning("Trying to add oneUttCTM but uttName already exist"+oneUttCTM.uttName)
+
+    def verifyUttNameExist(self,testUttName):
+        if testUttName in self.dictNameToUtt.keys(): 
+            return 1
+        else:
+            return 0           
+
+    def getCTMfromUttName(self, testUttName):
+        if self.verifyUttNameExist(testUttName) == 1:
+            return self.dictNameToUtt[testUttName]
+        else:
+            return 0
+
+
 
     # the CTM file format is this
     # fileID 1 startTime duration singleWord (or hotwordlabel)
